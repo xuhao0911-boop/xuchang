@@ -102,11 +102,13 @@ body[data-view="overview"] .photo-hero{margin:0 16px}
 .dv-visual:hover{transform:scale(1.02)}
 .dv-visual .hero-outline{width:100%;height:auto;max-width:440px;display:block;margin:auto}
 
-/* ---------- 关于：居中印章 ---------- */
-.sec-about{text-align:center;padding-bottom:20px}
-.ab-seal{display:inline-grid;place-items:center;width:52px;height:56px;border-radius:7px;background:var(--jun);color:#fff;font:500 30px var(--serif);box-shadow:inset 0 0 0 3px var(--jun),inset 0 0 0 4px #ffffff80;transform:rotate(-4deg);margin-bottom:18px}
-.sec-about h2{font:500 28px/1.4 var(--serif);letter-spacing:.2em;margin:0 0 14px}
-.sec-about p{font-size:15px;line-height:2;color:var(--muted);margin:0 0 20px}
+/* ---------- 联系作者：标题 + 邮箱 ---------- */
+.sec-contact{text-align:center;padding-bottom:20px}
+.sec-contact h2{font:500 28px/1.4 var(--serif);letter-spacing:.2em;margin:0 0 18px}
+.contact-mail{display:inline-flex;align-items:center;gap:10px;padding:12px 22px;border:1px solid var(--border);border-radius:999px;background:var(--surface);color:var(--ink);font-size:16px;letter-spacing:.04em;word-break:break-all;text-decoration:none;transition:border-color .2s,color .2s,transform .2s,box-shadow .2s}
+.contact-mail:before{content:"✉";color:var(--jun)}
+.contact-mail:hover{border-color:var(--jun);color:var(--jun);transform:translateY(-2px);box-shadow:0 10px 22px #1e2a331f}
+.contact-mail:active{transform:translateY(0) scale(.98)}
 
 /* ---------- 子页面：返回链接、展开全部 ---------- */
 .story-back{font-size:14px!important;letter-spacing:.06em}

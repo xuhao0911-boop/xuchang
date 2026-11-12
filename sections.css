@@ -13,7 +13,7 @@ html .sec-travel{--band:var(--bg)}
 html .sec-return{--band:#E4EDF1;--band-line:#CFDDE4}
 html .sec-read{--band:#FFFFFF;--band-line:var(--border)}
 html .sec-dev{--band:var(--tint);--band-line:#E2DACB}
-html .sec-about{--band:var(--bg);--band-line:var(--border);padding-bottom:72px}
+html .sec-contact{--band:var(--bg);--band-line:var(--border);padding-bottom:72px}
 /* 回许昌：底色已经是天青，原来的面板去掉框，内容直接放在色带上 */
 html .rt-panel{background:none;padding:0;border-radius:0}
 html .rt-links button{background:#fff}
@@ -27,7 +27,7 @@ html .sec-travel:before{content:"壹　景点 · 美食 · 路线";background-si
 html .sec-return:before{content:"贰　工作 · 创业 · 安家";background-size:calc(100% - 15em) 1px}
 html .sec-read:before{content:"叁　历史 · 人物 · 故事";background-size:calc(100% - 15em) 1px}
 html .sec-dev:before{content:"肆　规划 · 产业 · 政策";background-size:calc(100% - 15em) 1px}
-html .sec-about:before{content:"伍　出处 · 说明";background-size:calc(100% - 11em) 1px}
+html .sec-contact:before{content:"伍　来信";background-size:calc(100% - 6em) 1px}
 html .sec-return:before{background-image:linear-gradient(#C3D4DD,#C3D4DD)}
 
 /* ---------- 交互加强 ---------- */

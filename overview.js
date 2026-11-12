@@ -59,12 +59,10 @@ export function overviewHTML(db,esc,geo){
   </div>
  </section>
 
- <!-- 关于：居中一枚印章、一段话 -->
- <section class="home-sec sec-about" id="sec-about" data-section="about">
-  <span class="ab-seal" aria-hidden="true">许</span>
-  <h2>关于本站</h2>
-  <p>一个许昌人整理的城市指南，不是政府官方网站。<br>景点、政策都附出处，信息以官方发布为准。</p>
-  ${more('about','关于本站与资料来源')}
+ <!-- 联系作者：标题 + 邮箱 -->
+ <section class="home-sec sec-contact" id="sec-contact" data-section="contact">
+  <h2>联系作者</h2>
+  <a class="contact-mail" href="mailto:202421122367@smail.xtu.edu.cn">202421122367@smail.xtu.edu.cn</a>
  </section>
  </div>`;
 }

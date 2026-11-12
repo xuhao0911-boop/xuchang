@@ -1,4 +1,4 @@
-// 了解许昌：游许昌 / 回许昌 / 关于本站
+// 了解许昌：游许昌 / 回许昌
 // 内容都写在下面的数据里，改文字只需要改这里，不用动页面结构。
 import {photoById} from './photos.js';
 import {TRAVEL} from './travel-data.js';
@@ -61,22 +61,4 @@ export function returnHTML(db,esc){
  <section class="story-section" id="return-offices"><h2>办事入口</h2><p class="section-lead">以下都是官方渠道。办事前先打电话或在线确认材料，能少跑一趟。</p><div class="office-grid">${offices}${phones}</div></section>
  <section class="story-section"><h2>相关规划与政策</h2><p class="section-lead">本站政策库里和住房、公共服务、教育相关的资料。点开可以看到摘要、原文链接和核验情况。</p><div class="policy-list">${list}</div><div class="about-actions" style="margin-top:22px"><button data-view-link="topics">按主题查看全部政策</button></div></section>
  <div class="story-end"><span>资料核对：${esc(t.checkedAt)}</span><button data-view-link="travel">先回来玩一趟</button><button data-view-link="overview">回到首页</button></div></article>`;
-}
-
-/* ---------- 关于本站 ---------- */
-export function aboutHTML(db,esc){
- return `<article class="story">${backTo('about')}<div class="about-body">
- <section class="story-section" style="border-top:0"><h1 class="about-title" style="font:500 clamp(34px,4vw,52px)/1.4 var(--serif);letter-spacing:3px;margin:10px 0 26px">关于本站</h1>
- <h2>我为什么做这个网站<span class="draft-flag">草稿，待你改写</span></h2>
- <p>我是许昌人。每次跟外地朋友说起家乡，对方多半只知道"曹操"和"胖东来"。许昌其实还有很多值得说的：汉魏故都的历史、神垕的钧瓷、鄢陵的花木，还有这些年城市自己的变化。</p>
- <p>网上关于许昌的信息很散：景点在旅游网站，政策在政府网站，历史在百科里。我想把它们整理到一个地方，让第一次来许昌的人、想回许昌发展的人，都能在这里找到需要的东西。</p>
- <p>了解许昌，看这一个网站就够了。这是我的目标，也会一直慢慢补充。</p></section>
- <section class="story-section"><h2>本站是什么，不是什么</h2><ul>
- <li>这是个人整理的网站，<strong>不是许昌市政府或任何机构的官方网站</strong>。</li>
- <li>景点门票、开放时间、政策条件都可能变化，出发或办事前请以官方发布为准。</li>
- <li>每条政策资料都附有原文链接和核验状态，可以自己点开核对。</li>
- <li>发现错误或过时信息，欢迎告诉我。</li></ul></section>
- <section class="story-section"><h2>资料怎么来的</h2><p>政策与规划资料来自政府公开网站，目前收录 ${db.records.length} 条，汇编更新于 ${esc(db.snapshotDate)}。旅游信息参考文旅部门、政府网站和主要媒体的公开报道。核验规则、地图数据和全部出处都列在资料来源页。</p><div class="about-actions"><button data-view-link="sources">查看资料来源与核验规则</button><button data-photo-credits>图片来源 ↗</button></div></section>
- <section class="story-section"><h2>联系我<span class="draft-flag">待填写</span></h2><p>邮箱：（待填写）</p></section>
- </div></article>`;
 }
