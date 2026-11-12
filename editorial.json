@@ -1,0 +1,512 @@
+{
+  "snapshotDate": "2026-10-21",
+  "history": [
+    {
+      "id": "ancient-xu",
+      "period": "先秦—秦汉",
+      "title": "古许与颍川",
+      "body": "许地的历史早于‘许昌’之名。许国、许县与颍川郡，留下早期城邑和郡县的印记；许由牧耕、洗耳的故事，则属于流传至今的地方传说。",
+      "source_ids": [
+        "official-evolution",
+        "xuyou-legend"
+      ],
+      "verification": "verified-with-legend-distinguished"
+    },
+    {
+      "id": "han-capital",
+      "period": "196年",
+      "title": "汉都许县",
+      "body": "建安元年，曹操迎汉献帝迁都许县，汉廷在此延续。许下屯田与军政经营，使许地成为汉末政治格局中的重要枢纽。",
+      "source_ids": [
+        "official-evolution-2017",
+        "tuntian"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "name-xuchang",
+      "period": "221年",
+      "title": "许，以昌名",
+      "body": "黄初二年，曹丕改许县为许昌县，‘许昌’作为县名由此而来。许昌列入魏五都，汉魏之际的政治记忆也沉入了这座城的名字。",
+      "source_ids": [
+        "official-evolution",
+        "hanwei-site"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "song-yingchang",
+      "period": "北宋",
+      "title": "颍昌，文人的城市",
+      "body": "元丰三年，许州升为颍昌府。欧阳修笔下的许昌西湖、苏轼《许州西湖》中的湖景与民生，以及苏辙晚年的生活，共同延展了汉魏之外的宋代文脉。",
+      "source_ids": [
+        "official-evolution",
+        "lotus-city",
+        "ouyang-poem",
+        "sushi-poem",
+        "suzhe-poem"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "city-sites",
+      "period": "古城与今城",
+      "title": "两座古城，各有来处",
+      "body": "张潘镇的汉魏许都故城保存着古代都城遗迹。市中心的曹魏古城则是当代建设的文化街区，以新的建筑与公共生活承接历史想象。",
+      "source_ids": [
+        "hanwei-site",
+        "caowei-construction"
+      ],
+      "verification": "verified"
+    },
+    {
+      "id": "modern-city",
+      "period": "1986年至今",
+      "title": "莲城，继续生长",
+      "body": "1986年，许昌撤地设省辖市；2017年，许昌县改为建安区。老城水系、现代街区与城乡空间共同构成今天的许昌，城市的历史也仍在日常生活中续写。",
+      "source_ids": [
+        "official-evolution"
+      ],
+      "verification": "verified"
+    }
+  ],
+  "historyIntro": "从汉廷都许到宋人湖畔，从古城遗迹到今日街巷。循着名字、水系与人物，读懂许昌的来处。",
+  "heroQuote": {
+    "text": "汉当以许亡，魏当以许昌。",
+    "attribution_short": "《三国志·文帝纪》裴注引《献帝传》",
+    "attribution_full": "《三国志》卷二《魏书·文帝纪》裴松之注引《献帝传》所载太史丞许芝劝进语",
+    "url": "https://zh.wikisource.org/zh-hans/三國志/卷02",
+    "published_date": null,
+    "date_label": "古籍原文；网页版本另见修订历史",
+    "context_note": "汉魏政权交替前，许芝向魏王曹丕陈述谶纬、祥瑞以论证代汉受命。此语可作为城市历史题句；不能说成陈寿本人的城市评价，也不能称作诗句或当作历史因果的事实证明。",
+    "verification": "verified",
+    "web_ref": "turn39search2"
+  },
+  "poetry": [
+    {
+      "id": "ouyang-spring",
+      "text": "西湖春色归，春水绿于染。",
+      "author": "欧阳修",
+      "work": "春日西湖寄谢法曹歌",
+      "era": "北宋",
+      "source_ids": [
+        "ouyang-poem"
+      ],
+      "url": "https://sou-yun.cn/Query.aspx?id=170548&type=poem1",
+      "place_evidence": "作者原注：‘西湖者，许昌胜地也。’写作地点在夷陵，所忆西湖为许昌西湖；不应说欧阳修当时身在许昌。",
+      "suggested_image": "水景、护城河、莲城风景",
+      "verification": "verified",
+      "public_domain": true
+    },
+    {
+      "id": "sushi-rain",
+      "text": "西湖小雨晴，滟滟春渠长。",
+      "author": "苏轼",
+      "work": "许州西湖",
+      "era": "北宋",
+      "source_ids": [
+        "sushi-poem"
+      ],
+      "url": "https://zh.wikisource.org/zh-hans/許州西湖",
+      "place_evidence": "篇名明确许州西湖，许昌政府转载文亦引此句。",
+      "suggested_image": "饮马河、河街水景",
+      "verification": "verified",
+      "public_domain": true
+    },
+    {
+      "id": "sushi-common",
+      "text": "池台信宏丽，贵与民同赏。",
+      "author": "苏轼",
+      "work": "许州西湖",
+      "era": "北宋",
+      "source_ids": [
+        "sushi-poem"
+      ],
+      "url": "https://zh.wikisource.org/zh-hans/許州西湖",
+      "place_evidence": "咏许州西湖的公共游赏；下文‘但恐城市欢，不知田野怆’体现民生关怀。",
+      "suggested_image": "胖东来或当代公共空间；来源说明须表明这是借用许昌诗文，并非咏该现代商业体。",
+      "verification": "verified",
+      "public_domain": true
+    },
+    {
+      "id": "mei-lake",
+      "text": "人闲绿波静，幽鹭插头眠。",
+      "author": "梅尧臣",
+      "work": "登许昌城望西湖",
+      "era": "北宋",
+      "source_ids": [
+        "mei-poem"
+      ],
+      "url": "https://sou-yun.cn/Query.aspx?id=208667&type=poem",
+      "place_evidence": "篇名明确许昌城与西湖。",
+      "suggested_image": "城市水景、安静街区",
+      "verification": "verified",
+      "public_domain": true
+    },
+    {
+      "id": "yang-boat",
+      "text": "扁舟乘兴漫追寻，路转河回入柳阴。",
+      "author": "杨时",
+      "work": "颍昌西湖泛舟·其一",
+      "era": "北宋",
+      "source_ids": [
+        "yang-poems"
+      ],
+      "url": "https://zh.wikisource.org/zh-hans/龜山集_(四庫全書本)/卷41",
+      "place_evidence": "《龟山集》卷四十一题‘颍昌西湖泛舟’，小注‘游贾丞相曲水园’。颍昌为许昌，不是颍州。",
+      "suggested_image": "河街、河流、绿荫",
+      "verification": "verified",
+      "public_domain": true
+    },
+    {
+      "id": "yang-city",
+      "text": "春过莺花无处寻，移舟行近古城阴。",
+      "author": "杨时",
+      "work": "颍昌西湖泛舟·其二",
+      "era": "北宋",
+      "source_ids": [
+        "yang-poems"
+      ],
+      "url": "https://zh.wikisource.org/zh-hans/龜山集_(四庫全書本)/卷41",
+      "place_evidence": "同组第二首；以《龟山集》四库全书本文字为准。",
+      "suggested_image": "曹魏古城、老吴营；配图说明不得暗示现有仿古建筑即诗中古城。",
+      "verification": "verified",
+      "public_domain": true
+    },
+    {
+      "id": "suzhe-revisit",
+      "text": "闭门不出十年久，湖上重游一梦回。",
+      "author": "苏辙",
+      "work": "游西湖",
+      "era": "北宋",
+      "source_ids": [
+        "suzhe-poem"
+      ],
+      "url": "https://www.shidianguji.com/book/SBCK206/chapter/SBCK206_2244",
+      "place_evidence": "苏辙晚年颍昌诗作；许昌日报《回望许昌西湖》亦引用此诗，搜索可核但该日报网页本次打开502。",
+      "suggested_image": "历史专题或怀旧街区；情感偏沉静，非首页商业专题首选。",
+      "verification": "text-verified-local-context-secondary-corroborated",
+      "public_domain": true
+    }
+  ],
+  "pangdonglai": {
+    "intro": "1995年，胖东来从许昌的一家糖烟酒小店起步。此后，它走向综合零售与自有生产，也把商品质量、顾客服务和员工关怀，逐步变成日常经营的制度。",
+    "timeline": [
+      {
+        "year": "1995",
+        "title": "从许昌小店起步",
+        "text": "于东来在许昌创办“望月楼胖子店”，从糖烟酒零售起步。",
+        "source": "xinhua-2024"
+      },
+      {
+        "year": "1997–2002",
+        "title": "走向综合零售",
+        "text": "1997年首家分店开业；2002年生活广场成为旗下首家综合旗舰店。",
+        "source": "xinhua-2024"
+      },
+      {
+        "year": "2023",
+        "title": "把品控延伸到生产端",
+        "text": "实业园区于2023年10月投用，中央厨房涵盖烘焙、熟食、豆制品等生产线。",
+        "source": "xinhua-2024"
+      },
+      {
+        "year": "2024",
+        "title": "向同行开放经营经验",
+        "text": "参与永辉、步步高等企业部分门店的调改，影响力延伸到本地门店之外。",
+        "source": "xinhua-2024"
+      },
+      {
+        "year": "2025",
+        "title": "服务经验进入城市政策",
+        "text": "许昌出台实施方案，推动零售服务标准、消费者权益保障与政务服务等领域借鉴相关经验。",
+        "source": "xuchang-policy"
+      }
+    ],
+    "themes": [
+      {
+        "title": "商品与信任",
+        "text": "采购、品控与售后相互衔接。中央厨房把部分民生食品的质量管理，延伸到生产环节。",
+        "sources": [
+          "xinhua-2024",
+          "xinhua-2025-quality"
+        ]
+      },
+      {
+        "title": "服务与员工",
+        "text": "代驾停车、母婴室、宠物寄存，让服务延伸到购物之外；休假与员工关怀，也被放入经营制度。",
+        "sources": [
+          "xinhua-2025-culture",
+          "pdl-stores"
+        ]
+      },
+      {
+        "title": "透明与分享",
+        "text": "公开投诉处理和改进过程，让外部监督进入经营；向同行分享标准，开展门店帮扶与调改。",
+        "sources": [
+          "xinhua-2024",
+          "pdl-culture"
+        ]
+      }
+    ],
+    "scale_snapshot": {
+      "as_of": "2025-12-31",
+      "publication_date": "2026-01-01",
+      "label": "2025年经营快照",
+      "figures": [
+        {
+          "value": "235.31亿元以上",
+          "label": "集团全年销售额",
+          "qualifier": "企业公布数据，媒体转述；不写作审计营收或净利润。"
+        },
+        {
+          "value": "126.43亿元",
+          "label": "超市业态销售额",
+          "qualifier": "集团销售额中的一个业态，不另行相加。"
+        },
+        {
+          "value": "14家",
+          "label": "门店数量（当时）",
+          "qualifier": "2026-01-01报道的许昌、新乡两地快照；不当作2026-10-21实时门店数。"
+        }
+      ],
+      "source": "jimu-sales-2026",
+      "note": "不采用未独立核对的2026最新累计销售、当前员工数或“河南第二大”等排名。郑州新店、生活广场拟闭店等消息涉及变化，不以旧预计开业时间当既成事实。"
+    },
+    "culture_official": {
+      "belief": "自由·爱",
+      "summary": "官方文化页强调公平、尊重、真诚、专业，并把保障民生与创造生活品质纳入经营目标。",
+      "evidence_status": "官方页检索快照可读，直接抓取超时/503；不声称完整读取当前员工手册。",
+      "source": "pdl-culture"
+    }
+  },
+  "sources": {
+    "h-official-evolution": {
+      "id": "h-official-evolution",
+      "title": "历史沿革",
+      "publisher": "许昌市人民政府",
+      "url": "https://www.xuchang.gov.cn/zjxc/005003/20220803/090fe662-e988-491d-b9a3-938700bbd0e2.html",
+      "published": "2022-08-03",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；221更名、魏五都、1080颍昌、1986省辖市、2017建安区"
+    },
+    "h-official-evolution-2017": {
+      "id": "h-official-evolution-2017",
+      "title": "历史沿革",
+      "publisher": "许昌市人民政府",
+      "url": "https://www.xuchang.gov.cn/zjxc/005003/20110419/ee2362e7-1a28-4aa5-a854-a366d2c446d8.html",
+      "published": "2017-06-22",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；196年八月迁都许县；网页目录2011年不是页面公布日期"
+    },
+    "h-xuyou-legend": {
+      "id": "h-xuyou-legend",
+      "title": "许由传说",
+      "publisher": "许昌市民政局",
+      "url": "https://mzj.xuchang.gov.cn/decqgdmpc/20231025/b870fbf3-053d-42c2-8b25-f2e00859a776.html",
+      "published": "2023-10-25",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；地方传说、2008市级非遗；不得转成史实"
+    },
+    "h-tuntian": {
+      "id": "h-tuntian",
+      "title": "许下屯田",
+      "publisher": "许昌市民政局",
+      "url": "https://mzj.xuchang.gov.cn/decqgdmpc/20230511/51edb2c4-ea74-4bd6-b741-fdf10b41bf2f.html",
+      "published": "2023-05-11",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；许下屯田概念及相关历史"
+    },
+    "h-hanwei-site": {
+      "id": "h-hanwei-site",
+      "title": "汉魏许都故城",
+      "publisher": "许昌市建安区人民政府",
+      "url": "https://www.jianan.gov.cn/jagk/002003/20180711/21d701f7-882c-4a7a-9f56-a59b579a75dc.html",
+      "published": "2018-07-11",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；张潘古城村遗址位置、魏五都、考古调查"
+    },
+    "h-caowei-construction": {
+      "id": "h-caowei-construction",
+      "title": "2016年大事记第8期",
+      "publisher": "许昌市人民政府",
+      "url": "https://xuchang.gov.cn/zjxc/005006/005006005/20170719/6c92fa5f-2a1c-4491-b580-161556520e3c.html",
+      "published": "2016-10-24",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；2016-08-12曹魏古城建设项目开工，仿古街区并非三国原建筑；网页目录2017不是发布日期"
+    },
+    "h-caowei-2017": {
+      "id": "h-caowei-2017",
+      "title": "引导全市各级各部门谋大事议大事抓大事 我市2017年着力推进60个重大专项",
+      "publisher": "许昌市人民政府",
+      "url": "https://www.xuchang.gov.cn/zfzcjd/040002/20170314/b1f76a8f-ebcf-4476-863c-06d634cec020.html",
+      "published": "2017-03-14",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；曹魏古城关圣春秋、文达天下段仿古改造及城门建设"
+    },
+    "h-lotus-city": {
+      "id": "h-lotus-city",
+      "title": "名花名城两相宜——重读《爱莲说》",
+      "publisher": "许昌市人民政府转载《光明日报》赵献东文章",
+      "url": "https://www.xuchang.gov.cn/zjxc/005010/20220728/44496885-ec1d-4ffa-b7f4-6184db09147c.html",
+      "published": "2022-07-28",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；莲城市花、水系意象、欧阳修及苏轼咏许昌诗句、苏辙晚居许昌"
+    },
+    "h-ouyang-poem": {
+      "id": "h-ouyang-poem",
+      "title": "春日西湖寄谢法曹歌",
+      "publisher": "搜韵古诗整理文本",
+      "url": "https://sou-yun.cn/Query.aspx?id=170548&type=poem1",
+      "published": null,
+      "checkedAt": "2026-10-21",
+      "verificationNote": "北宋古诗；网页没有明确发布日期"
+    },
+    "h-sushi-poem": {
+      "id": "h-sushi-poem",
+      "title": "许州西湖",
+      "publisher": "维基文库（收录《东坡全集》公版古诗）",
+      "url": "https://zh.wikisource.org/zh-hans/許州西湖",
+      "published": null,
+      "checkedAt": "2026-10-21",
+      "verificationNote": "北宋古诗；作品收录于《东坡全集》"
+    },
+    "h-mei-poem": {
+      "id": "h-mei-poem",
+      "title": "登许昌城望西湖",
+      "publisher": "搜韵古诗整理文本",
+      "url": "https://sou-yun.cn/Query.aspx?id=208667&type=poem",
+      "published": null,
+      "checkedAt": "2026-10-21",
+      "verificationNote": "北宋古诗；搜韵标创作年1041，仅非必须不建议首页标年"
+    },
+    "h-yang-poems": {
+      "id": "h-yang-poems",
+      "title": "龟山集（四库全书本）卷四十一",
+      "publisher": "维基文库古籍文本",
+      "url": "https://zh.wikisource.org/zh-hans/龜山集_(四庫全書本)/卷41",
+      "published": null,
+      "checkedAt": "2026-10-21",
+      "verificationNote": "宋杨时撰，四库全书本；网页版本见修订历史"
+    },
+    "h-suzhe-poem": {
+      "id": "h-suzhe-poem",
+      "title": "游西湖一首（《栾城集》）",
+      "publisher": "识典古籍",
+      "url": "https://www.shidianguji.com/book/SBCK206/chapter/SBCK206_2244",
+      "published": null,
+      "checkedAt": "2026-10-21",
+      "verificationNote": "北宋古诗，《栾城集》文本；网页未示发布日期"
+    },
+    "h-wiki-xuchang": {
+      "id": "h-wiki-xuchang",
+      "title": "许昌市",
+      "publisher": "维基百科",
+      "url": "https://zh.wikipedia.org/zh-hans/许昌市",
+      "published": null,
+      "checkedAt": "2026-10-21",
+      "verificationNote": "百科持续修订，访问核对日2026-10-21"
+    },
+    "p-xinhua-2024": {
+      "id": "p-xinhua-2024",
+      "title": "中国经济样本观察·企业样本篇丨何以胖东来——一家“网红”商超的坚守与嬗变",
+      "publisher": "新华社",
+      "url": "https://www.xinhuanet.com/fortune/20241008/ae395f208ac74e0d81537c43116f55c6/c.html",
+      "published": "2024-10-08",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；创立、扩张节点、中央厨房、质量与管理体系、投诉处理、同行调改。"
+    },
+    "p-xinhua-2025-culture": {
+      "id": "p-xinhua-2025-culture",
+      "title": "千笔楼丨卖东西的胖东来，咋卖成了“6A级景区”？",
+      "publisher": "新华社",
+      "url": "https://www.news.cn/20250302/a7723f015bb342878e97665a7b6ae39e/c.html",
+      "published": "2025-03-02",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；顾客服务、员工关怀、城市消费影响和天使城航拍照片。"
+    },
+    "p-xinhua-2025-quality": {
+      "id": "p-xinhua-2025-quality",
+      "title": "记者观察：胖东来何以火出圈 它有这些不一样",
+      "publisher": "新华社",
+      "url": "https://www.news.cn/20250314/24a8ff20fbf7438aa861433c1198a03e/c.html",
+      "published": "2025-03-14",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；2023中央厨房、自有产品与供应链品控。"
+    },
+    "p-jimu-sales-2026": {
+      "id": "p-jimu-sales-2026",
+      "title": "胖东来2025年销售数据公布，较2024年上涨近40%，新店开业一周入账近1亿元，于东来曾表示：如果升得太快，员工就得加班",
+      "publisher": "极目新闻",
+      "url": "https://www.ctdsb.net/c1476_202601/2629667.html",
+      "published": "2026-01-01",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；2025全年集团和分业态销售额、2026-01-01当时门店数量。"
+    },
+    "p-xuchang-policy": {
+      "id": "p-xuchang-policy",
+      "title": "许昌市人民政府办公室关于印发推广“胖东来”经验以高品质服务助推高质量发展实施方案的通知",
+      "publisher": "许昌市人民政府",
+      "url": "https://www.xuchang.gov.cn/govxxgk/11411000005747138B/2025-11-05/607cfc06-c5e6-4bb6-a069-a750cbbf61e9.html",
+      "published": "2025-11-05",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；",
+      "documentNumber": "许政办〔2025〕21号"
+    },
+    "p-pdl-about": {
+      "id": "p-pdl-about",
+      "title": "胖东来简介",
+      "publisher": "胖东来",
+      "url": "https://web.azpdl.cn/about",
+      "published": null,
+      "checkedAt": "2026-10-21",
+      "verificationNote": "官方搜索快照可读；无明确发布日期；直接抓取失败。"
+    },
+    "p-pdl-culture": {
+      "id": "p-pdl-culture",
+      "title": "企业文化",
+      "publisher": "胖东来",
+      "url": "https://i.azpdl.cn/pdl-index/event/book/intro.html",
+      "published": null,
+      "checkedAt": "2026-10-21",
+      "verificationNote": "官方搜索快照可读；直接抓取失败。"
+    },
+    "p-pdl-stores": {
+      "id": "p-pdl-stores",
+      "title": "门店信息",
+      "publisher": "胖东来",
+      "url": "https://web.azpdl.cn/contact",
+      "published": null,
+      "checkedAt": "2026-10-21",
+      "verificationNote": "官方搜索快照可读，检索文字说自2023-02-21恢复每周二闭店；不推断所有店当前统一安排。"
+    },
+    "p-xinhua-holiday": {
+      "id": "p-xinhua-holiday",
+      "title": "小城商超日销过亿元 一组数据看胖东来有多火",
+      "publisher": "新华社",
+      "url": "https://www.xinhuanet.com/20250209/c8b10859af5d4203a23037940daa1a00/c.html",
+      "published": "2025-02-09",
+      "checkedAt": "2026-10-21",
+      "verificationNote": "核对原文；许昌市商务局数据：2025-02-02至04日许昌地区总客流177.5万人次，02日销售额过亿元；不能写成常态日均或去重游客数。"
+    },
+    "h-hero-quote": {
+      "id": "h-hero-quote",
+      "title": "三国志·魏书·文帝纪（裴松之注引献帝传）",
+      "publisher": "维基文库古籍文本",
+      "url": "https://zh.wikisource.org/zh-hans/三國志/卷02",
+      "published": null,
+      "checkedAt": "2026-10-21",
+      "verificationNote": "汉魏政权交替前，许芝向魏王曹丕陈述谶纬、祥瑞以论证代汉受命。此语可作为城市历史题句；不能说成陈寿本人的城市评价，也不能称作诗句或当作历史因果的事实证明。"
+    }
+  },
+  "extraPhotos": [
+    {
+      "file": "./assets/pdl-interior.jpg",
+      "title": "营业前的胖东来时代广场店超市内部",
+      "source": "https://www.xinhuanet.com/fortune/20241008/ae395f208ac74e0d81537c43116f55c6/c.html",
+      "published": "2024-10-08",
+      "shotDate": "2024-08-22",
+      "credit": "新华社记者 刘振坤 摄"
+    }
+  ]
+}

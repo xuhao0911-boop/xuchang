@@ -1,0 +1,168 @@
+/* 了解许昌：首页入口、游许昌、回许昌、关于本站 */
+body[data-view="travel"] main,body[data-view="return"] main,body[data-view="about"] main{padding:0;width:100%;max-width:none}
+body[data-view="travel"] footer,body[data-view="return"] footer,body[data-view="about"] footer{width:calc(100% - 110px);max-width:1250px;margin:35px auto 0}
+
+/* footer */
+.footer-copy{display:flex;flex-direction:column;gap:6px}
+.footer-copy small{font-size:12px;color:var(--muted);line-height:1.8}
+
+/* 首页：你想了解什么 */
+.home-entries{padding-top:70px}
+.entry-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.entry-card{position:relative;display:block;height:320px;padding:0;overflow:hidden;border-radius:2px;background:#263e55;text-align:left;color:#fff;cursor:pointer}
+.entry-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.entry-card:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#0d1c30e6 0%,#0d1c3066 45%,transparent 75%)}
+.entry-card:hover img{transform:scale(1.04)}
+.entry-copy{position:absolute;left:22px;right:22px;bottom:22px;z-index:1;display:flex;flex-direction:column;gap:8px}
+.entry-copy strong{font:500 25px/1.4 var(--serif);letter-spacing:2px;display:flex;justify-content:space-between;align-items:center}
+.entry-copy strong i{font-style:normal;font-size:16px;opacity:.85}
+.entry-copy small{font-size:13px;line-height:1.8;color:#e9eef4}
+.entry-card:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.home-region-lead{font-size:15px;color:var(--muted);line-height:1.9;margin:-6px 0 22px;max-width:420px}
+
+/* 城市发展 */
+.topics-lead{font-size:15px;color:var(--muted);line-height:1.9;margin:8px 0 18px;max-width:640px}
+.dev-tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:10px}
+.dev-tabs button{font-size:13px;color:var(--green);border:1px solid var(--line);background:#fff;padding:8px 14px;border-radius:2px}
+.dev-tabs button:hover{border-color:var(--green)}
+
+/* 通用小件 */
+.guide-note{font-size:13px;color:#765a30;background:#f4eee3;padding:14px 18px;line-height:1.9;max-width:900px;margin:0 0 28px}
+.chip{display:inline-block;font-size:11px;letter-spacing:.5px;color:#435d75;background:#e5ecf3;padding:3px 8px;border-radius:2px;margin:0 6px 6px 0}
+.chip.warm{color:#795e34;background:#f3ebdd}
+.chip.level{color:#fff;background:var(--green)}
+.src{display:inline-block;color:var(--green);font-size:12px;text-decoration:none;margin-top:10px}
+.src:hover{text-decoration:underline}
+
+/* 游许昌：景点 */
+.spot-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 32px}
+.spot-card{border-top:2px solid #829bb6;padding-top:18px}
+.spot-card h3{font:500 21px/1.6 var(--serif);margin:6px 0 8px}
+.spot-card p{font-size:14px;color:var(--muted);line-height:1.95;margin:0}
+.spot-card .spot-tip{font-size:13px;margin-top:8px;color:#586879}
+
+/* 游许昌：按区县 */
+.region-blocks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 48px}
+.region-block{padding:22px 0;border-top:1px solid var(--line);scroll-margin-top:120px}
+.region-block h3{font:500 22px/1.5 var(--serif);margin:0 0 6px;display:flex;align-items:baseline;gap:14px}
+.region-block h3 small{font:13px var(--sans);color:var(--muted)}
+.region-block p{font-size:14px;color:var(--muted);line-height:1.95;margin:0}
+.region-block:target,.region-block.flash{background:linear-gradient(90deg,#e8edf3,transparent)}
+
+/* 游许昌：吃与买 */
+.food-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.food-card{background:#fff;border:1px solid var(--line);padding:20px}
+.food-card h3{font:500 19px/1.5 var(--serif);margin:0 0 4px}
+.food-card .food-place{font-size:12px;color:var(--muted);display:block;margin-bottom:10px}
+.food-card p{font-size:14px;color:var(--muted);line-height:1.9;margin:0}
+
+/* 游许昌：路线 */
+.route-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.route{background:#e8edf3;padding:28px 30px}
+.route h3{font:500 23px/1.5 var(--serif);margin:0 0 4px}
+.route>p{font-size:14px;color:var(--muted);margin:0 0 18px;line-height:1.9}
+.route ol{list-style:none;margin:0;padding:0;counter-reset:stop}
+.route li{counter-increment:stop;position:relative;padding:0 0 16px 40px;font-size:14px;line-height:1.9;color:var(--ink)}
+.route li:before{content:counter(stop);position:absolute;left:0;top:1px;width:26px;height:26px;border-radius:50%;background:var(--green);color:#fff;font-size:12px;display:grid;place-items:center}
+.route li:not(:last-child):after{content:"";position:absolute;left:12.5px;top:30px;bottom:2px;width:1px;background:#a8b9cc}
+.route li small{display:block;color:var(--muted);font-size:13px}
+.route p.day{font-size:12px;letter-spacing:2px;color:var(--green);margin:8px 0 10px}
+.route .day:before,.route .day:after{display:none}
+
+/* 游许昌：交通、节庆 */
+.info-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.info-list article{border-left:2px solid #a8b9cc;padding-left:18px}
+.info-list h3{font-size:17px;font-weight:500;margin:0 0 8px}
+.info-list p{font-size:14px;color:var(--muted);line-height:1.9;margin:0}
+.info-list time{font:400 22px var(--serif);color:var(--green);display:block;margin-bottom:4px}
+
+/* 回许昌 */
+.info-list h3 .chip{margin:0 0 0 8px;vertical-align:middle}
+.info-list ul{margin:8px 0 0;padding-left:18px}
+.info-list li{font-size:14px;color:var(--muted);line-height:1.9}
+.fact-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+.fact-grid article{border-left:1px solid var(--line);padding-left:22px}
+.fact-grid article:first-child{border:0;padding-left:0}
+.fact-grid strong{font:400 40px/1.5 var(--serif);display:block;color:var(--ink)}
+.fact-grid strong small{font:14px var(--sans);margin-left:6px;color:var(--muted)}
+.fact-grid h3{font-size:15px;font-weight:500;margin:0 0 6px}
+.fact-grid p{font-size:13px;color:var(--muted);line-height:1.85;margin:0}
+.policy-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.policy-card{background:#fff;border:1px solid var(--line);border-top:3px solid var(--green);padding:24px 26px;display:flex;flex-direction:column}
+.policy-card header{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-bottom:14px}
+.policy-card header h3{font:500 21px/1.5 var(--serif);margin:0}
+.policy-card header .chip{margin:0}
+.policy-card dl{display:grid;grid-template-columns:84px minmax(0,1fr);gap:10px 16px;margin:0 0 16px}
+.policy-card dt{font-size:13px;color:var(--green);padding-top:1px}
+.policy-card dd{margin:0;font-size:14px;line-height:1.85;color:var(--ink)}
+.policy-card footer{margin-top:auto;display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;padding-top:12px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+.policy-card footer .src{margin:0}
+.jobs-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:48px;align-items:start}
+.sub-h{font-size:15px;font-weight:500;color:var(--green);letter-spacing:1px;margin:0 0 12px}
+.industry-list{list-style:none;margin:0;padding:0}
+.industry-list li{padding:12px 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:2px}
+.industry-list li:last-child{border-bottom:1px solid var(--line)}
+.industry-list strong{font:500 18px/1.6 var(--serif)}
+.industry-list span{font-size:13px;color:var(--muted);line-height:1.8}
+.info-list.one-col{grid-template-columns:1fr;gap:22px}
+.office-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.office{display:flex;flex-direction:column;gap:6px;padding:18px 20px;background:#fff;border:1px solid var(--line);text-decoration:none;color:var(--ink)}
+a.office:hover{border-color:var(--green)}
+.office strong{font-size:15px;font-weight:500;color:var(--green)}
+div.office strong{color:var(--ink)}
+.office span{font-size:13px;color:var(--muted);line-height:1.8}
+.policy-list{max-width:900px}
+.policy-list button{display:grid;grid-template-columns:110px minmax(0,1fr) 20px;gap:18px;width:100%;text-align:left;padding:16px 0;border-top:1px solid var(--line);align-items:baseline}
+.policy-list button:last-child{border-bottom:1px solid var(--line)}
+.policy-list time{font-size:13px;color:var(--muted)}
+.policy-list strong{font-size:16px;font-weight:500;color:var(--ink)}
+.policy-list strong small{display:block;font-size:13px;font-weight:400;color:var(--muted);margin-top:4px;line-height:1.8}
+.policy-list span{color:var(--muted)}
+.policy-list button:hover strong{color:var(--green)}
+
+/* 关于本站 */
+.about-body{max-width:780px}
+.about-body h2{font:500 28px/1.5 var(--serif);margin:0 0 18px}
+.about-body p{font-size:16px;line-height:2.05;color:var(--ink);margin:0 0 16px}
+.about-body ul{padding-left:20px;margin:0 0 16px}
+.about-body li{font-size:15px;line-height:2;color:var(--muted)}
+.draft-flag{font-size:12px;color:#795e34;background:#f3ebdd;padding:2px 8px;border-radius:2px;margin-left:10px;vertical-align:middle;font-family:var(--sans)}
+.about-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.about-actions button{font-size:14px;color:var(--green);border-bottom:1px solid #7a8fa5;padding:6px 0}
+
+@media(max-width:1150px){
+ .entry-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .entry-card{height:260px}
+ .food-grid,.fact-grid,.office-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .fact-grid article:nth-child(3){border:0;padding-left:0}
+ .spot-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:800px){
+ .route-grid,.region-blocks,.policy-cards,.jobs-layout{grid-template-columns:1fr}
+ .jobs-layout{gap:32px}
+ .info-list{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+ .home-entries{padding-top:40px}
+ .entry-grid{gap:12px}
+ .entry-card{height:200px}
+ .entry-copy{left:16px;right:16px;bottom:16px;gap:4px}
+ .entry-copy strong{font-size:20px}
+ .entry-copy small{font-size:12px;line-height:1.6}
+ .spot-grid,.food-grid,.office-grid{grid-template-columns:1fr}
+ .fact-grid{gap:20px 16px}
+ .fact-grid article{border:0;padding-left:0}
+ .fact-grid strong{font-size:32px}
+ .policy-card{padding:20px 18px}
+ .policy-card dl{grid-template-columns:1fr;gap:2px}
+ .policy-card dd{margin-bottom:10px}
+ .route{padding:22px 20px}
+ .policy-list button{grid-template-columns:minmax(0,1fr) 16px;gap:4px 12px}
+ .policy-list time{grid-column:1/-1}
+ .about-body p{font-size:15px}
+ body[data-view="travel"] footer,body[data-view="return"] footer,body[data-view="about"] footer{width:calc(100% - 46px)}
+}
+@media(max-width:420px){
+ .entry-grid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){.entry-card img{transition:none}}

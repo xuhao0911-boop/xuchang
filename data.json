@@ -1,0 +1,3284 @@
+{
+  "snapshotDate": "2026-10-21",
+  "coverage": "政府公开资料精选；不代表完整项目或全部现行政策清单",
+  "coverageStart": 2019,
+  "coverageEnd": 2035,
+  "sources": {
+    "city15": {
+      "id": "city15",
+      "title": "许昌市国民经济和社会发展第十五个五年规划纲要",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=0d1bbd5c-b946-48ff-83d3-2a48febe1135",
+      "publisher": "许昌市人民政府",
+      "published": "2026-06-17",
+      "verificationNote": "已从官网页面使用的公开接口读取全文与元数据；索引号11411000005747138B/202606-06189。网页动态加载。",
+      "checkedAt": "2026-10-20"
+    },
+    "province15": {
+      "id": "province15",
+      "title": "河南省国民经济和社会发展第十五个五年规划纲要",
+      "url": "https://fgw.henan.gov.cn/2026/05-25/3357773.html",
+      "publisher": "河南省发展和改革委员会",
+      "published": "2026-05-25",
+      "verificationNote": "已核对官方检索记录与人大网同名页面；全文访问受限，未逐项核对具体产业条款。",
+      "checkedAt": "2026-10-20"
+    },
+    "city25": {
+      "id": "city25",
+      "title": "政府工作报告（2025年）",
+      "url": "https://www.xuchang.gov.cn/ywdt/001001/20250227/d499b911-5d47-4312-8844-a6bcda055ce7.html",
+      "publisher": "许昌市人民政府网站",
+      "published": "2025-02-27",
+      "verificationNote": "已读取正文",
+      "checkedAt": "2026-10-20"
+    },
+    "city26": {
+      "id": "city26",
+      "title": "政府工作报告（2026年2月7日）",
+      "url": "https://www.xuchang.gov.cn/ywdt/001001/20260212/2b156f5d-404a-43c8-9b99-eeb8a2392ffd.html",
+      "publisher": "许昌市人民政府网站",
+      "published": "2026-02-12",
+      "verificationNote": "已读取正文",
+      "checkedAt": "2026-10-20"
+    },
+    "weidu15": {
+      "id": "weidu15",
+      "title": "中共魏都区委关于制定魏都区国民经济和社会发展第十五个五年规划的建议",
+      "url": "https://www.weidu.gov.cn/zwxx/002001/20260203/ac6e3ad6-af45-4889-9da3-a00846cec59a.html",
+      "publisher": "魏都区人民政府网站",
+      "published": "2026-02-03",
+      "verificationNote": "已读取正文；2025年12月29日通过。属于区委建议，不等同于后来公布的规划纲要。",
+      "checkedAt": "2026-10-20"
+    },
+    "weiduFull": {
+      "id": "weiduFull",
+      "title": "许昌市魏都区国民经济和社会发展第十五个五年规划纲要（公开目录）",
+      "url": "https://www.xuchang.gov.cn/govxxgk/11411002005750994L/category/035/5.html",
+      "publisher": "魏都区政府公开目录",
+      "published": "2026-08-20",
+      "verificationNote": "已核验公开目录、标题、发布日期及索引号11411002005750994L/202608-01559；未获取全文，不以早期建议代替正式纲要。",
+      "checkedAt": "2026-10-20"
+    },
+    "island": {
+      "id": "island",
+      "title": "魏都区召开“十四五”高质量发展经济成果新闻发布会",
+      "url": "https://www.xuchang.gov.cn/ywdt/001004/001004001/20260122/9ee13cfd-bf8e-456c-b406-4fc9fd830a28.html",
+      "publisher": "许昌市人民政府网站",
+      "published": "2026-01-22",
+      "verificationNote": "已读取正文",
+      "checkedAt": "2026-10-20"
+    },
+    "park": {
+      "id": "park",
+      "title": "魏都区先进制造业开发区",
+      "url": "https://www.weidu.gov.cn/yqlj/008003/20180417/e8dcbaeb-50bd-485b-b244-9ee2568be0ba.html",
+      "publisher": "魏都区人民政府",
+      "published": "2022-11-21",
+      "verificationNote": "读取网页信息时间为2022-11-21；URL中的20180417不是本条发布日期，存量数据仅作历史背景。",
+      "checkedAt": "2026-10-20"
+    },
+    "permit": {
+      "id": "permit",
+      "title": "魏都医美高新产业园项目建设工程规划许可批前公示（公开目录）",
+      "url": "https://www.xuchang.gov.cn/govxxgk/11411002005750994L/category/035/035002/035002010/2.html",
+      "publisher": "魏都区政府公开目录",
+      "published": "2025-03-24",
+      "verificationNote": "已核对目录索引号11411002005750994L/202503-01219；只证实存在批前公示，不能单独证明许可已核发。",
+      "checkedAt": "2026-10-20"
+    },
+    "aerogel": {
+      "id": "aerogel",
+      "title": "气凝胶产业园项目建设工程规划许可批前公示（公开目录）",
+      "url": "https://www.xuchang.gov.cn/govxxgk/11411002005750994L/category/035/035002/035002010/2.html",
+      "publisher": "魏都区政府公开目录",
+      "published": "2025-02-07",
+      "verificationNote": "已核对目录标题和发布日期；未取得图纸或最终许可证。",
+      "checkedAt": "2026-10-20"
+    },
+    "medical": {
+      "id": "medical",
+      "title": "杨小菁张庆一带队到魏都区禹州市调研推动重点项目建设工作",
+      "url": "https://www.21xc.com/content/202604/16/c539983.html",
+      "publisher": "许昌日报 / 许昌网",
+      "published": "2026-04-16",
+      "verificationNote": "已读取报道；调研发生于2026-04-15。",
+      "checkedAt": "2026-10-20"
+    },
+    "valley": {
+      "id": "valley",
+      "title": "中原生命健康谷项目简介",
+      "url": "https://swj.xuchang.gov.cn/kfzs/20250528/26ddb516-2f50-4d37-bcbe-493bc81b641d.html",
+      "publisher": "许昌市商务局",
+      "published": "2025-05-28",
+      "verificationNote": "已读取正文",
+      "checkedAt": "2026-10-20"
+    },
+    "integration": {
+      "id": "integration",
+      "title": "许昌市人民政府关于印发许昌市“十五五”城乡融合发展规划的通知",
+      "url": "https://www.xuchang.gov.cn/govxxgk/11411000005747138B/2026-07-23/51cde315-a185-41d0-8e93-90bf78e1717a.html",
+      "publisher": "许昌市人民政府",
+      "published": "2026-07-23",
+      "verificationNote": "已读取全文；许政〔2026〕7号，2026年7月16日签发，网页公开日期7月23日。",
+      "checkedAt": "2026-10-20"
+    },
+    "draft": {
+      "id": "draft",
+      "title": "关于公开征求《许港产业带发展规划（2025—2035年）》（征求意见稿）意见的公告及反馈结果",
+      "url": "https://www.xuchang.gov.cn/hdjl/004007/20260601/f1e1dbfd-05de-4b4d-bde4-348f6bcfbf83.html",
+      "publisher": "许昌市发展和改革委员会",
+      "published": "2026-06-01",
+      "verificationNote": "已核对公告、反馈与附件题名；征求意见截至2026-06-30。此来源未证明正式印发。",
+      "checkedAt": "2026-10-20"
+    },
+    "westJuly": {
+      "id": "westJuly",
+      "title": "杨小菁张庆一带队到经开区襄城县调研推动重点项目建设工作",
+      "url": "https://sfgw.xuchang.gov.cn/fzgg/076016/20260810/7cd428f3-7b6a-4bd1-9d29-35089714fb59.html",
+      "publisher": "许昌市发展和改革委员会",
+      "published": "2026-07-28",
+      "verificationNote": "采用网页信息时间2026-07-28；事件发生于7月27日，URL目录20260810不作为发布日期。",
+      "checkedAt": "2026-10-20"
+    },
+    "northJuly": {
+      "id": "northJuly",
+      "title": "杨小菁张庆一带队到东城区示范区长葛市调研推动重点项目建设工作",
+      "url": "https://sfgw.xuchang.gov.cn/fzgg/076016/20260810/1db653ff-61ad-4fc9-8cb2-e952eb9430cb.html",
+      "publisher": "许昌市发展和改革委员会",
+      "published": "2026-07-29",
+      "verificationNote": "采用网页信息时间2026-07-29；事件发生于7月28日。",
+      "checkedAt": "2026-10-20"
+    },
+    "eastJuly": {
+      "id": "eastJuly",
+      "title": "杨小菁张庆一带队到建安区鄢陵县调研推动重点项目建设工作",
+      "url": "https://sfgw.xuchang.gov.cn/fzgg/076016/20260810/6d9c949d-0180-4219-8c6d-756443236251.html",
+      "publisher": "许昌市发展和改革委员会",
+      "published": "2026-07-22",
+      "verificationNote": "采用网页信息时间2026-07-22；事件发生于7月21日。",
+      "checkedAt": "2026-10-20"
+    },
+    "x-plan14-4": {
+      "id": "x-plan14-4",
+      "title": "许昌市人民政府关于印发许昌市“十四五”市场监管现代化规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=6a8ba680-41aa-4e41-abb3-46526a9b428b",
+      "publisher": "许昌市人民政府",
+      "published": "2022-07-19",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 15号"
+    },
+    "x-plan14-5": {
+      "id": "x-plan14-5",
+      "title": "许昌市人民政府关于印发许昌市“十四五”应急管理体系和本质安全能力建设规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=39768963-8f4b-4cb9-8928-a4045de39e6c",
+      "publisher": "许昌市人民政府",
+      "published": "2022-07-19",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 16号"
+    },
+    "x-plan14-6": {
+      "id": "x-plan14-6",
+      "title": "许昌市人民政府关于印发许昌市“十四五”教育事业发展规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=790f4dc7-d470-4334-9aa4-49c6d7f27f20",
+      "publisher": "许昌市人民政府",
+      "published": "2022-07-19",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 17号"
+    },
+    "x-plan14-7": {
+      "id": "x-plan14-7",
+      "title": "许昌市人民政府关于印发许昌市“十四五”城市更新和城乡人居环境建设规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=d16ed8a2-9ce0-4988-b91f-5497d5ee3d49",
+      "publisher": "许昌市人民政府",
+      "published": "2022-07-19",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 19号"
+    },
+    "x-plan14-8": {
+      "id": "x-plan14-8",
+      "title": "许昌市人民政府关于印发许昌市“十四五”科技创新和一流创新生态建设规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=176ea4ce-b0fc-4c41-92ca-1d7a101e919b",
+      "publisher": "许昌市人民政府",
+      "published": "2022-07-27",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 20号"
+    },
+    "x-plan14-9": {
+      "id": "x-plan14-9",
+      "title": "许昌市人民政府关于印发许昌市“十四五”现代供应链发展规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=9d277f44-4573-4763-bbc4-8683fbe44dd2",
+      "publisher": "许昌市人民政府",
+      "published": "2022-07-12",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 21号"
+    },
+    "x-plan14-11": {
+      "id": "x-plan14-11",
+      "title": "许昌市人民政府关于印发许昌市“十四五”现代服务业发展规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=1fad207e-3858-4b39-9f5f-e2ac0dc050dd",
+      "publisher": "许昌市人民政府",
+      "published": "2022-07-14",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 23号"
+    },
+    "x-plan14-12": {
+      "id": "x-plan14-12",
+      "title": "许昌市人民政府关于印发许昌市“十四五”乡村振兴和农业农村现代化规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=12fffd9e-6bb2-4ba6-8c1a-2c938b3660ad",
+      "publisher": "许昌市人民政府",
+      "published": "2022-08-04",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政 [2022] 24号"
+    },
+    "x-plan14-13": {
+      "id": "x-plan14-13",
+      "title": "许昌市人民政府关于印发许昌市新型城镇化和城乡融合发展规划(2021-2035年)的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=4e1b26e9-c039-4284-8598-2de5916aa8e8",
+      "publisher": "许昌市人民政府",
+      "published": "2022-08-04",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 25号"
+    },
+    "x-plan14-14": {
+      "id": "x-plan14-14",
+      "title": "许昌市人民政府关于印发许昌市“十四五”制造业高质量发展规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=c20cbe15-6924-4c64-94b1-0f22ed590798",
+      "publisher": "许昌市人民政府",
+      "published": "2022-08-04",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 26号"
+    },
+    "x-plan14-15": {
+      "id": "x-plan14-15",
+      "title": "许昌市人民政府关于印发许昌市“十四五”营商环境和社会信用体系发展规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=0a40466b-578b-4742-a52b-07919dd1fa32",
+      "publisher": "许昌市人民政府",
+      "published": "2022-07-21",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 27号"
+    },
+    "x-plan14-16": {
+      "id": "x-plan14-16",
+      "title": "许昌市人民政府关于印发许昌市“十四五”公共卫生体系和全民健康规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=446cc840-2aea-470e-a28e-61a9b23f668a",
+      "publisher": "许昌市人民政府",
+      "published": "2022-08-05",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 28号"
+    },
+    "x-plan14-17": {
+      "id": "x-plan14-17",
+      "title": "许昌市人民政府关于印发许昌市“十四五”公共服务和社会保障规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=15f470d6-f0c1-4730-b7d0-3ee2044a593f",
+      "publisher": "许昌市人民政府",
+      "published": "2022-08-05",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 29号"
+    },
+    "x-spatial": {
+      "id": "x-spatial",
+      "title": "许昌市人民政府关于印发许昌市国土空间总体规划（2021-2035年）的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=7a6e5d83-7b33-4167-838a-d1b88aab092f",
+      "publisher": "许昌市人民政府",
+      "published": "2025-01-02",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2024〕 23号"
+    },
+    "spatialInterpret": {
+      "id": "spatialInterpret",
+      "title": "《许昌市国土空间总体规划（2021-2035年）》解读",
+      "url": "https://www.xuchang.gov.cn/zfzcjd/040002/20250102/b94906c4-b1c2-4cdd-af33-5c51efb6c817.html",
+      "publisher": "许昌市自然资源和规划局",
+      "published": "2025-01-02",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取解读及关联印发通知。解读中的签发说法与通知正文有出入：通知署名2024-12-24，公开2025-01-02，以通知正文为准。"
+    },
+    "x-renewal": {
+      "id": "x-renewal",
+      "title": "许昌市人民政府办公室关于印发许昌市深入实施城市更新重点工程行动计划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=4d083e42-9b92-4d5d-bcf9-d3a4b837699d",
+      "publisher": "许昌市人民政府",
+      "published": "2026-01-20",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政办〔2026〕 1号"
+    },
+    "x-eldercare": {
+      "id": "x-eldercare",
+      "title": "许昌市人民政府关于印发许昌市“十四五”养老服务体系和康养产业发展规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=6f76611a-3e60-400b-9f4c-53cde24e1d68",
+      "publisher": "许昌市人民政府",
+      "published": "2022-09-01",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2022〕 33号"
+    },
+    "x-gazette2025-doc-13": {
+      "id": "x-gazette2025-doc-13",
+      "title": "许昌市人民政府办公室关于印发许昌市加快推动人工智能产业发展实施方案(2025-2030年)的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=46691c9f-f74f-483b-9d3f-61b52d85b784",
+      "publisher": "许昌市人民政府",
+      "published": "2025-03-27",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政办〔2025〕 7号"
+    },
+    "x-population2025": {
+      "id": "x-population2025",
+      "title": "2025年许昌市国民经济和社会发展统计公报",
+      "url": "https://gxj.xuchang.gov.cn/gyyx/20260911/6e911f0b-3a5d-4588-ac8e-abacac9d3b76.html",
+      "publisher": "许昌市统计局（市工信局转载）",
+      "published": "2026-05-13",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取转载全文。采用信息时间2026-05-13，不以URL中20260911作为发布日期；数据年度2025年，初步核算口径。",
+      "documentNumber": ""
+    },
+    "x-historydraft": {
+      "id": "x-historydraft",
+      "title": "关于公开征求《许昌市历史文化名城保护规划（2021-2035年）》（征求意见稿）意见的公示",
+      "url": "https://zrzyhghj.xuchang.gov.cn/tzgg/20241114/dae69e1c-b288-4602-a949-8ce44bc4fa90.html",
+      "publisher": "许昌市自然资源和规划局",
+      "published": "2024-11-14",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-historyreview": {
+      "id": "x-historyreview",
+      "title": "市委国土空间规划委员会2026年第二次会议召开",
+      "url": "https://sfgw.xuchang.gov.cn/fzgg/076016/20260225/082a19b1-eaaf-448d-b50d-c9bade0b9c1c.html",
+      "publisher": "许昌市发展和改革委员会",
+      "published": "2026-02-13",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "noWaste2022": {
+      "id": "noWaste2022",
+      "title": "《许昌市“十四五”时期“无废城市”建设实施方案》政策解读",
+      "url": "https://www.xuchang.gov.cn/zfzcjd/040002/20221122/bfac2305-6703-47fe-9300-f7f6f813415d.html",
+      "publisher": "许昌市人民政府网站",
+      "published": "2022-11-22",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已核对政府网站公开正文和信息时间。"
+    },
+    "environment14": {
+      "id": "environment14",
+      "title": "许昌市“十四五”生态环境保护和生态经济发展规划",
+      "url": "https://sfgw.xuchang.gov.cn/fzgg/076012/20221213/468ccdf3-a0af-4002-a51d-460de2b0dd91.html",
+      "publisher": "许昌市发展和改革委员会",
+      "published": "2023-05-12",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取全文；网页信息时间为2023-05-12，URL中的20221213不是本条公开日期。"
+    },
+    "x-environment15": {
+      "id": "x-environment15",
+      "title": "许昌市生态环境局许昌市“十五五”生态环境保护规划编制项目成交公告",
+      "url": "https://sthjj.xuchang.gov.cn/tzgg/20260813/2c430688-2a74-4517-ad18-3f602046fe58.html",
+      "publisher": "许昌市生态环境局",
+      "published": "2026-08-13",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-longcare": {
+      "id": "x-longcare",
+      "title": "许昌市人民政府-详情页",
+      "url": "https://www.xuchang.gov.cn/hdjl/004007/20260910/295e0011-c0c0-4901-ab5f-25aae1eae7db.html",
+      "publisher": "许昌市医疗保障局（市政府网站）",
+      "published": "2026-09-10",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-projects2026": {
+      "id": "x-projects2026",
+      "title": "许昌市人民政府办公室关于印发2026年许昌市重点建设项目名单的通知",
+      "url": "https://www.xuchang.gov.cn/govxxgk/11411000005747138B/2026-02-05/9c72436d-1ff0-4f42-8e41-6cf9a7be5382.html",
+      "publisher": "许昌市人民政府",
+      "published": "2026-02-05",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-tasks2026": {
+      "id": "x-tasks2026",
+      "title": "许昌市人民政府关于明确政府工作报告提出的2026年重点工作责任单位的通知",
+      "url": "https://xuchang.gov.cn/govxxgk/11411000005747138B/2026-02-14/1fa46db1-d546-4e24-8b02-95001f0e8bab.html",
+      "publisher": "许昌市人民政府",
+      "published": "2026-02-14",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-lowland": {
+      "id": "x-lowland",
+      "title": "河南省自然资源厅 河南省住房和城乡建设厅关于加快推进城镇低效用地再开发促进城市更新的通知",
+      "url": "https://zrzyhghj.xuchang.gov.cn/zcfg/005004/20250507/ac24effc-2457-4ef9-9fab-857845bcc977.html",
+      "publisher": "河南省自然资源厅、河南省住建厅（许昌转载）",
+      "published": "2025-05-07",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-elder2020": {
+      "id": "x-elder2020",
+      "title": "许昌市人民政府关于印发许昌市健全完善养老服务体系助力“智造之都、宜居之城”建设实施方案的通知",
+      "url": "https://xuchang.gov.cn/zwgk/002008/002008002/002008002002/20200831/27548e62-5535-422f-a0f8-44bef412dc5f.html",
+      "publisher": "许昌市人民政府",
+      "published": "2020-08-31",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-changgeHome-doc-77": {
+      "id": "x-changgeHome-doc-77",
+      "title": "长葛市国土空间总体规划2026年度动态维护方案公示",
+      "url": "https://www.changge.gov.cn/hdjl/013005/20260507/f490201d-c97c-492d-8b4d-88a0a9c1cb4d.html",
+      "publisher": "长葛市自然资源和规划局",
+      "published": "2026-05-07",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-jianan2026": {
+      "id": "x-jianan2026",
+      "title": "许昌市建安区第二届人民代表大会第六次会议隆重开幕",
+      "url": "https://jianan.gov.cn/jrja/001001/20260529/de4c0d6b-f8d6-4ffa-a3f0-df5bcb4ccd1e.html",
+      "publisher": "建安区人民政府网站",
+      "published": "2026-05-29",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "yuzhou-spatial": {
+      "id": "yuzhou-spatial",
+      "title": "《禹州市国土空间总体规划（2021-2035年）》获批实施",
+      "url": "https://www.xuchang.gov.cn/ywdt/001004/001004004/20240712/e8276e09-ae0b-4fd5-af4b-1b163b5b90de.html",
+      "publisher": "许昌市政府网站禹州专栏",
+      "published": "2024-07-12",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已通过政府网页公开检索正文核对；直接网络访问有时失败。"
+    },
+    "yanling-spatial": {
+      "id": "yanling-spatial",
+      "title": "《鄢陵县国土空间总体规划（2021-2035年）》通过河南省人民政府正式批复",
+      "url": "https://www.xuchang.gov.cn/ywdt/001004/001004006/20240711/02dde2cc-de38-4bac-807b-5395a9d8a931.html",
+      "publisher": "许昌市政府网站鄢陵专栏",
+      "published": "2024-07-11",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已通过政府网页公开检索正文核对；直接网络访问有时失败。"
+    },
+    "xiangcheng-maintenance": {
+      "id": "xiangcheng-maintenance",
+      "title": "关于《襄城县国土空间总体规划2026年度动态维护方案（公示稿）》公示",
+      "url": "https://www.xiangchengxian.gov.cn/zwgk/010001/20260429/bc5e7a16-6478-4c2e-880d-9a7eb6e8154a.html",
+      "publisher": "襄城县自然资源局",
+      "published": "2026-04-27",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "以页面信息时间和公示正文2026-04-27为准，不以URL中的20260429取代。"
+    },
+    "henan-metro2025": {
+      "id": "henan-metro2025",
+      "title": "跻身“国家队”，郑州“圈”出新未来",
+      "url": "https://www.henan.gov.cn/2025/02-28/3129827.html",
+      "publisher": "河南省政府门户（郑州市政府来源）",
+      "published": "2025-02-28",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府门户公开检索全文；本条为官方综述，不冒充都市圈专项规划原文。"
+    },
+    "x-traffic14": {
+      "id": "x-traffic14",
+      "title": "许昌市人民政府关于印发许昌市“十四五”现代综合交通运输体系和枢纽经济发展规划的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=97459259-9b0c-4c94-84c8-75bcdb71e012",
+      "publisher": "许昌市人民政府",
+      "published": "2023-09-14",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政〔2023〕 26号"
+    },
+    "x-latestFeedback": {
+      "id": "x-latestFeedback",
+      "title": "关于面向社会公开征集2027年市重点民生实事建议的公告",
+      "url": "https://www.xuchang.gov.cn/ywdt/001002/20261015/386360b3-decf-4ac8-8691-f02b9501702f.html",
+      "publisher": "许昌市人民政府",
+      "published": "2026-10-15",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-latest2027projects": {
+      "id": "x-latest2027projects",
+      "title": "全市经济高质量发展第四次季度会暨2027年重点项目谋划工作会议召开",
+      "url": "https://www.xuchang.gov.cn/ywdt/001001/20261015/45a63b50-3229-493b-a7f5-e21823e643ed.html",
+      "publisher": "许昌市人民政府",
+      "published": "2026-10-15",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-forestry15": {
+      "id": "x-forestry15",
+      "title": "《许昌市“十五五”林业保护利用规划》编审研讨会召开",
+      "url": "https://www.xuchang.gov.cn/ywdt/001005/20261014/e9013452-e4cb-48a2-9444-ebc4f22ca8d6.html",
+      "publisher": "许昌市林业和花木园艺发展中心（市政府网站）",
+      "published": "2026-10-14",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取政府网站正文及页面信息时间。",
+      "documentNumber": ""
+    },
+    "x-portal-52": {
+      "id": "x-portal-52",
+      "title": "许昌市2026年-2030年住房发展专项规划",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=5b933cc5-66ca-45e0-baed-d84e49ea4a83",
+      "publisher": "许昌市政府信息公开平台",
+      "published": "2026-07-09",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已核验官网公开接口中的标题、发布日期及PDF附件链接；本次未逐页核对附件正文。",
+      "documentNumber": ""
+    },
+    "x-portal-56": {
+      "id": "x-portal-56",
+      "title": "许昌市“十四五”医疗卫生服务体系规划评估报告",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=d770fc53-8ba6-453d-bbd6-a9821172001f",
+      "publisher": "许昌市政府信息公开平台",
+      "published": "2025-12-25",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已核验公开接口元数据与报告附件存在；未逐页读取附件，报告结论待核对。",
+      "documentNumber": ""
+    },
+    "x-portal-57": {
+      "id": "x-portal-57",
+      "title": "许昌市“十四五”公共卫生体系和全民健康规划评估报告",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=efe375bb-4de2-43a7-960b-c25391f27579",
+      "publisher": "许昌市政府信息公开平台",
+      "published": "2025-12-25",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已核验公开接口元数据与报告附件存在；未逐页读取附件，报告结论待核对。",
+      "documentNumber": ""
+    },
+    "x-portal-29": {
+      "id": "x-portal-29",
+      "title": "许昌市人民政府办公室关于废止《许昌市人民政府办公室关于印发许昌市支持服务业企业发展壮大奖励办法(试行)  的通知》(许政办〔2025〕22号)的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=b7d59871-7fd5-4cdc-8332-0ef274029c3d",
+      "publisher": "许昌市人民政府",
+      "published": "2026-09-29",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政办〔2026〕 14号"
+    },
+    "x-oldGovPlan": {
+      "id": "x-oldGovPlan",
+      "title": "许昌市人民政府办公室关于印发许昌市“十四五”规划编制工作方案的通知",
+      "url": "https://www.xuchang.gov.cn/openDetailDynamic.html?infoid=1f90e492-d094-4387-9916-91538d478b9e",
+      "publisher": "许昌市人民政府",
+      "published": "2020-01-02",
+      "checkedAt": "2026-10-20",
+      "verificationNote": "已读取官网公开接口返回的正文与元数据；网页为动态加载。",
+      "documentNumber": "许政办〔2019〕 31号"
+    },
+    "pdl-service-policy": {
+      "id": "pdl-service-policy",
+      "title": "许昌市人民政府办公室关于印发推广“胖东来”经验以高品质服务助推高质量发展实施方案的通知",
+      "url": "https://www.xuchang.gov.cn/govxxgk/11411000005747138B/2025-11-05/607cfc06-c5e6-4bb6-a069-a750cbbf61e9.html",
+      "publisher": "许昌市人民政府",
+      "published": "2025-11-05",
+      "checkedAt": "2026-10-21",
+      "documentNumber": "许政办〔2025〕21号",
+      "verificationNote": "已读取官方通知全文；成文日期2025-10-29，网页公开日期2025-11-05。方案要求制定服务指南，不表示各项指南或成效已全部完成。"
+    }
+  },
+  "records": [
+    {
+      "id": "weidu-island",
+      "title": "魏都智慧岛",
+      "region": "魏都区",
+      "industries": [
+        "科技创新",
+        "数字经济",
+        "新材料"
+      ],
+      "stage": "存量载体 / 持续提升",
+      "level": "区县级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2030,
+      "sources": [
+        "island",
+        "weidu15"
+      ],
+      "summary": "省级智慧岛考核及创新平台落地已有官方记录；“十五五”继续强化智慧岛与先进制造业开发区的协同。",
+      "caveat": "已核验平台存在及政策定位；不据此推定全部场地已出租或所有孵化服务持续开放。",
+      "opportunity": "向运营主体核对可租面积、入驻条件、孵化服务与成果转化需求。",
+      "priority": 0,
+      "medical": false,
+      "published": "2026-02-03",
+      "events": [
+        {
+          "date": "2026-01-22",
+          "text": "官方发布创新平台落地情况",
+          "source": "island"
+        },
+        {
+          "date": "2026-02-03",
+          "text": "区委建议列出产业园区提升方向",
+          "source": "weidu15"
+        }
+      ],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "项目与平台",
+      "reading": "向运营主体核对可租面积、入驻条件、孵化服务与成果转化需求。",
+      "timeBasis": "研究观察窗口",
+      "related": [
+        "innovation14",
+        "ai2030"
+      ],
+      "searchText": "魏都智慧岛 魏都区 产业与科技创新 科技创新 数字经济 新材料 省级智慧岛考核及创新平台落地已有官方记录；“十五五”继续强化智慧岛与先进制造业开发区的协同。 存量载体 / 持续提升 已核验 项目与平台 许昌市人民政府网站 魏都区召开“十四五”高质量发展经济成果新闻发布会 魏都区人民政府网站 中共魏都区委关于制定魏都区国民经济和社会发展第十五个五年规划的建议"
+    },
+    {
+      "id": "weidu-hightech",
+      "title": "魏都高新技术产业园",
+      "region": "魏都区",
+      "industries": [
+        "高端装备",
+        "新材料",
+        "科技创新"
+      ],
+      "stage": "存量载体 / 持续提升",
+      "level": "区县级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2030,
+      "sources": [
+        "park",
+        "weidu15"
+      ],
+      "summary": "已有标准化厂房和研发服务载体；2026年区委规划建议继续提出高标准建设特色科创载体。",
+      "caveat": "2022年的面积、入驻企业及二期在建状态是历史基线。此园区与许昌国家高新区、中原生命健康谷不是同一概念。",
+      "opportunity": "优先核实存量厂房运营方、租赁价格、园内企业名录与检验检测服务需求。",
+      "priority": 1,
+      "medical": false,
+      "published": "2026-02-03",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "项目与平台",
+      "reading": "优先核实存量厂房运营方、租赁价格、园内企业名录与检验检测服务需求。",
+      "timeBasis": "研究观察窗口",
+      "related": [
+        "manufacturing14"
+      ],
+      "searchText": "魏都高新技术产业园 魏都区 产业与科技创新 高端装备 新材料 科技创新 已有标准化厂房和研发服务载体；2026年区委规划建议继续提出高标准建设特色科创载体。 存量载体 / 持续提升 已核验 项目与平台 魏都区人民政府 魏都区先进制造业开发区 魏都区人民政府网站 中共魏都区委关于制定魏都区国民经济和社会发展第十五个五年规划的建议"
+    },
+    {
+      "id": "weidu-medical",
+      "title": "魏都医美高新产业园",
+      "region": "魏都区",
+      "industries": [
+        "医美产业",
+        "医疗器械",
+        "生命健康"
+      ],
+      "stage": "在建（报道时）",
+      "level": "区县级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2026,
+      "sources": [
+        "permit",
+        "medical"
+      ],
+      "summary": "2025年有工程规划许可批前公示；2026年4月的本地党报报道明确提到园区正在建设。",
+      "caveat": "建设活动与批前公示可核验；竣工时间、招商入驻、医疗执业许可及实际订单尚待补证。园区名称在两类资料中略有差异，具体项目主体仍需核对。",
+      "opportunity": "先核对建设主体和招商主体，再询问器械制造、物业配套或康复服务的真实采购需求。",
+      "priority": 2,
+      "medical": true,
+      "published": "2026-04-16",
+      "events": [
+        {
+          "date": "2025-03-24",
+          "text": "工程规划许可批前公示目录记录",
+          "source": "permit"
+        },
+        {
+          "date": "2026-04-16",
+          "text": "党报报道园区处于建设中",
+          "source": "medical"
+        }
+      ],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "项目与平台",
+      "reading": "先核对建设主体和招商主体，再询问器械制造、物业配套或康复服务的真实采购需求。",
+      "timeBasis": "公开节点涉及年份",
+      "related": [
+        "clinical-plan",
+        "life-valley"
+      ],
+      "searchText": "魏都医美高新产业园 魏都区 产业与科技创新 医美产业 医疗器械 生命健康 2025年有工程规划许可批前公示；2026年4月的本地党报报道明确提到园区正在建设。 在建（报道时） 已核验 项目与平台 魏都区政府公开目录 魏都医美高新产业园项目建设工程规划许可批前公示（公开目录） 许昌日报 / 许昌网 杨小菁张庆一带队到魏都区禹州市调研推动重点项目建设工作"
+    },
+    {
+      "id": "life-valley",
+      "title": "中原生命健康谷",
+      "region": "经济技术开发区",
+      "industries": [
+        "生命健康",
+        "生物医药",
+        "医疗器械",
+        "医美产业"
+      ],
+      "stage": "招商 / 布局中",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2030,
+      "sources": [
+        "valley"
+      ],
+      "summary": "商务局介绍以生物制造、医疗器械为主导，医美为协同方向；核心区位于经开区西南片区。",
+      "caveat": "官方招商方向可以核验；医美企业是否实际落户、产业基金是否成立及预期设施是否完工，需要逐项更新。",
+      "opportunity": "围绕耗材、检验检测、生产服务梳理客户，向园区核对在营企业与招商条件。",
+      "priority": 3,
+      "medical": true,
+      "published": "2025-05-28",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "项目与平台",
+      "reading": "围绕耗材、检验检测、生产服务梳理客户，向园区核对在营企业与招商条件。",
+      "timeBasis": "研究观察窗口",
+      "related": [],
+      "searchText": "中原生命健康谷 经济技术开发区 产业与科技创新 生命健康 生物医药 医疗器械 医美产业 商务局介绍以生物制造、医疗器械为主导，医美为协同方向；核心区位于经开区西南片区。 招商 / 布局中 已核验 项目与平台 许昌市商务局 中原生命健康谷项目简介"
+    },
+    {
+      "id": "city-15",
+      "title": "许昌市“十五五”规划纲要",
+      "region": "许昌全市",
+      "industries": [
+        "综合规划",
+        "科技创新",
+        "生命健康",
+        "高端装备"
+      ],
+      "stage": "正式规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2030,
+      "sources": [
+        "city15"
+      ],
+      "summary": "全市2026—2030年发展纲要，布局许港产业带、芙蓉湖现代服务业创新圈及中原电气谷、生命健康谷。",
+      "caveat": "规划目标不等于年度财政安排、项目审批、融资到位或建成。网页正文通过官方公开接口读取。",
+      "opportunity": "作为产业与片区的上位依据，继续追踪年度项目清单、招标及审批文件。",
+      "priority": 4,
+      "medical": false,
+      "published": "2026-06-17",
+      "events": [],
+      "locationNote": "区域性政策，不设置项目坐标。",
+      "topics": [
+        "空间与区域协同",
+        "产业与科技创新"
+      ],
+      "docType": "总体规划",
+      "reading": "作为产业与片区的上位依据，继续追踪年度项目清单、招标及审批文件。",
+      "timeBasis": "规划 / 目标覆盖期",
+      "related": [
+        "spatial2035",
+        "projects2026",
+        "tasks2026"
+      ],
+      "searchText": "许昌市“十五五”规划纲要 许昌全市 空间与区域协同 产业与科技创新 综合规划 科技创新 生命健康 高端装备 全市2026—2030年发展纲要，布局许港产业带、芙蓉湖现代服务业创新圈及中原电气谷、生命健康谷。 正式规划 已核验 总体规划 许昌市人民政府 许昌市国民经济和社会发展第十五个五年规划纲要"
+    },
+    {
+      "id": "clinical-plan",
+      "title": "医美临床转化与健康产品协同布局",
+      "region": "魏都区",
+      "industries": [
+        "医美产业",
+        "生命健康",
+        "医疗器械"
+      ],
+      "stage": "规划方向",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2030,
+      "sources": [
+        "city15"
+      ],
+      "summary": "市级纲要在生命健康谷相关布局中，提出魏都区医疗资源与东城区商业网络协同，涉及医美临床转化。",
+      "caveat": "仅证实规划提出此方向，不证明临床中心已建成，也不代表所涉医院已获新增医美资质。",
+      "opportunity": "核对医院项目审批、服务科目、器械注册和合作采购信息，再判断具体切入点。",
+      "priority": 4,
+      "medical": true,
+      "published": "2026-06-17",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新",
+        "民生与公共服务"
+      ],
+      "docType": "项目与平台",
+      "reading": "核对医院项目审批、服务科目、器械注册和合作采购信息，再判断具体切入点。",
+      "timeBasis": "规划 / 目标覆盖期",
+      "related": [],
+      "searchText": "医美临床转化与健康产品协同布局 魏都区 产业与科技创新 民生与公共服务 医美产业 生命健康 医疗器械 市级纲要在生命健康谷相关布局中，提出魏都区医疗资源与东城区商业网络协同，涉及医美临床转化。 规划方向 已核验 项目与平台 许昌市人民政府 许昌市国民经济和社会发展第十五个五年规划纲要"
+    },
+    {
+      "id": "province-15",
+      "title": "河南省“十五五”规划纲要",
+      "region": "河南全省",
+      "industries": [
+        "综合规划"
+      ],
+      "stage": "正式规划",
+      "level": "省级",
+      "verification": "部分核验",
+      "start": 2026,
+      "end": 2030,
+      "sources": [
+        "province15"
+      ],
+      "summary": "官方门户及人大网可检索到2026—2030年规划纲要及2026年5月25日的公开记录。",
+      "caveat": "本次正文访问受限；未将未逐项核实的产业条款写为既定支持政策。",
+      "opportunity": "后续补读全文，核对与许昌产业的对应条款及配套政策。",
+      "priority": 5,
+      "medical": false,
+      "published": "2026-05-25",
+      "events": [],
+      "locationNote": "区域性政策，不设置项目坐标。",
+      "topics": [
+        "空间与区域协同"
+      ],
+      "docType": "总体规划",
+      "reading": "后续补读全文，核对与许昌产业的对应条款及配套政策。",
+      "timeBasis": "规划 / 目标覆盖期",
+      "related": [],
+      "searchText": "河南省“十五五”规划纲要 河南全省 空间与区域协同 综合规划 官方门户及人大网可检索到2026—2030年规划纲要及2026年5月25日的公开记录。 正式规划 部分核验 总体规划 河南省发展和改革委员会 河南省国民经济和社会发展第十五个五年规划纲要"
+    },
+    {
+      "id": "weidu-15-full",
+      "title": "魏都区“十五五”规划纲要",
+      "region": "魏都区",
+      "industries": [
+        "综合规划"
+      ],
+      "stage": "正式规划",
+      "level": "区县级",
+      "verification": "部分核验",
+      "start": 2026,
+      "end": 2030,
+      "sources": [
+        "weiduFull"
+      ],
+      "summary": "官方公开目录列示正式规划纲要，发布日期为2026年8月20日。",
+      "caveat": "已核验标题、索引号与日期，全文尚待补核。较早区委建议的产业内容不自动视为正式纲要内容。",
+      "opportunity": "补齐全文，与区委建议及年度项目清单进行逐条核对。",
+      "priority": 6,
+      "medical": false,
+      "published": "2026-08-20",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "空间与区域协同"
+      ],
+      "docType": "总体规划",
+      "reading": "补齐全文，与区委建议及年度项目清单进行逐条核对。",
+      "timeBasis": "规划 / 目标覆盖期",
+      "related": [],
+      "searchText": "魏都区“十五五”规划纲要 魏都区 空间与区域协同 综合规划 官方公开目录列示正式规划纲要，发布日期为2026年8月20日。 正式规划 部分核验 总体规划 魏都区政府公开目录 许昌市魏都区国民经济和社会发展第十五个五年规划纲要（公开目录）"
+    },
+    {
+      "id": "city-2025",
+      "title": "2025年政府工作与创新平台布局",
+      "region": "许昌全市",
+      "industries": [
+        "综合规划",
+        "科技创新",
+        "高端装备"
+      ],
+      "stage": "年度部署",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2025,
+      "sources": [
+        "city25"
+      ],
+      "summary": "年度工作提出产业转型和创新载体建设等任务，是理解2025年项目谋划的政策基线。",
+      "caveat": "报告中的创建、力争和计划用语不能当作已获批或已完成。",
+      "opportunity": "用年度工作任务对应后续资金安排与审批公示。",
+      "priority": 7,
+      "medical": false,
+      "published": "2025-02-27",
+      "events": [],
+      "locationNote": "区域性政策，不设置项目坐标。",
+      "topics": [
+        "治理与营商环境"
+      ],
+      "docType": "政府工作报告",
+      "reading": "用年度工作任务对应后续资金安排与审批公示。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "2025年政府工作与创新平台布局 许昌全市 治理与营商环境 综合规划 科技创新 高端装备 年度工作提出产业转型和创新载体建设等任务，是理解2025年项目谋划的政策基线。 年度部署 已核验 政府工作报告 许昌市人民政府网站 政府工作报告（2025年）"
+    },
+    {
+      "id": "city-2026",
+      "title": "2026年政府工作与产业任务",
+      "region": "许昌全市",
+      "industries": [
+        "综合规划",
+        "高端装备",
+        "数字经济"
+      ],
+      "stage": "年度部署",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "city26"
+      ],
+      "summary": "2026年政府工作报告列出“十五五”开局年的产业、创新和城乡发展任务。",
+      "caveat": "报告所述2025年成绩与2026年目标分属不同时间口径。",
+      "opportunity": "追踪部门任务分工、公开招标与季度项目进度。",
+      "priority": 7,
+      "medical": false,
+      "published": "2026-02-12",
+      "events": [],
+      "locationNote": "区域性政策，不设置项目坐标。",
+      "topics": [
+        "治理与营商环境"
+      ],
+      "docType": "政府工作报告",
+      "reading": "追踪部门任务分工、公开招标与季度项目进度。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "2026年政府工作与产业任务 许昌全市 治理与营商环境 综合规划 高端装备 数字经济 2026年政府工作报告列出“十五五”开局年的产业、创新和城乡发展任务。 年度部署 已核验 政府工作报告 许昌市人民政府网站 政府工作报告（2026年2月7日）"
+    },
+    {
+      "id": "rural-urban",
+      "title": "“十五五”城乡融合发展规划",
+      "region": "许昌全市",
+      "industries": [
+        "综合规划",
+        "现代农业",
+        "文旅康养"
+      ],
+      "stage": "正式规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2030,
+      "sources": [
+        "integration"
+      ],
+      "summary": "正式规划提出城乡空间衔接、县域特色产业及公共服务融合等方向，设定2030年发展目标。",
+      "caveat": "2026年7月16日签发、7月23日公开；2030年指标是目标值，非已实现值。",
+      "opportunity": "按县域定位寻找产业配套与公共服务供给需求。",
+      "priority": 7,
+      "medical": false,
+      "published": "2026-07-23",
+      "events": [],
+      "locationNote": "区域性政策，不设置项目坐标。",
+      "topics": [
+        "乡村与城乡融合"
+      ],
+      "docType": "总体规划",
+      "reading": "按县域定位寻找产业配套与公共服务供给需求。",
+      "timeBasis": "规划 / 目标覆盖期",
+      "related": [
+        "urban2035",
+        "agriculture14"
+      ],
+      "searchText": "“十五五”城乡融合发展规划 许昌全市 乡村与城乡融合 综合规划 现代农业 文旅康养 正式规划提出城乡空间衔接、县域特色产业及公共服务融合等方向，设定2030年发展目标。 正式规划 已核验 总体规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十五五”城乡融合发展规划的通知"
+    },
+    {
+      "id": "xugang",
+      "title": "许港产业带发展规划（征求意见稿）",
+      "region": "许昌全市",
+      "industries": [
+        "综合规划",
+        "高端装备",
+        "生物医药",
+        "现代物流"
+      ],
+      "stage": "征求意见稿",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2035,
+      "sources": [
+        "draft"
+      ],
+      "summary": "公开征求意见的规划期为2025—2035年，可用于跟踪许昌与航空港的产业协同谋划。",
+      "caveat": "本条仅采用2026年6月公开的征求意见版本；未核验正式印发文号。意见征集已经结束。",
+      "opportunity": "关注最终文本、组团边界、年度实施项目和跨区域协作机制。",
+      "priority": 8,
+      "medical": false,
+      "published": "2026-06-01",
+      "events": [],
+      "locationNote": "区域性政策，不设置项目坐标。",
+      "topics": [
+        "空间与区域协同",
+        "交通与物流"
+      ],
+      "docType": "征求意见",
+      "reading": "关注最终文本、组团边界、年度实施项目和跨区域协作机制。",
+      "timeBasis": "规划 / 目标覆盖期",
+      "related": [
+        "henan-metro2025",
+        "spatial2035"
+      ],
+      "searchText": "许港产业带发展规划（征求意见稿） 许昌全市 空间与区域协同 交通与物流 综合规划 高端装备 生物医药 现代物流 公开征求意见的规划期为2025—2035年，可用于跟踪许昌与航空港的产业协同谋划。 征求意见稿 已核验 征求意见 许昌市发展和改革委员会 关于公开征求《许港产业带发展规划（2025—2035年）》（征求意见稿）意见的公告及反馈结果"
+    },
+    {
+      "id": "aerogel-park",
+      "title": "气凝胶产业园公示线索",
+      "region": "魏都区",
+      "industries": [
+        "新材料"
+      ],
+      "stage": "批前公示",
+      "level": "区县级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2025,
+      "sources": [
+        "aerogel"
+      ],
+      "summary": "2025年2月7日公开目录中列有该产业园工程规划许可批前公示。",
+      "caveat": "本条只确认公示存在；不能由此推断已获证、开工、投产或具体规模。",
+      "opportunity": "补查最终工程规划许可、施工许可及实施主体。",
+      "priority": 8,
+      "medical": false,
+      "published": "2025-02-07",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "行政审批",
+      "reading": "补查最终工程规划许可、施工许可及实施主体。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "气凝胶产业园公示线索 魏都区 产业与科技创新 新材料 2025年2月7日公开目录中列有该产业园工程规划许可批前公示。 批前公示 已核验 行政审批 魏都区政府公开目录 气凝胶产业园项目建设工程规划许可批前公示（公开目录）"
+    },
+    {
+      "id": "yuzhou-herb",
+      "title": "药慧园中药产业融合发展项目",
+      "region": "禹州市",
+      "industries": [
+        "生物医药",
+        "生命健康"
+      ],
+      "stage": "推进中（报道时）",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "medical"
+      ],
+      "summary": "2026年4月重点项目调研报道涉及药慧园，目标为中药产业延链与现代大健康转型。",
+      "caveat": "报道未给出竣工验收日期、产值或对外采购清单。",
+      "opportunity": "核实中药加工、仓储配送及质量检测等可进入环节。",
+      "priority": 9,
+      "medical": true,
+      "published": "2026-04-16",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "项目与平台",
+      "reading": "核实中药加工、仓储配送及质量检测等可进入环节。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "药慧园中药产业融合发展项目 禹州市 产业与科技创新 生物医药 生命健康 2026年4月重点项目调研报道涉及药慧园，目标为中药产业延链与现代大健康转型。 推进中（报道时） 已核验 项目与平台 许昌日报 / 许昌网 杨小菁张庆一带队到魏都区禹州市调研推动重点项目建设工作"
+    },
+    {
+      "id": "jianan-pharma",
+      "title": "豫辰药业研发创新基地",
+      "region": "建安区",
+      "industries": [
+        "生物医药",
+        "科技创新"
+      ],
+      "stage": "已建成（报道时）",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "eastJuly"
+      ],
+      "summary": "2026年7月报道提到研发创新基地及阿托伐他汀主环生产基地建设成果。",
+      "caveat": "具体产能利用率、订单与新增合作需求未披露；不是医疗美容机构。",
+      "opportunity": "围绕研发、化学合成与质量管理服务核对供应链需求。",
+      "priority": 9,
+      "medical": true,
+      "published": "2026-07-22",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "项目与平台",
+      "reading": "围绕研发、化学合成与质量管理服务核对供应链需求。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "豫辰药业研发创新基地 建安区 产业与科技创新 生物医药 科技创新 2026年7月报道提到研发创新基地及阿托伐他汀主环生产基地建设成果。 已建成（报道时） 已核验 项目与平台 许昌市发展和改革委员会 杨小菁张庆一带队到建安区鄢陵县调研推动重点项目建设工作"
+    },
+    {
+      "id": "jianan-chemical",
+      "title": "红东方草甘膦原药异地迁建",
+      "region": "建安区",
+      "industries": [
+        "精细化工"
+      ],
+      "stage": "在建（报道时）",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "eastJuly"
+      ],
+      "summary": "2026年7月报道记录年产3万吨草甘膦原药异地迁建项目建设，部分车间将安装调试。",
+      "caveat": "规模为公开项目设计口径；不代表已达产。",
+      "opportunity": "核对设备安装、环保配套、厂区服务等公开招采信息。",
+      "priority": 10,
+      "medical": false,
+      "published": "2026-07-22",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "项目与平台",
+      "reading": "核对设备安装、环保配套、厂区服务等公开招采信息。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "红东方草甘膦原药异地迁建 建安区 产业与科技创新 精细化工 2026年7月报道记录年产3万吨草甘膦原药异地迁建项目建设，部分车间将安装调试。 在建（报道时） 已核验 项目与平台 许昌市发展和改革委员会 杨小菁张庆一带队到建安区鄢陵县调研推动重点项目建设工作"
+    },
+    {
+      "id": "yanling-tourism",
+      "title": "唐韵乡村文旅民宿综合开发",
+      "region": "鄢陵县",
+      "industries": [
+        "文旅康养"
+      ],
+      "stage": "推进中（报道时）",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "eastJuly"
+      ],
+      "summary": "公开报道中的项目拟组合旅居住宿、中医康养、温泉理疗等业态。",
+      "caveat": "“康养”不自动等于医疗美容，也不证明医疗服务资质。",
+      "opportunity": "核对运营主体、实际开放业态及住宿餐饮配套需求。",
+      "priority": 10,
+      "medical": true,
+      "published": "2026-07-22",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "历史文化与文旅"
+      ],
+      "docType": "项目与平台",
+      "reading": "核对运营主体、实际开放业态及住宿餐饮配套需求。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "唐韵乡村文旅民宿综合开发 鄢陵县 历史文化与文旅 文旅康养 公开报道中的项目拟组合旅居住宿、中医康养、温泉理疗等业态。 推进中（报道时） 已核验 项目与平台 许昌市发展和改革委员会 杨小菁张庆一带队到建安区鄢陵县调研推动重点项目建设工作"
+    },
+    {
+      "id": "xiangcheng-silicon",
+      "title": "天目先导纳米硅碳负极材料",
+      "region": "襄城县",
+      "industries": [
+        "新材料",
+        "新能源"
+      ],
+      "stage": "推进中（报道时）",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "westJuly"
+      ],
+      "summary": "公开重点项目调研涉及年产8000吨新一代纳米硅碳负极材料项目。",
+      "caveat": "设计产能不是实际产量；当前建设与订单仍需更新。",
+      "opportunity": "核查材料检测、设备维护、包装及工业服务需求。",
+      "priority": 10,
+      "medical": false,
+      "published": "2026-07-28",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "项目与平台",
+      "reading": "核查材料检测、设备维护、包装及工业服务需求。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "天目先导纳米硅碳负极材料 襄城县 产业与科技创新 新材料 新能源 公开重点项目调研涉及年产8000吨新一代纳米硅碳负极材料项目。 推进中（报道时） 已核验 项目与平台 许昌市发展和改革委员会 杨小菁张庆一带队到经开区襄城县调研推动重点项目建设工作"
+    },
+    {
+      "id": "xiangcheng-storage",
+      "title": "先进制造业开发区共享储能电站",
+      "region": "襄城县",
+      "industries": [
+        "新能源",
+        "高端装备"
+      ],
+      "stage": "在建（报道时）",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "westJuly"
+      ],
+      "summary": "2026年7月调研报道明确察看共享储能电站项目建设进度。",
+      "caveat": "装机容量、投运和并网验收时间未由本条证实。",
+      "opportunity": "追踪设备、运维与配套工程公开采购。",
+      "priority": 11,
+      "medical": false,
+      "published": "2026-07-28",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "生态与绿色转型"
+      ],
+      "docType": "项目与平台",
+      "reading": "追踪设备、运维与配套工程公开采购。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "先进制造业开发区共享储能电站 襄城县 生态与绿色转型 新能源 高端装备 2026年7月调研报道明确察看共享储能电站项目建设进度。 在建（报道时） 已核验 项目与平台 许昌市发展和改革委员会 杨小菁张庆一带队到经开区襄城县调研推动重点项目建设工作"
+    },
+    {
+      "id": "changge-metal",
+      "title": "长葛再生金属交易中心",
+      "region": "长葛市",
+      "industries": [
+        "循环经济",
+        "现代物流"
+      ],
+      "stage": "推进中（报道时）",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "northJuly"
+      ],
+      "summary": "2026年7月重点项目调研听取再生金属交易中心项目进展。",
+      "caveat": "未披露开业、交易规模或入驻企业数据。",
+      "opportunity": "核实交易、物流仓储及企业服务的运营安排。",
+      "priority": 10,
+      "medical": false,
+      "published": "2026-07-29",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "生态与绿色转型",
+        "交通与物流"
+      ],
+      "docType": "项目与平台",
+      "reading": "核实交易、物流仓储及企业服务的运营安排。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "长葛再生金属交易中心 长葛市 生态与绿色转型 交通与物流 循环经济 现代物流 2026年7月重点项目调研听取再生金属交易中心项目进展。 推进中（报道时） 已核验 项目与平台 许昌市发展和改革委员会 杨小菁张庆一带队到东城区示范区长葛市调研推动重点项目建设工作"
+    },
+    {
+      "id": "demonstration-auto",
+      "title": "示范区汽车零配件制造项目",
+      "region": "城乡一体化示范区",
+      "industries": [
+        "高端装备",
+        "汽车零部件"
+      ],
+      "stage": "推进中（报道时）",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "northJuly"
+      ],
+      "summary": "市发改委公开报道涉及汽车结构件加工制造基地建设与产业链培育。",
+      "caveat": "项目精确厂址、企业主体与生产许可尚需查证。",
+      "opportunity": "核对企业名录、零配件采购及设备配套需求。",
+      "priority": 10,
+      "medical": false,
+      "published": "2026-07-29",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "项目与平台",
+      "reading": "核对企业名录、零配件采购及设备配套需求。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "示范区汽车零配件制造项目 城乡一体化示范区 产业与科技创新 高端装备 汽车零部件 市发改委公开报道涉及汽车结构件加工制造基地建设与产业链培育。 推进中（报道时） 已核验 项目与平台 许昌市发展和改革委员会 杨小菁张庆一带队到东城区示范区长葛市调研推动重点项目建设工作"
+    },
+    {
+      "id": "dongcheng-food",
+      "title": "东城区有机食品加工产业园",
+      "region": "东城区",
+      "industries": [
+        "现代农业",
+        "绿色食品",
+        "现代物流"
+      ],
+      "stage": "推进中（报道时）",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "northJuly"
+      ],
+      "summary": "公开报道提出农业示范、加工物流与农文旅融合的综合产业园定位。",
+      "caveat": "产业园定位不能证明全部业态已投入运营。",
+      "opportunity": "实地核查企业入驻、食品加工与配送设施需求。",
+      "priority": 10,
+      "medical": false,
+      "published": "2026-07-29",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "乡村与城乡融合"
+      ],
+      "docType": "项目与平台",
+      "reading": "实地核查企业入驻、食品加工与配送设施需求。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "东城区有机食品加工产业园 东城区 乡村与城乡融合 现代农业 绿色食品 现代物流 公开报道提出农业示范、加工物流与农文旅融合的综合产业园定位。 推进中（报道时） 已核验 项目与平台 许昌市发展和改革委员会 杨小菁张庆一带队到东城区示范区长葛市调研推动重点项目建设工作"
+    },
+    {
+      "id": "economic-elevator",
+      "title": "西继迅达 COVP 生产线",
+      "region": "经济技术开发区",
+      "industries": [
+        "高端装备"
+      ],
+      "stage": "技改 / 扩产中",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "westJuly"
+      ],
+      "summary": "2026年7月报道记录西继迅达新建COVP生产线及智能化技改。",
+      "caveat": "公开信息未给出本次技改的最终验收和达产日期。",
+      "opportunity": "关注技改配套、设备服务与供应链合作公开信息。",
+      "priority": 11,
+      "medical": false,
+      "published": "2026-07-28",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "项目与平台",
+      "reading": "关注技改配套、设备服务与供应链合作公开信息。",
+      "timeBasis": "该年资料快照",
+      "related": [],
+      "searchText": "西继迅达 COVP 生产线 经济技术开发区 产业与科技创新 高端装备 2026年7月报道记录西继迅达新建COVP生产线及智能化技改。 技改 / 扩产中 已核验 项目与平台 许昌市发展和改革委员会 杨小菁张庆一带队到经开区襄城县调研推动重点项目建设工作"
+    },
+    {
+      "id": "medical-supply-hypothesis",
+      "title": "医美园区耗材与配套服务需求",
+      "region": "魏都区",
+      "industries": [
+        "医美产业",
+        "医疗器械"
+      ],
+      "stage": "研究假设",
+      "level": "区县级",
+      "verification": "待核验",
+      "start": 2025,
+      "end": 2030,
+      "sources": [
+        "medical",
+        "valley"
+      ],
+      "summary": "园区建设与生命健康产业方向为寻找潜在客户提供线索；目前没有足够证据确认本地新增耗材订单。",
+      "caveat": "这是研究推演，不是已公布的项目或商机。不可把普通餐饮耗材与医疗器械、无菌医用耗材混同；真实采购和资质要求均未核实。",
+      "opportunity": "访谈园区及企业，取得真实产品清单、采购量、结算条件后再判断。",
+      "priority": 12,
+      "medical": true,
+      "published": "2026-04-16",
+      "events": [],
+      "locationNote": "按所属区域参考点展示，未核验项目精确坐标；不能用于厂址导航。",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "docType": "研究假设",
+      "reading": "访谈园区及企业，取得真实产品清单、采购量、结算条件后再判断。",
+      "timeBasis": "研究观察窗口",
+      "related": [],
+      "searchText": "医美园区耗材与配套服务需求 魏都区 产业与科技创新 医美产业 医疗器械 园区建设与生命健康产业方向为寻找潜在客户提供线索；目前没有足够证据确认本地新增耗材订单。 研究假设 待核验 研究假设 许昌日报 / 许昌网 杨小菁张庆一带队到魏都区禹州市调研推动重点项目建设工作 许昌市商务局 中原生命健康谷项目简介"
+    },
+    {
+      "id": "market14",
+      "title": "“十四五”市场监管现代化",
+      "region": "许昌全市",
+      "topics": [
+        "治理与营商环境"
+      ],
+      "industries": [
+        "营商环境",
+        "市场监管"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-4"
+      ],
+      "summary": "食品药品安全、质量与市场秩序是产业发展之外的城市治理基底。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "从监管体系和质量治理入手，理解许昌如何为市场运行提供制度支持。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-07-19",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”市场监管现代化 许昌全市 治理与营商环境 营商环境 市场监管 食品药品安全、质量与市场秩序是产业发展之外的城市治理基底。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”市场监管现代化规划的通知"
+    },
+    {
+      "id": "emergency14",
+      "title": "“十四五”应急管理与安全能力",
+      "region": "许昌全市",
+      "topics": [
+        "城市建设与住房"
+      ],
+      "industries": [
+        "城市安全"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-5"
+      ],
+      "summary": "规划统筹安全生产、风险防范与防灾减灾救援能力建设。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "城市发展不仅取决于扩张速度，也取决于基础设施与灾害治理的韧性。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-07-19",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”应急管理与安全能力 许昌全市 城市建设与住房 城市安全 规划统筹安全生产、风险防范与防灾减灾救援能力建设。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”应急管理体系和本质安全能力建设规划的通知"
+    },
+    {
+      "id": "education14",
+      "title": "“十四五”教育事业发展规划",
+      "region": "许昌全市",
+      "topics": [
+        "民生与公共服务"
+      ],
+      "industries": [
+        "教育人才"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-6"
+      ],
+      "summary": "规划涉及教育资源布局、城乡教育均衡与职业教育发展。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "观察学校布局和职业教育怎样回应人口分布与制造业人才需求。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-07-19",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”教育事业发展规划 许昌全市 民生与公共服务 教育人才 规划涉及教育资源布局、城乡教育均衡与职业教育发展。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”教育事业发展规划的通知"
+    },
+    {
+      "id": "renewal14",
+      "title": "“十四五”城市更新与人居环境",
+      "region": "许昌全市",
+      "topics": [
+        "城市建设与住房"
+      ],
+      "industries": [
+        "城市更新",
+        "住房保障"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-7"
+      ],
+      "summary": "规划将改善居住条件、城市功能与城乡人居环境纳入城市更新体系。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "与2026年城市更新行动对照，识别从总体规划到工程清单的推进过程。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-07-19",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”城市更新与人居环境 许昌全市 城市建设与住房 城市更新 住房保障 规划将改善居住条件、城市功能与城乡人居环境纳入城市更新体系。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”城市更新和城乡人居环境建设规划的通知"
+    },
+    {
+      "id": "innovation14",
+      "title": "“十四五”科技创新与创新生态",
+      "region": "许昌全市",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "industries": [
+        "科技创新"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-8"
+      ],
+      "summary": "规划围绕创新平台、创新主体、人才及创新生态部署科技发展。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "理解智慧岛、研究平台和企业研发支持的较早政策背景。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-07-27",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”科技创新与创新生态 许昌全市 产业与科技创新 科技创新 规划围绕创新平台、创新主体、人才及创新生态部署科技发展。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”科技创新和一流创新生态建设规划的通知"
+    },
+    {
+      "id": "supplychain14",
+      "title": "“十四五”现代供应链规划",
+      "region": "许昌全市",
+      "topics": [
+        "交通与物流"
+      ],
+      "industries": [
+        "现代物流",
+        "供应链"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-9"
+      ],
+      "summary": "规划以标准化、智能化、协同化和绿色化推进供应链组织与服务升级。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "物流枢纽只是其中一环，还应阅读采购、平台与企业协同安排。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-07-12",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”现代供应链规划 许昌全市 交通与物流 现代物流 供应链 规划以标准化、智能化、协同化和绿色化推进供应链组织与服务升级。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”现代供应链发展规划的通知"
+    },
+    {
+      "id": "services14",
+      "title": "“十四五”现代服务业规划",
+      "region": "许昌全市",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "industries": [
+        "现代服务业"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-11"
+      ],
+      "summary": "规划部署生产性与生活性服务业发展，反映城市产业结构调整方向。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "将服务业与工业升级、商业消费和城市功能放在一起理解。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-07-14",
+      "events": [],
+      "related": [
+        "services-repealed",
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”现代服务业规划 许昌全市 产业与科技创新 现代服务业 规划部署生产性与生活性服务业发展，反映城市产业结构调整方向。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”现代服务业发展规划的通知"
+    },
+    {
+      "id": "agriculture14",
+      "title": "“十四五”乡村振兴与农业农村现代化",
+      "region": "许昌全市",
+      "topics": [
+        "乡村与城乡融合"
+      ],
+      "industries": [
+        "现代农业"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-12"
+      ],
+      "summary": "规划覆盖农业生产能力、乡村产业和农村建设等重点任务。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "城市未来也包括县域农村，不能仅以中心城区和工业园区代表许昌。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-08-04",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”乡村振兴与农业农村现代化 许昌全市 乡村与城乡融合 现代农业 规划覆盖农业生产能力、乡村产业和农村建设等重点任务。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”乡村振兴和农业农村现代化规划的通知"
+    },
+    {
+      "id": "urban2035",
+      "title": "新型城镇化与城乡融合（2021—2035）",
+      "region": "许昌全市",
+      "topics": [
+        "乡村与城乡融合"
+      ],
+      "industries": [
+        "综合规划",
+        "城乡融合"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2035,
+      "sources": [
+        "x-plan14-13"
+      ],
+      "summary": "文件统筹城镇布局、人口城镇化与城乡融合，提出全域空间联动。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "与国土空间规划及“十五五”城乡融合规划对读，区分不同规划的功能。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-08-04",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "新型城镇化与城乡融合（2021—2035） 许昌全市 乡村与城乡融合 综合规划 城乡融合 文件统筹城镇布局、人口城镇化与城乡融合，提出全域空间联动。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市新型城镇化和城乡融合发展规划(2021-2035年)的通知"
+    },
+    {
+      "id": "manufacturing14",
+      "title": "“十四五”制造业高质量发展规划",
+      "region": "许昌全市",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "industries": [
+        "高端装备",
+        "新材料"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-14"
+      ],
+      "summary": "规划以电力装备等产业基础为起点，部署制造业转型和新兴产业培育。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "为2025年以来产业“五城”与人工智能赋能政策提供历史参照。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-08-04",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”制造业高质量发展规划 许昌全市 产业与科技创新 高端装备 新材料 规划以电力装备等产业基础为起点，部署制造业转型和新兴产业培育。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”制造业高质量发展规划的通知"
+    },
+    {
+      "id": "business14",
+      "title": "“十四五”营商环境与社会信用",
+      "region": "许昌全市",
+      "topics": [
+        "治理与营商环境"
+      ],
+      "industries": [
+        "营商环境"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-15"
+      ],
+      "summary": "规划统筹政务服务、市场环境和社会信用体系建设。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "关注制度环境如何降低经营成本，避免只从招商项目数量理解城市竞争力。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-07-21",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”营商环境与社会信用 许昌全市 治理与营商环境 营商环境 规划统筹政务服务、市场环境和社会信用体系建设。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”营商环境和社会信用体系发展规划的通知"
+    },
+    {
+      "id": "publichealth14",
+      "title": "“十四五”公共卫生与全民健康",
+      "region": "许昌全市",
+      "topics": [
+        "民生与公共服务"
+      ],
+      "industries": [
+        "生命健康",
+        "公共卫生"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-16"
+      ],
+      "summary": "规划部署公共卫生、医疗服务和全民健康体系建设。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "将健康产业增长与居民实际医疗服务供给分开观察。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-08-05",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”公共卫生与全民健康 许昌全市 民生与公共服务 生命健康 公共卫生 规划部署公共卫生、医疗服务和全民健康体系建设。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”公共卫生体系和全民健康规划的通知"
+    },
+    {
+      "id": "publicservices14",
+      "title": "“十四五”公共服务与社会保障",
+      "region": "许昌全市",
+      "topics": [
+        "民生与公共服务"
+      ],
+      "industries": [
+        "就业社保",
+        "公共服务"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-plan14-17"
+      ],
+      "summary": "文件将教育、就业、医疗、养老、住房等纳入公共服务和社会保障体系。",
+      "caveat": "规划中的目标与任务属于当时政策安排；规划期结束不等同于法律效力自动失效，也不证明目标全部完成。",
+      "reading": "考察基本公共服务覆盖面与均衡性，而非仅看大型设施建设。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-08-05",
+      "events": [],
+      "related": [
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”公共服务与社会保障 许昌全市 民生与公共服务 就业社保 公共服务 文件将教育、就业、医疗、养老、住房等纳入公共服务和社会保障体系。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”公共服务和社会保障规划的通知"
+    },
+    {
+      "id": "spatial2035",
+      "title": "许昌国土空间总体规划（2021—2035）",
+      "region": "许昌全市",
+      "topics": [
+        "空间与区域协同",
+        "城市建设与住房"
+      ],
+      "industries": [
+        "综合规划"
+      ],
+      "stage": "正式规划",
+      "docType": "总体规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2035,
+      "sources": [
+        "x-spatial",
+        "spatialInterpret"
+      ],
+      "summary": "规划统筹开发与保护格局，提出“北进东跨、西兴南优”的空间发展战略，并布局老城与新城服务中心。",
+      "caveat": "属于空间管控与布局依据，不是具体项目开工或房价预测。签发、批复与网页公开时间分别记录。",
+      "reading": "先理解发展轴线、城镇边界、生态和耕地底线，再阅读片区项目。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 4,
+      "medical": false,
+      "published": "2025-01-02",
+      "events": [],
+      "related": [
+        "urban2035",
+        "rural-urban",
+        "xugang"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "许昌国土空间总体规划（2021—2035） 许昌全市 空间与区域协同 城市建设与住房 综合规划 规划统筹开发与保护格局，提出“北进东跨、西兴南优”的空间发展战略，并布局老城与新城服务中心。 正式规划 已核验 总体规划 许昌市人民政府 许昌市人民政府关于印发许昌市国土空间总体规划（2021-2035年）的通知 许昌市自然资源和规划局 《许昌市国土空间总体规划（2021-2035年）》解读"
+    },
+    {
+      "id": "renewal2026",
+      "title": "城市更新重点工程行动计划",
+      "region": "许昌全市",
+      "topics": [
+        "城市建设与住房",
+        "历史文化与文旅"
+      ],
+      "industries": [
+        "城市更新",
+        "住房保障"
+      ],
+      "stage": "行动计划",
+      "docType": "行动方案",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2027,
+      "sources": [
+        "x-renewal"
+      ],
+      "summary": "行动计划覆盖完整社区、老旧小区、片区更新、基础设施和历史文化保护等任务，提出2027年目标。",
+      "caveat": "目标年份不代表完工承诺已兑现。本文2026-01-12签发、01-20公开。",
+      "reading": "城市建设正在同时处理存量空间、公共服务与安全韧性问题。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 5,
+      "medical": false,
+      "published": "2026-01-20",
+      "events": [],
+      "related": [
+        "renewal14",
+        "heritage-draft",
+        "heritage-review"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "城市更新重点工程行动计划 许昌全市 城市建设与住房 历史文化与文旅 城市更新 住房保障 行动计划覆盖完整社区、老旧小区、片区更新、基础设施和历史文化保护等任务，提出2027年目标。 行动计划 已核验 行动方案 许昌市人民政府 许昌市人民政府办公室关于印发许昌市深入实施城市更新重点工程行动计划的通知"
+    },
+    {
+      "id": "eldercare14",
+      "title": "“十四五”养老服务与康养产业",
+      "region": "许昌全市",
+      "topics": [
+        "民生与公共服务"
+      ],
+      "industries": [
+        "养老托育",
+        "文旅康养"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-eldercare"
+      ],
+      "summary": "规划部署居家、社区、机构相协调及医养康养结合的养老服务体系，兼顾公共服务和产业供给。",
+      "caveat": "主规划期2021—2025，展望2035；当年目标不能代作当前服务能力。",
+      "reading": "与2020年的体系建设和2026年长护险讨论相连，观察老龄化议题的制度演进。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": true,
+      "published": "2022-09-01",
+      "events": [],
+      "related": [
+        "elder2020",
+        "longcare-draft"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”养老服务与康养产业 许昌全市 民生与公共服务 养老托育 文旅康养 规划部署居家、社区、机构相协调及医养康养结合的养老服务体系，兼顾公共服务和产业供给。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”养老服务体系和康养产业发展规划的通知"
+    },
+    {
+      "id": "ai2030",
+      "title": "人工智能产业发展实施方案（2025—2030）",
+      "region": "许昌全市",
+      "topics": [
+        "产业与科技创新"
+      ],
+      "industries": [
+        "人工智能",
+        "数字经济"
+      ],
+      "stage": "行动计划",
+      "docType": "行动方案",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2030,
+      "sources": [
+        "x-gazette2025-doc-13"
+      ],
+      "summary": "方案围绕算力、数据、算法和产业应用部署任务，并提出到2030年的发展目标。",
+      "caveat": "算力和产业规模为政策目标，未在此核验实际完成程度；不据此认定相关平台已全部投入运行。",
+      "reading": "核心问题是人工智能如何服务电气、制造和中医药等既有产业，而不只是新增一个产业标签。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 5,
+      "medical": false,
+      "published": "2025-03-27",
+      "events": [],
+      "related": [
+        "innovation14",
+        "manufacturing14",
+        "weidu-island"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "人工智能产业发展实施方案（2025—2030） 许昌全市 产业与科技创新 人工智能 数字经济 方案围绕算力、数据、算法和产业应用部署任务，并提出到2030年的发展目标。 行动计划 已核验 行动方案 许昌市人民政府 许昌市人民政府办公室关于印发许昌市加快推动人工智能产业发展实施方案(2025-2030年)的通知"
+    },
+    {
+      "id": "statistics2025",
+      "title": "2025年统计公报：城市发展的现实基线",
+      "region": "许昌全市",
+      "topics": [
+        "空间与区域协同",
+        "民生与公共服务"
+      ],
+      "industries": [
+        "统计与人口"
+      ],
+      "stage": "已发布统计",
+      "docType": "统计公报",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2025,
+      "sources": [
+        "x-population2025"
+      ],
+      "summary": "公报提供经济结构、常住人口、城镇化及公共服务等年度数据，可与规划目标对照。",
+      "caveat": "数据期是2025年，公开期是2026年；初步核算数据可能修订，不与不同统计范围的旧GDP直接拼接。",
+      "reading": "规划表达意图，统计记录结果；两类资料需要共同阅读。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 6,
+      "medical": false,
+      "published": "2026-05-13",
+      "events": [],
+      "related": [],
+      "lifecycle": null,
+      "timeBasis": "统计所属年度",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "2025年统计公报：城市发展的现实基线 许昌全市 空间与区域协同 民生与公共服务 统计与人口 公报提供经济结构、常住人口、城镇化及公共服务等年度数据，可与规划目标对照。 已发布统计 已核验 统计公报 许昌市统计局（市工信局转载） 2025年许昌市国民经济和社会发展统计公报"
+    },
+    {
+      "id": "heritage-draft",
+      "title": "历史文化名城保护规划征求意见",
+      "region": "许昌全市",
+      "topics": [
+        "历史文化与文旅",
+        "城市建设与住房"
+      ],
+      "industries": [
+        "文化遗产",
+        "文旅康养"
+      ],
+      "stage": "征求意见稿",
+      "docType": "征求意见",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2035,
+      "sources": [
+        "x-historydraft"
+      ],
+      "summary": "2024年官方就历史文化名城保护规划公开征求意见，附有规划文本与公示图纸。",
+      "caveat": "该条记录为征求意见版本。2026年有后续评审报道，但不能据此自动认定其已按原稿正式印发。",
+      "reading": "历史城区保护是城市空间政策的一部分，应关注保护范围、责任和更新边界。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2024-11-14",
+      "events": [],
+      "related": [
+        "heritage-review",
+        "renewal2026"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "历史文化名城保护规划征求意见 许昌全市 历史文化与文旅 城市建设与住房 文化遗产 文旅康养 2024年官方就历史文化名城保护规划公开征求意见，附有规划文本与公示图纸。 征求意见稿 已核验 征求意见 许昌市自然资源和规划局 关于公开征求《许昌市历史文化名城保护规划（2021-2035年）》（征求意见稿）意见的公示"
+    },
+    {
+      "id": "heritage-review",
+      "title": "2026年名城保护规划评审进展",
+      "region": "许昌全市",
+      "topics": [
+        "历史文化与文旅"
+      ],
+      "industries": [
+        "文化遗产"
+      ],
+      "stage": "评审进展",
+      "docType": "执行进展",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "x-historyreview"
+      ],
+      "summary": "2026年2月市规委会评审名城保护规划，强调保护优先、历史街区划定和历史建筑认定。",
+      "caveat": "评审报道不是正式印发文本，具体获批版本仍需继续查证。",
+      "reading": "将保护制度、公共服务与文旅业态区分，避免把遗产保护缩减为商业改造。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2026-02-13",
+      "events": [],
+      "related": [
+        "heritage-draft",
+        "renewal2026"
+      ],
+      "lifecycle": null,
+      "timeBasis": "该年资料快照",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "2026年名城保护规划评审进展 许昌全市 历史文化与文旅 文化遗产 2026年2月市规委会评审名城保护规划，强调保护优先、历史街区划定和历史建筑认定。 评审进展 已核验 执行进展 许昌市发展和改革委员会 市委国土空间规划委员会2026年第二次会议召开"
+    },
+    {
+      "id": "nowaste14",
+      "title": "“十四五”无废城市建设",
+      "region": "许昌全市",
+      "topics": [
+        "生态与绿色转型"
+      ],
+      "industries": [
+        "循环经济",
+        "生态环境"
+      ],
+      "stage": "正式规划",
+      "docType": "政策解读",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "noWaste2022"
+      ],
+      "summary": "实施方案涉及工业与农业绿色转型、绿色生活、风险防控和固废产业培育。",
+      "caveat": "“无废”是系统治理方向，不意味着固体废物已经消失；具体成效需要监测和评估资料。",
+      "reading": "循环经济既是产业链，也是城市环境治理制度。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2022-11-22",
+      "events": [],
+      "related": [
+        "changge-metal"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”无废城市建设 许昌全市 生态与绿色转型 循环经济 生态环境 实施方案涉及工业与农业绿色转型、绿色生活、风险防控和固废产业培育。 正式规划 已核验 政策解读 许昌市人民政府网站 《许昌市“十四五”时期“无废城市”建设实施方案》政策解读"
+    },
+    {
+      "id": "environment14",
+      "title": "“十四五”生态环境与生态经济",
+      "region": "许昌全市",
+      "topics": [
+        "生态与绿色转型"
+      ],
+      "industries": [
+        "生态环境",
+        "循环经济"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "environment14"
+      ],
+      "summary": "规划统筹绿色转型、污染治理、生态系统保护、环境风险及生态经济发展。",
+      "caveat": "历史规划不能替代当期空气、水、土壤监测和环境质量公报。",
+      "reading": "观察生态约束如何影响能源、工业、交通和空间选择。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2023-05-12",
+      "events": [],
+      "related": [
+        "nowaste14",
+        "environment15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”生态环境与生态经济 许昌全市 生态与绿色转型 生态环境 循环经济 规划统筹绿色转型、污染治理、生态系统保护、环境风险及生态经济发展。 正式规划 已核验 专项规划 许昌市发展和改革委员会 许昌市“十四五”生态环境保护和生态经济发展规划"
+    },
+    {
+      "id": "environment15",
+      "title": "“十五五”生态环境规划编制采购",
+      "region": "许昌全市",
+      "topics": [
+        "生态与绿色转型"
+      ],
+      "industries": [
+        "生态环境"
+      ],
+      "stage": "编制中（资料所示）",
+      "docType": "规划编制",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2030,
+      "sources": [
+        "x-environment15"
+      ],
+      "summary": "2026年8月官方公布生态环境规划编制项目成交结果，工作包括评估、任务谋划与后续报批。",
+      "caveat": "采购成交证明编制服务启动，不能证明规划已获批或规划工程已获财政资金。",
+      "reading": "在总纲已公布后，专项规划仍可能处于编制环节，政策形成具有不同节奏。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2026-08-13",
+      "events": [],
+      "related": [
+        "environment14",
+        "forestry15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十五五”生态环境规划编制采购 许昌全市 生态与绿色转型 生态环境 2026年8月官方公布生态环境规划编制项目成交结果，工作包括评估、任务谋划与后续报批。 编制中（资料所示） 已核验 规划编制 许昌市生态环境局 许昌市生态环境局许昌市“十五五”生态环境保护规划编制项目成交公告"
+    },
+    {
+      "id": "longcare-draft",
+      "title": "长期护理保险实施细则征求意见",
+      "region": "许昌全市",
+      "topics": [
+        "民生与公共服务"
+      ],
+      "industries": [
+        "养老托育",
+        "就业社保"
+      ],
+      "stage": "征求意见稿",
+      "docType": "征求意见",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2028,
+      "sources": [
+        "x-longcare"
+      ],
+      "summary": "2026年9月公开草案讨论长护险参保、待遇、服务与管理，并提出分阶段覆盖安排。",
+      "caveat": "征求意见期已于2026-10-10结束；草案不是现行待遇依据，尚未核验正式实施版本。",
+      "reading": "从养老设施建设转向护理保障制度，是理解失能照护需求的重要线索。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": true,
+      "published": "2026-09-10",
+      "events": [],
+      "related": [
+        "eldercare14",
+        "publicservices14"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "长期护理保险实施细则征求意见 许昌全市 民生与公共服务 养老托育 就业社保 2026年9月公开草案讨论长护险参保、待遇、服务与管理，并提出分阶段覆盖安排。 征求意见稿 已核验 征求意见 许昌市医疗保障局（市政府网站） 许昌市人民政府-详情页"
+    },
+    {
+      "id": "projects2026",
+      "title": "2026年市重点建设项目名单",
+      "region": "许昌全市",
+      "topics": [
+        "产业与科技创新",
+        "城市建设与住房"
+      ],
+      "industries": [
+        "综合规划"
+      ],
+      "stage": "年度项目清单",
+      "docType": "项目清单",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "x-projects2026"
+      ],
+      "summary": "市政府办公室发布年度重点建设项目名单，要求落实审批、要素保障与建设责任。",
+      "caveat": "列入名单不等于已经开工、资金全部落实或能够按期达产；须逐项核查附件和后续进度。",
+      "reading": "将年度清单作为连接宏观规划与具体建设活动的中间层。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 6,
+      "medical": false,
+      "published": "2026-02-05",
+      "events": [],
+      "related": [
+        "city-15",
+        "projects2027"
+      ],
+      "lifecycle": null,
+      "timeBasis": "该年资料快照",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "2026年市重点建设项目名单 许昌全市 产业与科技创新 城市建设与住房 综合规划 市政府办公室发布年度重点建设项目名单，要求落实审批、要素保障与建设责任。 年度项目清单 已核验 项目清单 许昌市人民政府 许昌市人民政府办公室关于印发2026年许昌市重点建设项目名单的通知"
+    },
+    {
+      "id": "tasks2026",
+      "title": "2026年政府重点任务责任分工",
+      "region": "许昌全市",
+      "topics": [
+        "治理与营商环境",
+        "民生与公共服务"
+      ],
+      "industries": [
+        "公共服务",
+        "综合规划"
+      ],
+      "stage": "年度部署",
+      "docType": "责任分工",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "x-tasks2026"
+      ],
+      "summary": "文件对政府工作任务进行分解，并明确牵头和参与单位及落实要求。",
+      "caveat": "责任分工明确谁推进，不直接证明任务完成；需要执行报告、决算或验收资料对照。",
+      "reading": "读政策时追问“谁负责、何时做、如何检查”，可减少只读目标口号的局限。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2026-02-14",
+      "events": [],
+      "related": [
+        "city-2026",
+        "projects2026"
+      ],
+      "lifecycle": null,
+      "timeBasis": "该年资料快照",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "2026年政府重点任务责任分工 许昌全市 治理与营商环境 民生与公共服务 公共服务 综合规划 文件对政府工作任务进行分解，并明确牵头和参与单位及落实要求。 年度部署 已核验 责任分工 许昌市人民政府 许昌市人民政府关于明确政府工作报告提出的2026年重点工作责任单位的通知"
+    },
+    {
+      "id": "henan-lowland",
+      "title": "河南城镇低效用地再开发与城市更新",
+      "region": "河南全省",
+      "topics": [
+        "城市建设与住房",
+        "治理与营商环境"
+      ],
+      "industries": [
+        "城市更新",
+        "土地利用"
+      ],
+      "stage": "政策文件",
+      "docType": "政策文件",
+      "level": "省级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2025,
+      "sources": [
+        "x-lowland"
+      ],
+      "summary": "省级文件要求调查、认定和盘活城镇低效用地，支持分类推进存量空间再开发。",
+      "caveat": "适用仍需满足文件条件和法定程序；不得据此推定某块土地可自由改为医疗、商业或住宅用途。",
+      "reading": "省级土地工具为地方存量更新提供政策条件，应与本市规划和实施清单对读。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2025-05-07",
+      "events": [],
+      "related": [
+        "renewal2026"
+      ],
+      "lifecycle": null,
+      "timeBasis": "该年资料快照",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "河南城镇低效用地再开发与城市更新 河南全省 城市建设与住房 治理与营商环境 城市更新 土地利用 省级文件要求调查、认定和盘活城镇低效用地，支持分类推进存量空间再开发。 政策文件 已核验 政策文件 河南省自然资源厅、河南省住建厅（许昌转载） 河南省自然资源厅 河南省住房和城乡建设厅关于加快推进城镇低效用地再开发促进城市更新的通知"
+    },
+    {
+      "id": "elder2020",
+      "title": "2020年养老服务体系建设方案",
+      "region": "许昌全市",
+      "topics": [
+        "民生与公共服务"
+      ],
+      "industries": [
+        "养老托育"
+      ],
+      "stage": "历史政策文件",
+      "docType": "政策文件",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2020,
+      "end": 2020,
+      "sources": [
+        "x-elder2020"
+      ],
+      "summary": "当时方案强调政府引导、社会参与、多元供给和养老机构运营改革。",
+      "caveat": "作为历史政策快照保留；不把其中2020年任务或当时支持措施视为今天仍可直接申领的政策。",
+      "reading": "回看老龄服务议题如何从体系建设延续至康养规划和护理保障。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2020-08-31",
+      "events": [],
+      "related": [
+        "eldercare14",
+        "longcare-draft"
+      ],
+      "lifecycle": null,
+      "timeBasis": "该年资料快照",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "2020年养老服务体系建设方案 许昌全市 民生与公共服务 养老托育 当时方案强调政府引导、社会参与、多元供给和养老机构运营改革。 历史政策文件 已核验 政策文件 许昌市人民政府 许昌市人民政府关于印发许昌市健全完善养老服务体系助力“智造之都、宜居之城”建设实施方案的通知"
+    },
+    {
+      "id": "changge-maintenance",
+      "title": "长葛国土空间规划2026年度动态维护公示",
+      "region": "长葛市",
+      "topics": [
+        "空间与区域协同"
+      ],
+      "industries": [
+        "土地利用"
+      ],
+      "stage": "征求意见稿",
+      "docType": "征求意见",
+      "level": "区县级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "x-changgeHome-doc-77"
+      ],
+      "summary": "长葛市对国土空间总体规划年度动态维护方案草案进行公开征求意见。",
+      "caveat": "只证实公示和草案编制，未将调整意向当作已生效用地边界。",
+      "reading": "总体规划在实施中仍可能维护调整，研究地块需检查最终审批版本。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2026-05-07",
+      "events": [],
+      "related": [
+        "spatial2035",
+        "changge-metal"
+      ],
+      "lifecycle": null,
+      "timeBasis": "该年资料快照",
+      "locationNote": "按所属行政区展示；未核验项目地块或精确坐标。",
+      "searchText": "长葛国土空间规划2026年度动态维护公示 长葛市 空间与区域协同 土地利用 长葛市对国土空间总体规划年度动态维护方案草案进行公开征求意见。 征求意见稿 已核验 征求意见 长葛市自然资源和规划局 长葛市国土空间总体规划2026年度动态维护方案公示"
+    },
+    {
+      "id": "jianan2026",
+      "title": "建安区2026年工作与“十五五”部署",
+      "region": "建安区",
+      "topics": [
+        "空间与区域协同",
+        "乡村与城乡融合"
+      ],
+      "industries": [
+        "综合规划",
+        "城乡融合"
+      ],
+      "stage": "年度部署",
+      "docType": "执行进展",
+      "level": "区县级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2030,
+      "sources": [
+        "x-jianan2026"
+      ],
+      "summary": "区人大会议报道概述产业升级、开放合作、城乡融合和公共服务等五年任务。",
+      "caveat": "此来源是会议报道，不冒充正式规划全文；具体项目和量化指标需核对正式纲要。",
+      "reading": "理解建安区与中心城区、许港产业带及农业农村发展之间的连接。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2026-05-29",
+      "events": [],
+      "related": [
+        "jianan-pharma",
+        "rural-urban"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "按所属行政区展示；未核验项目地块或精确坐标。",
+      "searchText": "建安区2026年工作与“十五五”部署 建安区 空间与区域协同 乡村与城乡融合 综合规划 城乡融合 区人大会议报道概述产业升级、开放合作、城乡融合和公共服务等五年任务。 年度部署 已核验 执行进展 建安区人民政府网站 许昌市建安区第二届人民代表大会第六次会议隆重开幕"
+    },
+    {
+      "id": "yuzhou2035",
+      "title": "禹州国土空间规划与文化生态格局",
+      "region": "禹州市",
+      "topics": [
+        "空间与区域协同",
+        "历史文化与文旅"
+      ],
+      "industries": [
+        "综合规划",
+        "文化遗产"
+      ],
+      "stage": "正式规划",
+      "docType": "规划批复进展",
+      "level": "区县级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2035,
+      "sources": [
+        "yuzhou-spatial"
+      ],
+      "summary": "获批报道介绍城镇空间、生态保护和历史文化展示利用格局，涉及神垕等重点乡镇。",
+      "caveat": "依据官方获批报道整理，并非规划全部图则；精确保护范围仍需查阅正式图件。",
+      "reading": "禹州的发展不能只用中医药概括，还需观察制造业、生态与文化空间的相互约束。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2024-07-12",
+      "events": [],
+      "related": [
+        "yuzhou-herb",
+        "spatial2035"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "按所属行政区展示；未核验项目地块或精确坐标。",
+      "searchText": "禹州国土空间规划与文化生态格局 禹州市 空间与区域协同 历史文化与文旅 综合规划 文化遗产 获批报道介绍城镇空间、生态保护和历史文化展示利用格局，涉及神垕等重点乡镇。 正式规划 已核验 规划批复进展 许昌市政府网站禹州专栏 《禹州市国土空间总体规划（2021-2035年）》获批实施"
+    },
+    {
+      "id": "yanling2035",
+      "title": "鄢陵国土空间规划与花木康养定位",
+      "region": "鄢陵县",
+      "topics": [
+        "空间与区域协同",
+        "生态与绿色转型"
+      ],
+      "industries": [
+        "现代农业",
+        "文旅康养"
+      ],
+      "stage": "正式规划",
+      "docType": "规划批复进展",
+      "level": "区县级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2035,
+      "sources": [
+        "yanling-spatial"
+      ],
+      "summary": "获批报道将花木生产交易、生态旅游和健康养生养老列为特色方向，并提出中心城区空间布局。",
+      "caveat": "产业定位不等于项目已盈利；规划方向也不能代替具体用地审批。",
+      "reading": "从花木资源、都市圈生态休闲与城市功能三个层次理解鄢陵。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2024-07-11",
+      "events": [],
+      "related": [
+        "yanling-tourism",
+        "eldercare14"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "按所属行政区展示；未核验项目地块或精确坐标。",
+      "searchText": "鄢陵国土空间规划与花木康养定位 鄢陵县 空间与区域协同 生态与绿色转型 现代农业 文旅康养 获批报道将花木生产交易、生态旅游和健康养生养老列为特色方向，并提出中心城区空间布局。 正式规划 已核验 规划批复进展 许昌市政府网站鄢陵专栏 《鄢陵县国土空间总体规划（2021-2035年）》通过河南省人民政府正式批复"
+    },
+    {
+      "id": "xiangcheng-maintenance",
+      "title": "襄城空间规划动态维护公示",
+      "region": "襄城县",
+      "topics": [
+        "空间与区域协同"
+      ],
+      "industries": [
+        "土地利用"
+      ],
+      "stage": "征求意见稿",
+      "docType": "征求意见",
+      "level": "区县级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "xiangcheng-maintenance"
+      ],
+      "summary": "县自然资源局公示2026年度总体规划动态维护方案，衔接“十五五”空间需求。",
+      "caveat": "本条保留公示版本，未认定维护方案已经审批通过。",
+      "reading": "将材料产业项目与空间需求、土地边界的调整程序联系起来。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2026-04-27",
+      "events": [],
+      "related": [
+        "xiangcheng-silicon",
+        "spatial2035"
+      ],
+      "lifecycle": null,
+      "timeBasis": "该年资料快照",
+      "locationNote": "按所属行政区展示；未核验项目地块或精确坐标。",
+      "searchText": "襄城空间规划动态维护公示 襄城县 空间与区域协同 土地利用 县自然资源局公示2026年度总体规划动态维护方案，衔接“十五五”空间需求。 征求意见稿 已核验 征求意见 襄城县自然资源局 关于《襄城县国土空间总体规划2026年度动态维护方案（公示稿）》公示"
+    },
+    {
+      "id": "henan-metro2025",
+      "title": "河南视角：许港产业协同与都市圈",
+      "region": "河南全省",
+      "topics": [
+        "空间与区域协同",
+        "交通与物流"
+      ],
+      "industries": [
+        "综合规划",
+        "现代物流"
+      ],
+      "stage": "官方政策综述",
+      "docType": "政策解读",
+      "level": "省级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2035,
+      "sources": [
+        "henan-metro2025"
+      ],
+      "summary": "省政府门户综述将许港产业带、产业协作、通勤和公共服务纳入都市圈建设脉络。",
+      "caveat": "文中2027与2035目标多为都市圈整体目标，不能直接作为许昌市独立指标。",
+      "reading": "把许昌放入跨市产业、交通与公共服务网络，理解其区位变化。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 7,
+      "medical": false,
+      "published": "2025-02-28",
+      "events": [],
+      "related": [
+        "xugang",
+        "traffic14",
+        "spatial2035"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "河南视角：许港产业协同与都市圈 河南全省 空间与区域协同 交通与物流 综合规划 现代物流 省政府门户综述将许港产业带、产业协作、通勤和公共服务纳入都市圈建设脉络。 官方政策综述 已核验 政策解读 河南省政府门户（郑州市政府来源） 跻身“国家队”，郑州“圈”出新未来"
+    },
+    {
+      "id": "traffic14",
+      "title": "“十四五”综合交通与枢纽经济",
+      "region": "许昌全市",
+      "topics": [
+        "交通与物流",
+        "空间与区域协同"
+      ],
+      "industries": [
+        "交通运输",
+        "现代物流"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2021,
+      "end": 2025,
+      "sources": [
+        "x-traffic14"
+      ],
+      "summary": "规划将交通网络与枢纽经济放在一起部署，连接区域通达与产业物流组织。",
+      "caveat": "历史规划中拟建和在建线路不能直接认定已通车，须按具体线路核对运营公告。",
+      "reading": "看交通时同时关注客流、货流和产业组织，区分基础设施建成与经济效果。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2023-09-14",
+      "events": [],
+      "related": [
+        "supplychain14",
+        "henan-metro2025"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”综合交通与枢纽经济 许昌全市 交通与物流 空间与区域协同 交通运输 现代物流 规划将交通网络与枢纽经济放在一起部署，连接区域通达与产业物流组织。 正式规划 已核验 专项规划 许昌市人民政府 许昌市人民政府关于印发许昌市“十四五”现代综合交通运输体系和枢纽经济发展规划的通知"
+    },
+    {
+      "id": "livelihood2027",
+      "title": "2027年市重点民生实事建议征集",
+      "region": "许昌全市",
+      "topics": [
+        "民生与公共服务",
+        "治理与营商环境"
+      ],
+      "industries": [
+        "公共服务"
+      ],
+      "stage": "公开征集（资料所示）",
+      "docType": "公众参与",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2027,
+      "sources": [
+        "x-latestFeedback"
+      ],
+      "summary": "2026年10月公告公开征集2027年民生实事建议，涉及出行、教育、医疗、养老与公共安全等领域。",
+      "caveat": "公告截止时间为2026-11-15；征集不代表最终项目已经确定。状态按2026-10-20快照记录。",
+      "reading": "这是观察下一年度政府议程如何形成的公众入口。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 3,
+      "medical": false,
+      "published": "2026-10-15",
+      "events": [],
+      "related": [
+        "tasks2026"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "2027年市重点民生实事建议征集 许昌全市 民生与公共服务 治理与营商环境 公共服务 2026年10月公告公开征集2027年民生实事建议，涉及出行、教育、医疗、养老与公共安全等领域。 公开征集（资料所示） 已核验 公众参与 许昌市人民政府 关于面向社会公开征集2027年市重点民生实事建议的公告"
+    },
+    {
+      "id": "projects2027",
+      "title": "2027年重点项目谋划与“六张网”",
+      "region": "许昌全市",
+      "topics": [
+        "空间与区域协同",
+        "城市建设与住房"
+      ],
+      "industries": [
+        "基础设施",
+        "综合规划"
+      ],
+      "stage": "谋划中（报道时）",
+      "docType": "执行进展",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2027,
+      "sources": [
+        "x-latest2027projects"
+      ],
+      "summary": "2026年10月市级会议提出以“六张网”规划建设为重点谋划明年项目，并强调资金、城市功能和存量盘活。",
+      "caveat": "谋划与申报不是项目立项、预算批准或开工；不要据此生成2027年已发生建设节点。",
+      "reading": "把年度项目谋划视为总规划落地的前端环节。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 3,
+      "medical": false,
+      "published": "2026-10-15",
+      "events": [],
+      "related": [
+        "projects2026",
+        "city-15"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "2027年重点项目谋划与“六张网” 许昌全市 空间与区域协同 城市建设与住房 基础设施 综合规划 2026年10月市级会议提出以“六张网”规划建设为重点谋划明年项目，并强调资金、城市功能和存量盘活。 谋划中（报道时） 已核验 执行进展 许昌市人民政府 全市经济高质量发展第四次季度会暨2027年重点项目谋划工作会议召开"
+    },
+    {
+      "id": "forestry15",
+      "title": "“十五五”林业保护利用规划编审",
+      "region": "许昌全市",
+      "topics": [
+        "生态与绿色转型",
+        "乡村与城乡融合"
+      ],
+      "industries": [
+        "生态环境",
+        "现代农业"
+      ],
+      "stage": "编制中（资料所示）",
+      "docType": "规划编制",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2030,
+      "sources": [
+        "x-forestry15"
+      ],
+      "summary": "2026年10月编审研讨会讨论平原林业、花木产业、生态屏障与新业态方向。",
+      "caveat": "来源明确为讨论稿编制研讨，不是规划正式印发。",
+      "reading": "林业和花木既关联生态约束，也联系县域特色产业。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 8,
+      "medical": false,
+      "published": "2026-10-14",
+      "events": [],
+      "related": [
+        "environment15",
+        "yanling2035"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十五五”林业保护利用规划编审 许昌全市 生态与绿色转型 乡村与城乡融合 生态环境 现代农业 2026年10月编审研讨会讨论平原林业、花木产业、生态屏障与新业态方向。 编制中（资料所示） 已核验 规划编制 许昌市林业和花木园艺发展中心（市政府网站） 《许昌市“十五五”林业保护利用规划》编审研讨会召开"
+    },
+    {
+      "id": "housing2030",
+      "title": "2026—2030年住房发展专项规划",
+      "region": "许昌全市",
+      "topics": [
+        "城市建设与住房"
+      ],
+      "industries": [
+        "住房保障"
+      ],
+      "stage": "正式规划",
+      "docType": "专项规划",
+      "level": "市级",
+      "verification": "部分核验",
+      "start": 2026,
+      "end": 2030,
+      "sources": [
+        "x-portal-52"
+      ],
+      "summary": "官方公开平台已列示住房发展专项规划及其附件，是观察住房供给政策的重要阅读入口。",
+      "caveat": "仅核验标题、公开日期和附件存在；未把未读取的目标、项目或供应规模写为事实。",
+      "reading": "与城市更新和人口变化资料对读，继续补核住房发展目标与年度计划。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2026-07-09",
+      "events": [],
+      "related": [
+        "renewal2026",
+        "statistics2025"
+      ],
+      "lifecycle": null,
+      "timeBasis": "规划 / 目标覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "2026—2030年住房发展专项规划 许昌全市 城市建设与住房 住房保障 官方公开平台已列示住房发展专项规划及其附件，是观察住房供给政策的重要阅读入口。 正式规划 部分核验 专项规划 许昌市政府信息公开平台 许昌市2026年-2030年住房发展专项规划"
+    },
+    {
+      "id": "health-eval14",
+      "title": "“十四五”医疗卫生服务体系评估报告",
+      "region": "许昌全市",
+      "topics": [
+        "民生与公共服务"
+      ],
+      "industries": [
+        "公共卫生"
+      ],
+      "stage": "评估报告已列示",
+      "docType": "规划评估",
+      "level": "市级",
+      "verification": "部分核验",
+      "start": 2025,
+      "end": 2025,
+      "sources": [
+        "x-portal-56"
+      ],
+      "summary": "官方平台列示“十四五”相关评估报告，可用于追踪规划收官与执行结果。",
+      "caveat": "本次只核验公开元数据；不能据报告存在推定全部规划目标完成。",
+      "reading": "相比目标文件，评估报告更适合检查执行成效，但需先读其方法与结论。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2025-12-25",
+      "events": [],
+      "related": [
+        "publichealth14"
+      ],
+      "lifecycle": null,
+      "timeBasis": "评估报告公开年度",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”医疗卫生服务体系评估报告 许昌全市 民生与公共服务 公共卫生 官方平台列示“十四五”相关评估报告，可用于追踪规划收官与执行结果。 评估报告已列示 部分核验 规划评估 许昌市政府信息公开平台 许昌市“十四五”医疗卫生服务体系规划评估报告"
+    },
+    {
+      "id": "publichealth-eval14",
+      "title": "“十四五”公共卫生与全民健康评估报告",
+      "region": "许昌全市",
+      "topics": [
+        "民生与公共服务"
+      ],
+      "industries": [
+        "公共卫生"
+      ],
+      "stage": "评估报告已列示",
+      "docType": "规划评估",
+      "level": "市级",
+      "verification": "部分核验",
+      "start": 2025,
+      "end": 2025,
+      "sources": [
+        "x-portal-57"
+      ],
+      "summary": "官方平台列示“十四五”相关评估报告，可用于追踪规划收官与执行结果。",
+      "caveat": "本次只核验公开元数据；不能据报告存在推定全部规划目标完成。",
+      "reading": "相比目标文件，评估报告更适合检查执行成效，但需先读其方法与结论。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2025-12-25",
+      "events": [],
+      "related": [
+        "publichealth14"
+      ],
+      "lifecycle": null,
+      "timeBasis": "评估报告公开年度",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”公共卫生与全民健康评估报告 许昌全市 民生与公共服务 公共卫生 官方平台列示“十四五”相关评估报告，可用于追踪规划收官与执行结果。 评估报告已列示 部分核验 规划评估 许昌市政府信息公开平台 许昌市“十四五”公共卫生体系和全民健康规划评估报告"
+    },
+    {
+      "id": "services-repealed",
+      "title": "服务业企业奖励办法废止通知",
+      "region": "许昌全市",
+      "topics": [
+        "治理与营商环境",
+        "产业与科技创新"
+      ],
+      "industries": [
+        "营商环境",
+        "现代服务业"
+      ],
+      "stage": "已废止（被引用办法）",
+      "docType": "政策清理",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2026,
+      "end": 2026,
+      "sources": [
+        "x-portal-29"
+      ],
+      "summary": "2026年9月公开通知废止许政办〔2025〕22号服务业企业奖励办法，并要求自通知印发之日起停止执行。",
+      "caveat": "被废止的是所引用的奖励办法；该废止通知本身不是“失效文件”。不能继续把旧奖励当作可申领待遇。",
+      "reading": "政策探索需要同时查找后续修订和清理，不能只保存有利条款。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 2,
+      "medical": false,
+      "published": "2026-09-29",
+      "events": [],
+      "related": [
+        "services14",
+        "tasks2026"
+      ],
+      "lifecycle": "所引奖励办法已废止",
+      "timeBasis": "该年资料快照",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "服务业企业奖励办法废止通知 许昌全市 治理与营商环境 产业与科技创新 营商环境 现代服务业 2026年9月公开通知废止许政办〔2025〕22号服务业企业奖励办法，并要求自通知印发之日起停止执行。 已废止（被引用办法） 已核验 政策清理 许昌市人民政府 许昌市人民政府办公室关于废止《许昌市人民政府办公室关于印发许昌市支持服务业企业发展壮大奖励办法(试行)  的通知》(许政办〔2025〕22号)的通知"
+    },
+    {
+      "id": "planning2019",
+      "title": "“十四五”规划编制工作方案",
+      "region": "许昌全市",
+      "topics": [
+        "空间与区域协同",
+        "治理与营商环境"
+      ],
+      "industries": [
+        "综合规划"
+      ],
+      "stage": "历史编制文件",
+      "docType": "规划编制",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2019,
+      "end": 2021,
+      "sources": [
+        "x-oldGovPlan"
+      ],
+      "summary": "编制工作方案说明五年规划的组织程序、专题研究和审议衔接。",
+      "caveat": "这是编制过程文件，不是最终“十四五”纲要，也不包含2026年以后已经完成的事项。",
+      "reading": "理解规划如何形成，有助于区分编制、征求意见、审查和正式发布。",
+      "opportunity": "继续阅读原文、实施细则、预算与执行报告，核对目标如何转化为实际行动。",
+      "priority": 15,
+      "medical": false,
+      "published": "2020-01-02",
+      "events": [],
+      "related": [],
+      "lifecycle": null,
+      "timeBasis": "编制工作覆盖期",
+      "locationNote": "全域政策不设置项目坐标。",
+      "searchText": "“十四五”规划编制工作方案 许昌全市 空间与区域协同 治理与营商环境 综合规划 编制工作方案说明五年规划的组织程序、专题研究和审议衔接。 历史编制文件 已核验 规划编制 许昌市人民政府 许昌市人民政府办公室关于印发许昌市“十四五”规划编制工作方案的通知"
+    },
+    {
+      "id": "pangdonglai-service",
+      "title": "推广“胖东来”经验：高品质服务实施方案",
+      "region": "许昌全市",
+      "topics": [
+        "治理与营商环境",
+        "历史文化与文旅"
+      ],
+      "industries": [
+        "商业零售",
+        "营商环境",
+        "文旅服务"
+      ],
+      "stage": "已发布实施方案",
+      "docType": "实施方案",
+      "level": "市级",
+      "verification": "已核验",
+      "start": 2025,
+      "end": 2025,
+      "sources": [
+        "pdl-service-policy"
+      ],
+      "summary": "推动商品与食品质量管理、客诉处置、零售服务规范以及政务和行业服务协同提升。",
+      "caveat": "方案提出服务标准建设和推广任务；文件发布不等于所有指南已经出台，也不构成对具体企业经营结果的保证。",
+      "reading": "从服务标准与公共治理的衔接，理解许昌如何借鉴本土商业实践。",
+      "opportunity": "继续核对各责任部门后续指南、实施细则与实际成效。",
+      "priority": 10,
+      "medical": false,
+      "published": "2025-11-05",
+      "events": [
+        {
+          "date": "2025-10-29",
+          "text": "通知成文"
+        },
+        {
+          "date": "2025-11-05",
+          "text": "官网公开"
+        }
+      ],
+      "related": [
+        "market14",
+        "business14"
+      ],
+      "lifecycle": null,
+      "timeBasis": "方案公开年份，未另设有效期",
+      "locationNote": "全市政策，不设置项目坐标。",
+      "searchText": "推广“胖东来”经验：高品质服务实施方案 许昌全市 治理与营商环境 历史文化与文旅 商业零售 营商环境 文旅服务 推动商品与食品质量管理、客诉处置、零售服务规范以及政务和行业服务协同提升。 已发布实施方案 已核验 实施方案 许昌市人民政府 许昌市人民政府办公室关于印发推广“胖东来”经验以高品质服务助推高质量发展实施方案的通知"
+    }
+  ],
+  "topics": [
+    {
+      "id": "空间与区域协同",
+      "question": "许昌将沿哪些轴线发展？",
+      "title": "从独立城市，读到都市圈网络",
+      "description": "把许昌放回郑州都市圈与全域县市区中，理解交通轴线、产业组团和空间底线如何共同约束发展。",
+      "steps": [
+        {
+          "label": "空间底图",
+          "text": "2021—2035国土空间规划统筹城镇、农业与生态空间。",
+          "record": "spatial2035"
+        },
+        {
+          "label": "区域衔接",
+          "text": "都市圈综述和许港征求意见稿呈现跨市协作方向。",
+          "record": "henan-metro2025"
+        },
+        {
+          "label": "近期动作",
+          "text": "2027项目仍在谋划，不能等同于已开工清单。",
+          "record": "projects2027"
+        }
+      ]
+    },
+    {
+      "id": "产业与科技创新",
+      "question": "制造业基础怎样转向新动能？",
+      "title": "制造业、创新平台与人工智能",
+      "description": "电力装备、材料等既有基础，与创新平台、人工智能方案及年度项目相互连接。",
+      "steps": [
+        {
+          "label": "历史基础",
+          "text": "“十四五”制造业规划提供产业升级的起点。",
+          "record": "manufacturing14"
+        },
+        {
+          "label": "政策工具",
+          "text": "2025—2030人工智能方案部署基础设施与产业应用。",
+          "record": "ai2030"
+        },
+        {
+          "label": "重点载体",
+          "text": "回到智慧岛和高新技术产业园核查执行。",
+          "record": "weidu-island"
+        }
+      ]
+    },
+    {
+      "id": "城市建设与住房",
+      "question": "城市建设为何开始更多关注存量？",
+      "title": "从空间扩展走向更新提质",
+      "description": "土地利用、老旧小区、完整社区和安全韧性，是理解城市建设的重要切口。",
+      "steps": [
+        {
+          "label": "较早部署",
+          "text": "“十四五”城市更新规划统筹人居环境。",
+          "record": "renewal14"
+        },
+        {
+          "label": "省级工具",
+          "text": "低效用地再开发政策为盘活存量提供条件。",
+          "record": "henan-lowland"
+        },
+        {
+          "label": "工程化推进",
+          "text": "2026行动计划提出社区、片区和市政设施任务。",
+          "record": "renewal2026"
+        }
+      ]
+    },
+    {
+      "id": "交通与物流",
+      "question": "道路与轨道如何连接产业和生活？",
+      "title": "把通勤网络与供应链一起看",
+      "description": "交通的意义既在通达，也在城市间分工、货物流转和居民生活范围。",
+      "steps": [
+        {
+          "label": "城市层面",
+          "text": "“十四五”综合交通与枢纽经济规划连接网络和经济功能。",
+          "record": "traffic14"
+        },
+        {
+          "label": "企业层面",
+          "text": "现代供应链规划涉及采购、协作与平台组织。",
+          "record": "supplychain14"
+        },
+        {
+          "label": "区域层面",
+          "text": "都市圈规划综述呈现跨市通勤与物流协同。",
+          "record": "henan-metro2025"
+        }
+      ]
+    },
+    {
+      "id": "民生与公共服务",
+      "question": "发展是否回应居民和人口结构变化？",
+      "title": "教育、养老、医疗与社会保障",
+      "description": "从设施建设走向服务网络和制度安排，结合统计与评估检查规划如何回应真实需求。",
+      "steps": [
+        {
+          "label": "公共服务",
+          "text": "“十四五”公共服务与社保规划提供整体框架。",
+          "record": "publicservices14"
+        },
+        {
+          "label": "老龄议题",
+          "text": "养老体系与康养产业规划需要区分事业和产业。",
+          "record": "eldercare14"
+        },
+        {
+          "label": "制度讨论",
+          "text": "2026长护险草案尚需核对正式实施版本。",
+          "record": "longcare-draft"
+        }
+      ]
+    },
+    {
+      "id": "生态与绿色转型",
+      "question": "生态约束如何改变产业选择？",
+      "title": "减污、循环经济与生态空间",
+      "description": "关注污染治理和资源利用如何作用于生产、生活及城市空间，区分已发规划与编制中的专项文件。",
+      "steps": [
+        {
+          "label": "治理基础",
+          "text": "“十四五”生态环境规划部署污染与生态治理。",
+          "record": "environment14"
+        },
+        {
+          "label": "循环路径",
+          "text": "无废城市方案将资源循环与制度建设结合。",
+          "record": "nowaste14"
+        },
+        {
+          "label": "新周期",
+          "text": "生态环境、林业“十五五”专项仍有编审进程。",
+          "record": "environment15"
+        }
+      ]
+    },
+    {
+      "id": "历史文化与文旅",
+      "question": "城市文脉与更新利用怎样协调？",
+      "title": "保护制度与文旅开发分别追踪",
+      "description": "名城保护、历史街区和工业遗存更新，既关联文化价值，也关联公共服务与商业活动。",
+      "steps": [
+        {
+          "label": "公开讨论",
+          "text": "2024年名城保护规划公开征求意见。",
+          "record": "heritage-draft"
+        },
+        {
+          "label": "后续审议",
+          "text": "2026年有规委会评审记录，仍须区分正式印发。",
+          "record": "heritage-review"
+        },
+        {
+          "label": "空间衔接",
+          "text": "城市更新行动涉及历史文化资源保护利用。",
+          "record": "renewal2026"
+        }
+      ]
+    },
+    {
+      "id": "乡村与城乡融合",
+      "question": "中心城区之外的未来是什么？",
+      "title": "把县域、乡村和城乡要素纳入视野",
+      "description": "农业、特色产业、公共服务与城镇网络，共同构成许昌全域发展。",
+      "steps": [
+        {
+          "label": "历史安排",
+          "text": "“十四五”农业农村规划提供乡村产业与建设背景。",
+          "record": "agriculture14"
+        },
+        {
+          "label": "长期框架",
+          "text": "城镇化和城乡融合规划延伸至2035年。",
+          "record": "urban2035"
+        },
+        {
+          "label": "新周期",
+          "text": "“十五五”城乡融合规划明确县域差异化方向。",
+          "record": "rural-urban"
+        }
+      ]
+    },
+    {
+      "id": "治理与营商环境",
+      "question": "政策怎样执行，又如何调整退出？",
+      "title": "从责任分工读到政策清理",
+      "description": "发展目标需要部门落实、公共参与和制度调整；政策被修订或废止同样是重要信息。",
+      "steps": [
+        {
+          "label": "制度基础",
+          "text": "营商环境与信用体系规划关心市场运行条件。",
+          "record": "business14"
+        },
+        {
+          "label": "执行机制",
+          "text": "年度任务分工明确牵头与参与主体。",
+          "record": "tasks2026"
+        },
+        {
+          "label": "后续变化",
+          "text": "2026年已有服务业奖励办法废止通知。",
+          "record": "services-repealed"
+        }
+      ]
+    }
+  ],
+  "mapSource": "https://geo.datav.aliyun.com/areas_v3/bound/411000_full.json",
+  "edition": 2
+}

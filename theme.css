@@ -1,0 +1,167 @@
+/* ============================================================
+   了解许昌 · 视觉主题「天青 · 钧红」
+   取自禹州钧瓷的两种代表釉色：天青做主色，钧红做点睛。
+   这个文件最后加载，覆盖前面的样式；删掉它就回到原来的样子。
+   ============================================================ */
+:root{
+ --paper:#F6F4EF;          /* 米白纸色，比原来的冷灰更暖 */
+ --ink:#1F2A35;
+ --muted:#5E6873;
+ --line:#E2DDD3;
+ --green:#2E5672;          /* 天青（深） */
+ --green-deep:#1D3A50;
+ --celadon:#E4ECEF;        /* 天青（浅），用于色块底 */
+ --jun:#A6424E;            /* 钧红 */
+ --jun-deep:#842F3A;
+ --jun-soft:#F5E7E4;
+ --sand:#F1EADD;
+ --radius:8px;
+ --shadow-sm:0 1px 2px #1f2a350d,0 4px 14px #1f2a350a;
+ --shadow-md:0 2px 6px #1f2a3510,0 16px 36px #1f2a3518;
+}
+body{background:var(--paper)}
+::selection{background:#EBCFCB;color:var(--ink)}
+:focus-visible{outline-color:var(--jun)}
+
+/* ---------- 顶栏 ---------- */
+.topbar{background:#F6F4EFeb;border-bottom-color:var(--line)}
+.brandmark{background:var(--jun);color:#fff;border-radius:6px;box-shadow:inset 0 0 0 3px var(--jun),inset 0 0 0 4px #ffffff70}
+.brand{color:var(--ink)}
+.nav{color:#6b7480;transition:color .2s}
+.nav:hover{color:var(--ink)}
+.nav.active{color:var(--ink);font-weight:600}
+.nav:after{width:18px!important;height:2px!important;border-radius:2px!important;background:var(--jun)!important}
+.header-saved:hover{color:var(--jun)}
+
+/* ---------- 标题点缀：每个大标题上方一道钧红短线 ---------- */
+.story-section>h2:before,.home-section-title h2:before,.home-region-copy h2:before,.topics-heading h1:before,.sourceheading h1:before{content:"";display:block;width:28px;height:3px;border-radius:2px;background:var(--jun);margin-bottom:16px}
+.story-section>h2,.home-section-title h2,.home-region-copy h2{letter-spacing:2px}
+
+/* ---------- 首页 ---------- */
+.photo-hero{border-radius:var(--radius)}
+.photo-primary{background:var(--jun)!important;color:#fff!important;border-radius:4px!important;box-shadow:0 8px 22px #0000002e;transition:background .2s,transform .2s}
+.photo-primary:hover{background:var(--jun-deep)!important;transform:translateY(-1px)}
+.photo-secondary{border-bottom:1px solid #ffffff80;padding-bottom:3px}
+.hero-identity{display:inline-flex;align-items:center;gap:12px}
+.hero-identity:before{content:"";width:26px;height:1px;background:#ffffffb0}
+
+.entry-card{border-radius:var(--radius);box-shadow:var(--shadow-sm);transition:transform .35s,box-shadow .35s}
+.entry-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.entry-card:after{background:linear-gradient(0deg,#14243a 0%,#14243aa8 34%,#14243a1a 70%,transparent)}
+.entry-copy strong i{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#ffffff26;backdrop-filter:blur(4px);font-size:14px;transition:background .25s}
+.entry-card:hover .entry-copy strong i{background:var(--jun)}
+
+.region-links{gap:10px!important}
+.region-links button{background:#fff;border:1px solid var(--line)!important;border-radius:6px;padding:14px 16px!important;transition:border-color .2s,box-shadow .2s,color .2s}
+.region-links button:hover{border-color:var(--jun)!important;box-shadow:var(--shadow-sm);color:var(--jun)!important}
+.region-links button:hover span{color:var(--jun)!important}
+.hero-geo path{transition:fill .2s}
+
+.home-pangdonglai{background:var(--celadon)!important;border-radius:var(--radius);overflow:hidden}
+.pdl-home-copy .story-link{color:var(--jun);border-bottom-color:var(--jun)}
+.home-news{border-bottom-color:var(--line)!important;border-radius:4px;transition:background .2s}
+.home-news:hover{background:#ffffffb3}
+.home-news time{color:var(--jun)!important}
+.home-section-title>button{color:var(--green)!important}
+
+/* ---------- 专题页通用 ---------- */
+.story-cover{border-radius:var(--radius)}
+.story-cover .section-kicker{display:inline-flex;align-items:center;gap:10px}
+.story-cover .section-kicker:before{content:"";width:22px;height:2px;background:var(--jun);border-radius:2px}
+.story-back:hover{color:var(--jun)}
+/* 章节导航：胶囊按钮，滚动时吸顶 */
+.story-chapters{position:sticky;top:82px;z-index:20;gap:8px!important;padding:14px 0!important;background:#F6F4EFf0;backdrop-filter:blur(10px);border-bottom-color:var(--line)!important}
+.story-chapters a{padding:7px 15px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--ink)!important;font-size:13px;transition:border-color .2s,color .2s,background .2s}
+.story-chapters a:hover{border-color:var(--jun);color:var(--jun)!important}
+.story-section{border-top-color:var(--line)!important;scroll-margin-top:150px!important}
+.story-intro{color:var(--ink)}
+.guide-note{background:var(--sand);color:#6d5531;border-left:3px solid #C9A46A;border-radius:0 6px 6px 0}
+.story-end button{color:var(--jun)}
+.story-ref,.src{color:var(--green)}
+.story-ref:hover,.src:hover{color:var(--jun)}
+
+/* 标签 */
+.chip{background:var(--celadon);color:var(--green);border-radius:4px;font-weight:500}
+.chip.warm{background:var(--sand);color:#7a5d33}
+.chip.level{background:var(--jun);color:#fff;letter-spacing:1px}
+
+/* ---------- 游许昌 ---------- */
+.spot-grid{gap:22px!important}
+.spot-card{position:relative;background:#fff;border:1px solid var(--line);border-top:0;border-radius:var(--radius);padding:24px 22px 18px;box-shadow:var(--shadow-sm);overflow:hidden;transition:transform .3s,box-shadow .3s;display:flex;flex-direction:column}
+.spot-card:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,var(--green),#6F95AE)}
+.spot-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.spot-card .src{margin-top:auto;padding-top:12px}
+.spot-card .spot-tip{background:var(--paper);border-radius:4px;padding:8px 10px;color:#5b6570}
+
+.region-blocks{gap:14px!important}
+.region-block{background:#fff;border:1px solid var(--line)!important;border-left:3px solid var(--jun)!important;border-radius:0 var(--radius) var(--radius) 0;padding:20px 22px!important;transition:box-shadow .3s,background .6s}
+.region-block:hover{box-shadow:var(--shadow-sm)}
+.region-block.flash{background:var(--jun-soft)!important}
+.region-block h3 small{color:var(--jun)}
+
+.food-grid{gap:16px!important}
+.food-card{position:relative;border-radius:var(--radius);border-color:var(--line);box-shadow:var(--shadow-sm);transition:transform .3s,box-shadow .3s;display:flex;flex-direction:column}
+.food-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.food-card .src{margin-top:auto;padding-top:10px}
+.food-card.is-gi{background:linear-gradient(180deg,#FBF4F2,#fff 46%)}
+.gi-badge{position:absolute;top:14px;right:14px;font-size:11px;color:var(--jun);border:1px solid #D9A5AB;border-radius:4px;padding:1px 6px;background:#fff}
+.food-card h3{padding-right:72px}
+.food-card .food-place{color:var(--green)}
+
+.route{background:var(--celadon);border-radius:var(--radius)}
+.route li:before{background:var(--jun)}
+.route p.day{color:var(--jun);font-weight:600}
+
+.info-list article{border-left:3px solid var(--jun)!important;padding-left:18px}
+.info-list time{color:var(--jun)}
+
+/* ---------- 回许昌 ---------- */
+.fact-grid strong{color:var(--jun)}
+.fact-grid article{border-left-color:var(--line)}
+.policy-card{border-radius:var(--radius);border-color:var(--line);border-top:3px solid var(--green);box-shadow:var(--shadow-sm)}
+.policy-card dt{color:var(--jun);font-weight:500}
+.industry-list li{border-color:var(--line)!important}
+.industry-list strong{color:var(--green-deep)}
+.office{border-radius:var(--radius);border-color:var(--line);transition:box-shadow .25s,border-color .25s,transform .25s}
+a.office:hover{border-color:var(--jun);box-shadow:var(--shadow-sm);transform:translateY(-2px)}
+a.office:hover strong{color:var(--jun)}
+.policy-list button{border-color:var(--line)!important}
+.policy-list button:hover strong{color:var(--jun)}
+
+/* ---------- 城市发展 ---------- */
+.dev-tabs button{border-radius:999px;padding:8px 16px;transition:border-color .2s,color .2s}
+.dev-tabs button:hover{border-color:var(--jun);color:var(--jun)}
+
+/* ---------- 关于本站 ---------- */
+.about-actions button{color:var(--jun);border-bottom-color:var(--jun)}
+
+/* ---------- 页脚：深天青色块 ---------- */
+footer{background:var(--green-deep)!important;color:#d6dfe6;border:0!important;border-radius:var(--radius);padding:30px 34px!important;margin-bottom:32px!important;box-shadow:var(--shadow-sm)}
+footer .footer-brand{font:500 20px var(--serif)!important;color:#fff!important;letter-spacing:3px!important;display:inline-flex;align-items:center;gap:10px}
+footer .footer-brand:before{content:"许";display:grid;place-items:center;width:30px;height:32px;border-radius:5px;background:var(--jun);color:#fff;font-size:18px;box-shadow:inset 0 0 0 2px var(--jun),inset 0 0 0 3px #ffffff70}
+footer .footer-copy{align-items:flex-start!important;gap:10px!important}
+footer .footer-copy small{color:#b7c4cf;font-size:12px}
+footer button{color:#cfd9e1!important;font-size:13px!important}
+footer button:hover{color:#fff!important}
+footer #backTop{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#ffffff1a;padding:0!important}
+footer #backTop:hover{background:var(--jun)}
+
+/* ---------- 响应式 ---------- */
+@media(max-width:1000px){
+ .story-chapters{top:108px}
+ .story-section{scroll-margin-top:175px!important}
+}
+@media(max-width:700px){
+ .story-chapters{top:102px;flex-wrap:nowrap!important;overflow-x:auto;scrollbar-width:none;margin:0 -23px;padding:12px 23px!important}
+ .story-chapters::-webkit-scrollbar{display:none}
+ .story-chapters a{flex:none;font-size:12px;padding:6px 13px}
+ .story-section{scroll-margin-top:165px!important}
+ .region-links button{padding:12px 14px!important}
+ footer{flex-wrap:wrap!important;padding:24px 22px!important;gap:18px!important}
+ footer>div{margin-left:0!important;width:100%;justify-content:flex-start;flex-wrap:wrap}
+ footer .footer-copy small{white-space:normal}
+}
+@media(prefers-reduced-motion:reduce){
+ .entry-card,.spot-card,.food-card,.office,.photo-primary{transition:none}
+ .entry-card:hover,.spot-card:hover,.food-card:hover,a.office:hover{transform:none}
+}

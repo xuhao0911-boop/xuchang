@@ -1,0 +1,76 @@
+/* ============================================================
+   整体美工：统一字号、标题、卡片、顶栏；滚动时内容轻轻浮现
+   最后加载，覆盖前面的样式
+   ============================================================ */
+
+/* ---------- 顶栏 ---------- */
+.topbar{box-shadow:0 1px 0 var(--line);border-bottom:0!important}
+.brand span:last-child{font:500 18px var(--serif);letter-spacing:.24em}
+.topbar .nav{font:400 15px/1 var(--serif)!important;letter-spacing:.14em;color:#5c6670;padding:10px 2px!important}
+.topbar .nav.active{color:var(--ink)!important;font-weight:500!important}
+.topbar .nav:after{bottom:-4px!important}
+@media(min-width:1001px){.topbar .nav:after{bottom:20px!important}}
+
+/* ---------- 子页面统一的页头：返回链接 + 钧红短线 + 大标题 ---------- */
+.story-back{display:inline-flex;align-items:center;gap:6px;color:var(--muted)!important;font-size:14px!important;letter-spacing:.08em;padding:6px 0!important;margin:0 0 22px!important;transition:color .2s}
+.story-back:hover{color:var(--jun)!important}
+.topics-heading,.sourceheading{padding-top:8px}
+.topics-heading h1,.sourceheading h1,.explore-bar h1,.about-title{font:500 clamp(36px,4vw,52px)/1.2 var(--serif)!important;letter-spacing:.16em!important;color:var(--ink)!important;margin:0 0 18px!important}
+.explore-bar{flex-wrap:wrap!important;row-gap:10px}
+.explore-bar h1{white-space:nowrap;flex:1 1 auto;margin:0!important;font-size:clamp(30px,3vw,40px)!important}
+.explore-bar h1:before{content:"";display:block;width:28px;height:3px;border-radius:2px;background:var(--jun);margin-bottom:12px}
+.explore-bar .back-dev{flex-basis:100%;margin:0!important}
+.topics-lead{font-size:15px!important;line-height:2;max-width:620px}
+
+/* 统一的小标签按钮（政策地图 / 时间轴 / 资料来源） */
+.dev-tabs button{border-radius:999px!important;border:1px solid var(--line)!important;background:#fff!important;color:var(--ink)!important;font-size:13px!important;padding:8px 16px!important;transition:border-color .2s,color .2s}
+.dev-tabs button:hover{border-color:var(--jun)!important;color:var(--jun)!important}
+
+/* ---------- 城市发展页的主线卡片 ---------- */
+.theme-grid{gap:20px!important}
+.theme-card{background:#fff!important;border:1px solid var(--line)!important;border-radius:10px!important;box-shadow:var(--shadow-sm)!important}
+.theme-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)!important;border-color:#d9cfc4!important}
+.theme-card h3{font:500 22px/1.4 var(--serif)!important;letter-spacing:.08em;color:var(--ink)}
+.theme-card .topic-icon{color:var(--jun)}
+.theme-card .topic-index{color:var(--muted)}
+.theme-explore{background:var(--paper)!important;border-top-color:var(--line)!important;color:var(--green)!important;font-size:13px!important;border-radius:0 0 10px 10px!important}
+.theme-explore:hover{color:var(--jun)!important}
+
+/* ---------- 子页面正文节奏 ---------- */
+.story-section{padding:56px 0!important}
+.story-section>h2{font-size:clamp(28px,2.8vw,36px)!important}
+.story-intro{font-size:20px!important;line-height:2!important;max-width:780px}
+.story-cover{min-height:420px}
+.story-cover:after{background:linear-gradient(90deg,#0a1724cc 0%,#0a172466 55%,#0a172414 100%),linear-gradient(0deg,#0a1724b3,transparent 60%)!important}
+.story-cover h1{letter-spacing:.14em!important}
+
+/* 地图页、资料来源页的面板跟随纸色 */
+.map-panel,.results,.source-row{border-radius:10px}
+.results{background:#fff;border:1px solid var(--line)}
+.card{border-radius:8px!important}
+
+/* ---------- 首页各节之间的呼吸感 ---------- */
+.home-sec{padding-top:104px!important}
+.sec-about{padding-bottom:40px!important}
+.photo-hero{box-shadow:var(--shadow-md)}
+
+/* ---------- 滚动浮现（只在支持且未要求"减少动画"时启用） ---------- */
+html.reveal-on [data-reveal]{opacity:0;transform:translateY(22px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--rd,0)*90ms)}
+html.reveal-on [data-reveal].is-in{opacity:1;transform:none}
+
+/* ---------- 细节 ---------- */
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:var(--paper)}
+::-webkit-scrollbar-thumb{background:#d6d0c5;border-radius:999px;border:2px solid var(--paper)}
+::-webkit-scrollbar-thumb:hover{background:#bfb6a8}
+img{image-rendering:auto}
+
+@media(max-width:700px){
+ .topbar .nav{font-size:13px!important;letter-spacing:.06em;padding:8px 0!important}
+ .brand span:last-child{font-size:16px;letter-spacing:.16em}
+ .home-sec{padding-top:64px!important}
+ .story-section{padding:40px 0!important}
+ .story-intro{font-size:17px!important}
+ .story-cover{min-height:360px}
+}
+@media(prefers-reduced-motion:reduce){html.reveal-on [data-reveal]{opacity:1;transform:none;transition:none}}

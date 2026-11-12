@@ -1,0 +1,91 @@
+/* ============================================================
+   首页模块分界 + 按钮交互（用户 2026-11-12 在样例里选定"A+B 都用"）
+   色带分节：每一节铺满整宽的底色，相邻两节颜色不同
+   章节标：每一节开头一条分隔线 + 序号和这一节讲什么（不重复下面的大标题）
+   交互：能点的东西悬停会抬起、出现箭头和色条，按下会压下去
+   ============================================================ */
+
+/* ---------- 色带分节 ---------- */
+html #overviewContent{overflow-x:clip}
+html .home-sec{position:relative;isolation:isolate;padding:88px 0 96px}
+html .home-sec:after{content:"";position:absolute;inset:0 -100vmax;z-index:-1;background:var(--band,var(--bg));border-top:1px solid var(--band-line,transparent)}
+html .sec-travel{--band:var(--bg)}
+html .sec-return{--band:#E4EDF1;--band-line:#CFDDE4}
+html .sec-read{--band:#FFFFFF;--band-line:var(--border)}
+html .sec-dev{--band:var(--tint);--band-line:#E2DACB}
+html .sec-about{--band:var(--bg);--band-line:var(--border);padding-bottom:72px}
+/* 回许昌：底色已经是天青，原来的面板去掉框，内容直接放在色带上 */
+html .rt-panel{background:none;padding:0;border-radius:0}
+html .rt-links button{background:#fff}
+html .home-sec+.home-sec{margin-top:0}
+
+/* ---------- 章节标 ---------- */
+html .home-sec:before{display:flex;align-items:center;gap:16px;margin:0 0 40px;font:500 19px/1 var(--font-display);letter-spacing:.3em;color:var(--accent);white-space:nowrap}
+html .home-sec:before{background:linear-gradient(#D5CCBD,#D5CCBD) right center/calc(100% - 9.5em) 1px no-repeat}
+/* 章节标不重复下面的大标题：只写序号 + 这一节讲什么 */
+html .sec-travel:before{content:"壹　景点 · 美食 · 路线";background-size:calc(100% - 15em) 1px}
+html .sec-return:before{content:"贰　工作 · 创业 · 安家";background-size:calc(100% - 15em) 1px}
+html .sec-read:before{content:"叁　历史 · 人物 · 故事";background-size:calc(100% - 15em) 1px}
+html .sec-dev:before{content:"肆　规划 · 产业 · 政策";background-size:calc(100% - 15em) 1px}
+html .sec-about:before{content:"伍　出处 · 说明";background-size:calc(100% - 11em) 1px}
+html .sec-return:before{background-image:linear-gradient(#C3D4DD,#C3D4DD)}
+
+/* ---------- 交互加强 ---------- */
+html{--ease:cubic-bezier(.2,.7,.2,1);--lift:0 16px 32px #1e2a3324}
+/* 1. 卡片：悬停抬起 + 边框变钧红 + 底部色条滑出 + 右上角箭头；按下压回 */
+html :is(.tv-pick,.rt-links button){position:relative;overflow:hidden;cursor:pointer;transition:transform .25s var(--ease),border-color .2s,background .2s,box-shadow .25s var(--ease)!important}
+html .rt-links button{border:1px solid transparent}
+html :is(.tv-pick,.rt-links button):hover{transform:translateY(-6px)!important;border-color:var(--accent)!important;box-shadow:var(--lift)!important;background:#fff!important}
+html :is(.tv-pick,.rt-links button):active{transform:translateY(-2px) scale(.985)!important;box-shadow:0 6px 14px #1e2a331f!important;transition-duration:.08s!important}
+html :is(.tv-pick,.rt-links button):after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+html :is(.tv-pick,.rt-links button):hover:after{transform:scaleX(1)}
+html .tv-pick:before,html .rt-links button:before{content:"→";position:absolute;right:18px;top:18px;display:grid;place-items:center;width:32px;height:32px;border-radius:50%;border:1px solid var(--border);color:var(--text-muted);font-size:15px;transition:background .25s,color .25s,border-color .25s,transform .25s var(--ease)}
+html :is(.tv-pick,.rt-links button):hover:before{background:var(--accent);border-color:var(--accent);color:#fff;transform:translateX(3px)}
+html .tv-pick strong,html .rt-links strong{padding-right:40px;transition:color .2s}
+html :is(.tv-pick,.rt-links button):hover strong{color:var(--accent)}
+
+/* 2. 图片卡（读许昌、游许昌大图）：图片慢慢放大，文字链接变色、箭头前移 */
+html .rd-img img{transition:transform .9s var(--ease)!important}
+html :is(.rd-main,.rd-side):hover .rd-img img{transform:scale(1.05)!important}
+html :is(.rd-main,.rd-side){cursor:pointer}
+html :is(.rd-main,.rd-side):hover strong{color:var(--accent)}
+html :is(.rd-main,.rd-side) strong{transition:color .2s}
+html :is(.rd-main,.rd-side):active .rd-img{transform:scale(.99);transition:transform .08s}
+html .tv-bg{transition:transform 1.4s var(--ease)!important}
+html .tv-band:hover .tv-bg{transform:scale(1.04)!important}
+
+/* 3. 文字链接：下划线从左往右长出来，箭头回来并前移 */
+html .more-link{gap:8px!important;border-bottom:0!important;padding-bottom:4px;background:linear-gradient(currentColor,currentColor) left bottom/100% 1px no-repeat,linear-gradient(var(--accent),var(--accent)) left bottom/0 2px no-repeat;transition:color .2s,background-size .35s var(--ease)!important}
+html .more-link.light{background:linear-gradient(#ffffff80,#ffffff80) left bottom/100% 1px no-repeat,linear-gradient(#fff,#fff) left bottom/0 2px no-repeat}
+html .more-link:after{content:"→";transition:transform .25s var(--ease)}
+html .more-link:hover,html :is(.rd-main,.rd-side):hover .more-link{background-size:100% 1px,100% 2px;color:var(--accent)!important}
+html .more-link.light:hover{color:#fff!important}
+html .more-link:hover:after,html :is(.rd-main,.rd-side):hover .more-link:after{transform:translateX(5px)}
+
+/* 4. 胶囊按钮（游许昌四个入口）：悬停填满钧红、抬起；按下压回 */
+html .tv-chips button{cursor:pointer;transition:background .2s,border-color .2s,transform .2s var(--ease),box-shadow .2s!important}
+html .tv-chips button:hover{background:var(--accent)!important;border-color:var(--accent)!important;transform:translateY(-2px);box-shadow:0 8px 18px #00000040}
+html .tv-chips button:active{transform:translateY(0) scale(.96);transition-duration:.06s!important}
+
+/* 5. 印章按钮（进入城市发展）：悬停抬起、一道光扫过；按下压回 */
+html .dv-enter{position:relative;overflow:hidden;transition:transform .25s var(--ease),background .25s,box-shadow .25s!important}
+html .dv-enter:before{content:"";position:absolute;top:0;bottom:0;left:-60%;width:40%;background:linear-gradient(100deg,transparent,#ffffff55,transparent);transform:skewX(-18deg);transition:left .6s var(--ease)}
+html .dv-enter:hover{transform:translateY(-3px)!important;box-shadow:0 14px 28px #a6424e4d!important}
+html .dv-enter:hover:before{left:120%}
+html .dv-enter:active{transform:translateY(0) scale(.97)!important;transition-duration:.08s!important}
+html .dv-visual{cursor:pointer;transition:transform .5s var(--ease)!important}
+html .dv-visual:hover{transform:scale(1.03)!important}
+html .dv-visual:hover .hero-outline path{filter:brightness(.96)}
+
+/* 6. 顶部导航：悬停出现下划线 */
+html .topbar .nav{position:relative}
+html .topbar .nav:after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;background:var(--accent);transform:scaleX(0);transition:transform .25s var(--ease)}
+html .topbar .nav:hover:after,html .topbar .nav.active:after{transform:scaleX(1)}
+html .topbar .nav:hover{color:var(--text)!important}
+
+@media(max-width:600px){
+ html .home-sec{padding:56px 0 64px}
+ html .home-sec:before{margin-bottom:28px;font-size:14px}
+}
+@media(hover:none){html :is(.tv-pick,.rt-links button):hover{transform:none!important;box-shadow:none!important}}
+@media(prefers-reduced-motion:reduce){html *{transition-duration:0s!important}}

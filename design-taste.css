@@ -1,0 +1,73 @@
+/* ============================================================
+   按 design-taste skill 修订（方案见 DESIGN.md）
+   最后加载：先定 token，再用 token 覆盖前面的样式；删掉装饰
+   ============================================================ */
+
+/* ---------- Token ---------- */
+:root{
+ --font-display:"Noto Serif SC","Songti SC",STSong,serif;
+ --font-ui:"PingFang SC","Microsoft YaHei","Noto Sans SC","Hiragino Sans GB",sans-serif;
+ --fs-12:12px;--fs-14:14px;--fs-16:16px;--fs-20:20px;--fs-24:24px;--fs-32:32px;--fs-48:48px;
+ --sp-1:4px;--sp-2:8px;--sp-3:12px;--sp-4:16px;--sp-5:24px;--sp-6:32px;--sp-7:48px;--sp-8:64px;--sp-9:96px;
+ --r-s:4px;--r-m:8px;--r-l:12px;--r-full:999px;
+ --shadow-float:0 12px 32px #1a263024;
+ --t:200ms;
+ /* 暖白（用户选定） */
+ --bg:#F6F4EF;--surface:#FFFFFF;--text:#1E2A33;--text-muted:#5E6873;--border:#E2DDD3;
+ --accent:#A6424E;--accent-strong:#8A3540;--secondary:#2E5672;--secondary-deep:#1D3A50;--tint:#EFEAE0;--land:#EEEAE2;
+}
+/* 备选：瓷白（给 <html> 加 data-palette="porcelain" 即可切换） */
+html[data-palette="porcelain"]{--bg:#F6F8F8;--text-muted:#56626C;--border:#DCE3E6;--tint:#E6EEF1;--land:#EEF1F1}
+/* 旧变量名全部指向新 token，前面所有样式自动跟随 */
+:root,html[data-palette]{--paper:var(--bg);--ink:var(--text);--muted:var(--text-muted);--line:var(--border);--jun:var(--accent);--jun-deep:var(--accent-strong);--green:var(--secondary);--green-deep:var(--secondary-deep);--celadon:var(--tint);--sans:var(--font-ui);--serif:var(--font-display);--shadow-sm:none;--shadow-md:none;--shadow:none}
+
+/* ---------- 基础 ---------- */
+body{background:var(--bg)!important;color:var(--text);font-family:var(--font-ui);font-size:var(--fs-16)}
+.topbar{background:color-mix(in srgb,var(--bg) 92%,transparent)!important;box-shadow:0 1px 0 var(--border)!important}
+.topbar .nav{font:400 15px/1 var(--font-ui)!important;letter-spacing:.08em!important;transition:color var(--t)}
+.story-chapters{background:color-mix(in srgb,var(--bg) 94%,transparent)!important}
+:focus-visible{outline:2px solid var(--accent)!important;outline-offset:3px}
+
+/* ---------- 删掉的装饰 ---------- */
+.sec-kicker,.hh-kicker,.hero-identity,.story-cover .section-kicker,.w-kicker{display:none!important}
+.home-sec>h2:before,.story-section>h2:before,.home-section-title h2:before,.home-region-copy h2:before,.topics-heading h1:before,.sourceheading h1:before,.explore-bar h1:before{display:none!important}
+.rd-mark,.rd-no,.tv-no,.rt-no,.rt-links i,.sec-links i,.ab-seal{display:none!important}
+.more-link>span[aria-hidden],.read-card .more-link span{display:none!important}
+.spot-card:before{display:none!important}
+.food-card.is-gi{background:var(--surface)!important}
+
+/* ---------- 动效：只留欢迎屏，其余只做颜色过渡 ---------- */
+html.reveal-on [data-reveal]{opacity:1!important;transform:none!important;transition:none!important}
+.tv-band:hover .tv-bg,.rd-main:hover .rd-img img,.rd-side:hover .rd-img img,.feature-img:hover img,.read-card:hover .read-img img{transform:none!important}
+.tv-pick:hover,.rt-links button:hover,.spot-card:hover,.food-card:hover,.theme-card:hover,a.office:hover,.dv-visual:hover,.entry-card:hover{transform:none!important;box-shadow:none!important}
+.tv-pick,.rt-links button,.spot-card,.food-card,.theme-card,.office,.policy-card{transition:border-color var(--t),background var(--t)!important}
+
+/* ---------- 卡片：细边框，不加柔影 ---------- */
+.tv-pick,.spot-card,.food-card,.policy-card,.theme-card,.office,.region-block,.dv-card,.results{box-shadow:none!important;border:1px solid var(--border)!important;border-radius:var(--r-m)!important;background:var(--surface)!important}
+.region-block{border-left:3px solid var(--accent)!important;border-radius:0 var(--r-m) var(--r-m) 0!important}
+.tv-pick:hover,.spot-card:hover,.food-card:hover,.theme-card:hover,a.office:hover{border-color:#b9c6cc!important}
+.policy-card{border-top:3px solid var(--secondary)!important}
+.dv-card{border-radius:var(--r-l)!important}
+.dv-card:before{display:none}
+.rt-panel,.tv-band,.photo-hero,.story-cover{box-shadow:none!important}
+
+/* ---------- 字号：正文 16px，行高 1.75 ---------- */
+.tv-copy>p,.rt-head>p,.rd-line,.dv-copy>p,.sec-about p,.spot-card p,.food-card p,.policy-card dd,.info-list p,.region-block p,.story-text p,.history-eras p,.pdl-principles p,.pdl-milestones p,.section-lead,.about-body li,.topics-lead,.read-line{font-size:var(--fs-16)!important;line-height:1.75!important}
+.tv-text,.rt-links span:not(.rt-no),.tv-meta,.dv-stats span,.rt-facts span,.spot-card .src,.food-card .src,.food-place{font-size:var(--fs-14)!important}
+.story-intro{max-width:36em}
+
+/* ---------- 标题：宋体只用于大标题 ---------- */
+.home-sec h2,.tv-copy h2,.rt-head h2,.rd-head h2,.dv-copy h2{font-family:var(--font-display);font-weight:500}
+.tv-pick strong,.rt-links strong,.spot-card h3,.food-card h3,.policy-card header h3,.theme-card h3,.region-block h3,.info-list h3{font-family:var(--font-display);font-weight:500}
+
+/* ---------- 链接：下划线，不加箭头 ---------- */
+.more-link{gap:0!important;font-size:var(--fs-14)!important;color:var(--secondary)!important;border-bottom-color:currentColor}
+.more-link.light{color:#fff!important}
+.more-link:hover{color:var(--accent)!important}
+
+/* ---------- 欢迎屏落地的纸色、地图标签跟随色板 ---------- */
+.wD-paper{background:radial-gradient(ellipse at 50% 46%,var(--surface) 0%,var(--bg) 62%,var(--tint) 100%)!important}
+.wP-labels text{stroke:var(--bg)!important}
+.w-enter{box-shadow:var(--shadow-float)!important}
+
+@media(prefers-reduced-motion:reduce){*{transition-duration:0s!important}}

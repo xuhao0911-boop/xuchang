@@ -1,0 +1,76 @@
+/* ===== 欢迎屏：从地球到许昌 ===== */
+body.w-lock{overflow:hidden}
+.welcome{position:fixed;inset:0;z-index:1000;overflow:hidden;color:#fff;background:#03070c;font-family:var(--sans);opacity:1;transition:opacity .9s ease,visibility 0s linear 0s}
+.welcome.out{opacity:0;visibility:hidden;transition:opacity .9s ease,visibility 0s linear .9s}
+.welcome[hidden]{display:none}
+@keyframes wFadeO{to{opacity:1}}
+
+/* 背景：太空 → 米白纸色（飞行中由脚本逐帧调整纸色的透明度） */
+.wD-space{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,#0b1826 0%,#03070c 75%)}
+.wD-paper{position:absolute;inset:0;opacity:0;background:radial-gradient(ellipse at 50% 46%,#FBFAF6 0%,#F4F1EA 62%,#EAE5DA 100%)}
+.welcome.landed .wD-paper{opacity:1;transition:opacity .5s}
+.wD-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:2;transition:opacity .7s ease}
+.welcome.landed .wD-canvas{opacity:0}
+
+/* 三种风格的底色：纸雕＝网站纸色；水墨＝宣纸；航拍＝深色，推近后过渡成纸色 */
+.wD-canvas{z-index:2}
+.wD-grain{position:absolute;inset:0;z-index:2;pointer-events:none;background-repeat:repeat,no-repeat;background-size:auto,100% 100%}
+.welcome.landed .wD-grain{opacity:.6;transition:opacity .6s}
+.style-paper,.style-ink{background:var(--bg)}
+.style-ink .wD-paper{background:radial-gradient(ellipse at 50% 45%,#F7F2E7 0%,#EFE7D6 70%,#E6DCC6 100%)!important}
+.style-sat .wD-space{background:#05090d}
+
+/* 当前地名：一次只显示一个，淡入 */
+.wD-place{position:absolute;z-index:4;left:0;right:0;top:7vh;margin:0;text-align:center;font:500 22px/1.4 var(--serif);letter-spacing:.6em;padding-left:.6em;color:#fff;opacity:0;text-shadow:0 2px 16px #0009;transition:color .5s}
+.wD-place.in{animation:placeIn .7s ease forwards}
+@keyframes placeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.welcome.paper .wD-place{color:var(--ink);text-shadow:none}
+.welcome.landed .wD-place{opacity:0!important;animation:none;transition:opacity .4s}
+.wD-loading{position:absolute;z-index:4;left:0;right:0;bottom:14vh;margin:0;text-align:center;font-size:13px;letter-spacing:.3em;color:#ffffffa6}
+.wD-skip{position:absolute;z-index:6;right:4vw;bottom:5vh;font-size:12px;letter-spacing:.3em;color:#ffffffa6;border-bottom:1px solid #ffffff4d;padding:3px 0;transition:opacity .4s,color .3s}
+.wD-skip:hover{color:#fff}
+.welcome.paper .wD-skip{color:#1f2a3599;border-color:#1f2a3540}
+.welcome.landed .wD-skip{opacity:0;pointer-events:none}
+
+/* 落地后的标题 */
+.wD-title{position:absolute;z-index:4;left:0;right:0;top:7vh;margin:0;text-align:center;color:var(--ink);font:500 clamp(46px,5.4vw,76px)/1 var(--serif);letter-spacing:.34em;padding-left:.34em;pointer-events:none}
+.wD-title span{display:inline-block;opacity:0;transform:translateY(.2em)}
+.welcome.landed .wD-title span{animation:wChar 1s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i)*.16s + .55s)}
+@keyframes wChar{to{opacity:1;transform:none}}
+
+/* 许昌纸片地图 */
+.wD-map{position:absolute;z-index:3;left:50%;top:54%;transform:translate(-50%,-50%);width:min(70vw,900px);height:auto;max-height:60vh;overflow:visible;opacity:0}
+.welcome.landed .wD-map{opacity:1}
+.wP-relief path{fill:#8DA8B9;transform:translateY(8px);opacity:0;animation:wFadeO .5s ease forwards .55s}
+.wP-relief2 path{fill:#1D3A50;transform:translate(3px,18px);animation-name:wFadeSh}
+@keyframes wFadeSh{to{opacity:.12}}
+/* 画布和纸纹各占一个合成层：画布每帧更新时，纸纹不必跟着重绘 */
+.wD-canvas,.wD-grain{will-change:transform}
+.wP-tile{stroke:#fff;stroke-width:2;stroke-linejoin:round;cursor:pointer;transform-box:fill-box;transform-origin:50% 50%;transition:transform .25s ease,filter .25s;animation:tileDrop .7s cubic-bezier(.2,.9,.25,1.15) backwards;animation-delay:calc(var(--i)*.08s + .05s)}
+@keyframes tileDrop{from{opacity:0;transform:translateY(-34px) scale(.97)}}
+.wP-tile:hover{transform:translateY(-6px);filter:brightness(1.05)}
+.wP-tile:focus-visible{outline:none;stroke:var(--jun);stroke-width:3}
+.wP-labels text{fill:var(--ink);font:500 16px var(--serif);letter-spacing:2px;text-anchor:middle;dominant-baseline:central;paint-order:stroke;stroke:#F4F1EAd9;stroke-width:4px;stroke-linejoin:round;pointer-events:none;opacity:0;animation:wFadeO .6s ease forwards;animation-delay:calc(var(--i)*.06s + .8s)}
+
+/* 唯一的入口：居中的"进入许昌"，像一枚钧红印章 */
+.w-gate{position:absolute;z-index:5;left:0;right:0;bottom:7vh;display:flex;justify-content:center;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .8s ease 1.3s,transform .8s ease 1.3s,visibility 0s linear 1.3s}
+.welcome.landed .w-gate{opacity:1;visibility:visible;transform:none}
+.w-enter{display:inline-grid;place-items:center;padding:6px;background:var(--jun);border-radius:9px;cursor:pointer;box-shadow:0 12px 28px #a6424e40;animation:gateGlow 3s ease-in-out 2.6s infinite;transition:transform .25s,background .25s}
+.w-enter span{display:block;padding:15px 30px 15px 38px;border:1px solid #ffffffa8;border-radius:5px;color:#fff;font:500 20px/1 var(--serif);letter-spacing:.42em}
+.w-enter:hover{background:var(--jun-deep);transform:translateY(-2px) rotate(-1.5deg)}
+.w-enter:focus-visible{outline:2px solid var(--ink);outline-offset:6px}
+@keyframes gateGlow{0%,100%{box-shadow:0 12px 28px #a6424e40,0 0 0 0 #a6424e66}50%{box-shadow:0 12px 28px #a6424e40,0 0 0 12px #a6424e00}}
+
+
+@media(max-width:760px){
+ .wD-title{top:9vh;font-size:46px}
+ .wD-place{font-size:18px;letter-spacing:.4em;padding-left:.4em;top:9vh}
+ .wD-map{width:94vw;top:50%;max-height:52vh}
+ .wP-labels text{font-size:20px}
+ .w-enter span{font-size:17px;padding:13px 24px 13px 30px}
+ .wD-skip{bottom:3vh}
+}
+@media(prefers-reduced-motion:reduce){
+ .wD-title span,.wP-relief path,.wP-tile,.wP-labels text,.w-enter{animation:none!important;opacity:1;transform:none}
+ .w-gate{transition:none}
+}
