@@ -3,6 +3,7 @@ import {filterRecords,sortRecords,csvExport} from './core.js';
 import {overviewHTML,topicsHTML} from './overview.js';
 import {createProjection,featureBounds,fitCamera,screenPoint} from './map-camera.js';
 import {photos,allPhotos} from './photos.js';
+import {track} from './analytics.js';
 import {historyHTML,pangdonglaiHTML} from './stories.js';
 import {travelHTML,returnHTML} from './guide.js';
 const VIEWS=['overview','travel','return','map','topics','timeline','sources','history','pangdonglai'];
@@ -39,7 +40,7 @@ function cardHTML(r){
  return `<article class="card" data-record="${r.id}"><div class="cardtop"><span>${esc(r.region)} · ${esc(r.docType)}</span><span class="tag ${tagClass(r.verification)}">${r.verification}</span></div><button class="card-title" data-detail="${r.id}">${esc(r.title)} <span>↗</span></button>${lifecycle}<div class="cardbottom"><span>${esc(r.stage)}<time>${r.published||'日期待核验'}</time></span><button class="save ${saved.has(r.id)?'saved':''}" data-save="${r.id}" aria-label="${saved.has(r.id)?'取消关注':'关注'}${esc(r.title)}" aria-pressed="${saved.has(r.id)}">${saved.has(r.id)?'★':'☆'}</button></div></article>`;
 }
 
-function setView(next){const changed=view!==next;view=next;document.body.dataset.view=next;for(const v of VIEWS)$('#'+v+'View').hidden=v!==next;markNav(next==='overview'?spySection:null);$('#exploreTitle').textContent=next==='timeline'?'时间轴':'探索地图';if(changed){closeFilters();document.body.classList.remove('map-expanded');$('#fullscreenMap').textContent='全屏 ⤢';$('#fullscreenMap').setAttribute('aria-label','全屏地图');}if(next==='map'&&baseProjection)renderMapOverlays();if(changed)window.scrollTo({top:0,behavior:'instant'});restartHeroRotation();saveUrl();}
+function setView(next){const changed=view!==next;view=next;track(next);document.body.dataset.view=next;for(const v of VIEWS)$('#'+v+'View').hidden=v!==next;markNav(next==='overview'?spySection:null);$('#exploreTitle').textContent=next==='timeline'?'时间轴':'探索地图';if(changed){closeFilters();document.body.classList.remove('map-expanded');$('#fullscreenMap').textContent='全屏 ⤢';$('#fullscreenMap').setAttribute('aria-label','全屏地图');}if(next==='map'&&baseProjection)renderMapOverlays();if(changed)window.scrollTo({top:0,behavior:'instant'});restartHeroRotation();saveUrl();}
 /* 顶部导航：首页上按滚动位置高亮当前一节；在子页面里高亮它所属的那一节 */
 let spySection=null;
 function markNav(section){$$('.topbar .nav').forEach(b=>{const active=section?b.dataset.section===section:(b.dataset.group||'').split(' ').includes(view);b.classList.toggle('active',active);b.setAttribute('aria-current',active?'true':'false');});}
