@@ -62,7 +62,7 @@ export function overviewHTML(db,esc,geo){
  <!-- 联系作者：标题 + 邮箱 -->
  <section class="home-sec sec-contact" id="sec-contact" data-section="contact">
   <h2>联系作者</h2>
-  <a class="contact-mail" href="mailto:202421122367@smail.xtu.edu.cn">202421122367@smail.xtu.edu.cn</a>
+  <a class="contact-mail" href="mailto:xuhao0911@gmail.com">xuhao0911@gmail.com</a>
  </section>
  </div>`;
 }
