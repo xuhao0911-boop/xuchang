@@ -107,7 +107,18 @@ function wireToggle(){
  b.setAttribute('lang',isEN?'zh-CN':'en');
  b.onclick=()=>{
   try{localStorage.setItem(KEY,isEN?'zh':'en');}catch{}
+  /* 记下当前滚动位置（按比例，中英文页面高度不同），新语言加载后回到同一处 */
+  try{const max=document.documentElement.scrollHeight-innerHeight;
+   sessionStorage.setItem('xc-pos',JSON.stringify({r:max>0?scrollY/max:0,k:location.search.replace(/[?&]lang=(en|zh)/,'')+location.hash}));}catch{}
   const u=new URL(location.href);u.searchParams.set('lang',isEN?'zh':'en');location.replace(u);
  };
+}
+/* 语言切换后恢复滚动位置；由 app.js 在首次渲染完成后调用 */
+export function restoreScroll(){
+ let p=null;
+ try{p=JSON.parse(sessionStorage.getItem('xc-pos')||'null');sessionStorage.removeItem('xc-pos');}catch{}
+ if(!p||p.k!==(location.search.replace(/[?&]lang=(en|zh)/,'')+location.hash))return;
+ const go=()=>{const max=document.documentElement.scrollHeight-innerHeight;if(max>0)scrollTo({top:Math.round(p.r*max),behavior:'instant'});};
+ go();setTimeout(go,250);setTimeout(go,900);
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',wireToggle);else wireToggle();
