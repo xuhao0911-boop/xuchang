@@ -6,6 +6,7 @@
 //   sat   卫星航拍：平铺卫星影像 + 胶片颗粒 + 暗角，边界线带光晕，接近许昌时过渡成纸面
 // 行为：同一次访问只出现一次；带 ?view= 的链接直接进内容；点左上角"了解许昌"可再看一次。
 import {createProjection} from './map-camera.js';
+import {isEN,tr} from './i18n.js';
 import {TRAVEL} from './travel-data.js';
 
 const sess={get(k){try{return sessionStorage.getItem(k)}catch{return null}},set(k,v){try{sessionStorage.setItem(k,v)}catch{}}};
@@ -29,7 +30,7 @@ function build(){
  <p class="wD-place" aria-live="polite"></p>
  <p class="wD-loading">正在定位许昌…</p>
  <button class="wD-skip" type="button">跳过</button>
- <h1 class="wD-title">${chars('许昌')}</h1>
+ <h1 class="wD-title">${chars(isEN?'Xuchang':'许昌')}</h1>
  <div class="w-gate"><button class="w-enter" data-view-link="overview" type="button"><span>进入许昌</span></button></div>`;
  w.querySelector('.wD-skip').addEventListener('click',land);
  fly();

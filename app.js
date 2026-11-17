@@ -1,3 +1,4 @@
+import {isEN,tr,L} from './i18n.js';
 import {filterRecords,sortRecords,csvExport} from './core.js';
 import {overviewHTML,topicsHTML} from './overview.js';
 import {createProjection,featureBounds,fitCamera,screenPoint} from './map-camera.js';
@@ -129,7 +130,7 @@ async function showPhoto(index){
   const p=photos[next],active=$('.hero-slide.is-visible'),incoming=$('.hero-slide:not(.is-visible)');incoming.src=p.file;await incoming.decode();
   if(view!=='overview')return;
   incoming.alt=p.title;incoming.style.objectPosition=p.position||'50% 55%';incoming.removeAttribute('aria-hidden');active.setAttribute('aria-hidden','true');active.classList.remove('is-visible');incoming.classList.add('is-visible');photoIndex=next;
-  $('#heroQuote').innerHTML=esc(p.quote.text).replaceAll('，','，<br>');$('#heroQuoteSource').textContent=p.quote.credit;$('#heroQuoteSource').href=p.quote.url;
+  $('#heroQuote').innerHTML=isEN?esc(tr(p.quote.text)):esc(p.quote.text).replaceAll('，','，<br>');$('#heroQuoteSource').textContent=p.quote.credit;$('#heroQuoteSource').href=p.quote.url;
   $('#photoName').textContent=p.name;$('#photoPosition').textContent=String(photoIndex+1).padStart(2,'0')+' / '+String(photos.length).padStart(2,'0');$('.photo-hero').dataset.photoId=p.id;
   const preload=new Image();preload.src=photos[(photoIndex+1)%photos.length].file;
  }catch(error){console.warn('城市图片切换失败',error.message);}finally{photoBusy=false;}
@@ -152,7 +153,7 @@ function setupHeroRotation(){
  reducedMotion.addEventListener('change',()=>{if(reducedMotion.matches){photoPaused=true;reflect();}restartHeroRotation()});restartHeroRotation();
 }
 
-function exportRows(list){const b=new Blob([csvExport(list,db.sources)],{type:'text/csv;charset=utf-8;'}),u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download=`许昌城市发展与政策_${list.length}条_20261021.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(u),5000);toast(`已导出 ${list.length} 条，含来源链接与核验边界`);}
+function exportRows(list){const b=new Blob([csvExport(list,db.sources)],{type:'text/csv;charset=utf-8;'}),u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download=isEN?`xuchang_development_policy_${list.length}_records_20261021.csv`:`许昌城市发展与政策_${list.length}条_20261021.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(u),5000);toast(`已导出 ${list.length} 条，含来源链接与核验边界`);}
 function setupEvents(){
  $('#openFilters').onclick=openFilters;$('#filterToggle').onclick=closeFilters;$('#closeFilterShade').onclick=closeFilters;
  $('#mapSearch').oninput=()=>{state.search=$('#mapSearch').value.trim();$('#search').value=state.search;render();};
@@ -180,5 +181,5 @@ function setupEvents(){
  window.addEventListener('popstate',()=>{state={...defaults};loadUrl();syncControls();setView(view);render();});
 }
 try{
- const res=await Promise.all([fetch('./data.json'),fetch('./xuchang.geojson'),fetch('./editorial.json')]);if(res.some(r=>!r.ok))throw new Error('数据文件加载失败');[db,geo,editorial]=await Promise.all(res.map(r=>r.json()));loadUrl();populate();initMap();$('#overviewContent').innerHTML=overviewHTML(db,esc,geo);$('#topicsContent').innerHTML=topicsHTML(db,esc);$('#historyContent').innerHTML=historyHTML(editorial,esc);$('#pangdonglaiContent').innerHTML=pangdonglaiHTML(editorial,esc);$('#travelContent').innerHTML=travelHTML(esc);$('#returnContent').innerHTML=returnHTML(db,esc);$('#photoCredits').innerHTML='<h2>图片与题句</h2><p>日期分别标明网页公开与拍摄时间。题句来自许昌相关古籍和诗文，古诗原咏地点与现代配图分别注明。</p>'+[...allPhotos,...editorial.extraPhotos].map(p=>`<article><h3>${esc(p.title)}</h3><a href="${esc(p.source)}" target="_blank" rel="noopener noreferrer">${esc(p.publisher||p.credit||'原文')} ↗</a><p>网页公开：${p.published||'未注明'}${p.shotDate?' · 拍摄：'+p.shotDate:''}</p>${p.credit?'<p>'+esc(p.credit)+'</p>':''}${p.license?`<p><a href="${esc(p.licenseUrl)}" target="_blank" rel="noopener noreferrer">${esc(p.license)}</a> · ${esc(p.changes)}</p>`:''}${p.quote?`<p><a href="${esc(p.quote.url)}" target="_blank" rel="noopener noreferrer">${esc(p.quote.credit)} ↗</a></p><p>${esc(p.quote.note)}</p>`:''}</article>`).join('');setupEvents();setupSpy();renderSources();setView(view);render();focusRegion(state.region,false);
+ const res=await Promise.all([fetch('./data.json'),fetch('./xuchang.geojson'),fetch('./editorial.json')]);if(res.some(r=>!r.ok))throw new Error('数据文件加载失败');[db,geo,editorial]=await Promise.all(res.map(r=>r.json()));if(isEN)for(const r of db.records)r.searchText=[r.searchText||'',...[r.title,r.region,r.docType,r.stage,r.verification,r.summary,...r.industries].map(tr)].join(' ');loadUrl();populate();initMap();$('#overviewContent').innerHTML=overviewHTML(db,esc,geo);$('#topicsContent').innerHTML=topicsHTML(db,esc);$('#historyContent').innerHTML=historyHTML(editorial,esc);$('#pangdonglaiContent').innerHTML=pangdonglaiHTML(editorial,esc);$('#travelContent').innerHTML=travelHTML(esc);$('#returnContent').innerHTML=returnHTML(db,esc);$('#photoCredits').innerHTML='<h2>图片与题句</h2><p>日期分别标明网页公开与拍摄时间。题句来自许昌相关古籍和诗文，古诗原咏地点与现代配图分别注明。</p>'+[...allPhotos,...editorial.extraPhotos].map(p=>`<article><h3>${esc(p.title)}</h3><a href="${esc(p.source)}" target="_blank" rel="noopener noreferrer">${esc(p.publisher||p.credit||'原文')} ↗</a><p>网页公开：${p.published||'未注明'}${p.shotDate?' · 拍摄：'+p.shotDate:''}</p>${p.credit?'<p>'+esc(p.credit)+'</p>':''}${p.license?`<p><a href="${esc(p.licenseUrl)}" target="_blank" rel="noopener noreferrer">${esc(p.license)}</a> · ${esc(p.changes)}</p>`:''}${p.quote?`<p><a href="${esc(p.quote.url)}" target="_blank" rel="noopener noreferrer">${esc(p.quote.credit)} ↗</a></p><p>${esc(p.quote.note)}</p>`:''}</article>`).join('');setupEvents();setupSpy();renderSources();setView(view);render();focusRegion(state.region,false);
 }catch(e){$('#loadError').hidden=false;$('#loadError').textContent='资料加载失败，请刷新页面重试。'+e.message;console.error(e);}

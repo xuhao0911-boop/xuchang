@@ -1,0 +1,25 @@
+/* 中英切换：切换按钮，以及英文界面的字体和字距。放在最后加载。 */
+.lang-toggle{margin-left:18px;padding:5px 11px;border:1px solid var(--line,#d5dae0);border-radius:999px;background:transparent;color:var(--muted,#5c6670);font:500 12px/1 var(--font-ui,sans-serif);letter-spacing:.06em;cursor:pointer;white-space:nowrap;transition:color .2s,border-color .2s}
+.lang-toggle:hover{color:var(--ink,#1f2a35);border-color:var(--ink,#1f2a35)}
+.lang-toggle:focus-visible{outline:2px solid var(--ink,#1f2a35);outline-offset:3px}
+
+html[lang="en"]{
+ --font-display:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Noto Serif SC",serif;
+ --font-ui:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+ --serif:var(--font-display);--sans:var(--font-ui)
+}
+/* 中文的宽字距在英文里会把单词拆散，英文统一收紧 */
+html[lang="en"] body,html[lang="en"] body *{letter-spacing:normal!important;word-break:normal;overflow-wrap:anywhere}
+html[lang="en"] .topbar .nav{letter-spacing:.02em!important;font-size:14px!important}
+html[lang="en"] .brand span:last-child{letter-spacing:.02em!important}
+html[lang="en"] .wD-title{letter-spacing:.12em!important;padding-left:.12em}
+html[lang="en"] .w-enter span{letter-spacing:.14em!important}
+html[lang="en"] .section-kicker,html[lang="en"] .scale-year{letter-spacing:.08em!important;text-transform:uppercase;font-size:.8em}
+html[lang="en"] .photo-hero-copy h1{font-size:clamp(48px,8vw,98px)}
+html[lang="en"] .nav{white-space:nowrap}
+/* 手机上英文导航比中文长：允许横向滑动，字号和间距收一点 */
+@media(max-width:700px){
+ html[lang="en"] .topbar nav{justify-content:flex-start;gap:16px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+ html[lang="en"] .topbar nav::-webkit-scrollbar{display:none}
+ html[lang="en"] .topbar .nav{font-size:13px!important;letter-spacing:.01em!important;flex:0 0 auto}
+}
