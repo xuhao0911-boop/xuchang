@@ -3,6 +3,10 @@ body.w-lock{overflow:hidden}
 .welcome{position:fixed;inset:0;z-index:1000;overflow:hidden;color:#fff;background:#03070c;font-family:var(--sans);opacity:1;transition:opacity .9s ease,visibility 0s linear 0s}
 .welcome.out{opacity:0;visibility:hidden;transition:opacity .9s ease,visibility 0s linear .9s}
 .welcome[hidden]{display:none}
+/* 欢迎屏中英双语，且不随界面语言变化：中文用宋体系，英文用衬线体 */
+.welcome{--serif:"Noto Serif SC","Songti SC",STSong,SimSun,serif;--en:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif}
+.welcome .wD-place span,.welcome .wD-loading span,.welcome .wD-skip span,.welcome .w-enter b,.welcome .w-enter i{display:block}
+.welcome [lang="en"]{font-family:var(--en);font-style:normal;font-weight:400}
 @keyframes wFadeO{to{opacity:1}}
 
 /* 背景：太空 → 米白纸色（飞行中由脚本逐帧调整纸色的透明度） */
@@ -22,12 +26,16 @@ body.w-lock{overflow:hidden}
 
 /* 当前地名：一次只显示一个，淡入 */
 .wD-place{position:absolute;z-index:4;left:0;right:0;top:7vh;margin:0;text-align:center;font:500 22px/1.4 var(--serif);letter-spacing:.6em;padding-left:.6em;color:#fff;opacity:0;text-shadow:0 2px 16px #0009;transition:color .5s}
+.wD-place span+span{margin-top:6px;font-size:13px;letter-spacing:.34em;padding-left:.34em;text-transform:uppercase;opacity:.82}
 .wD-place.in{animation:placeIn .7s ease forwards}
 @keyframes placeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 .welcome.paper .wD-place{color:var(--ink);text-shadow:none}
 .welcome.landed .wD-place{opacity:0!important;animation:none;transition:opacity .4s}
 .wD-loading{position:absolute;z-index:4;left:0;right:0;bottom:14vh;margin:0;text-align:center;font-size:13px;letter-spacing:.3em;color:#ffffffa6}
 .wD-skip{position:absolute;z-index:6;right:4vw;bottom:5vh;font-size:12px;letter-spacing:.3em;color:#ffffffa6;border-bottom:1px solid #ffffff4d;padding:3px 0;transition:opacity .4s,color .3s}
+.wD-loading span+span{margin-top:6px;font-size:12px;letter-spacing:.2em;text-transform:none}
+.wD-skip span+span{margin-top:3px;font-size:11px;letter-spacing:.2em}
+.wD-skip{text-align:center}
 .wD-skip:hover{color:#fff}
 .welcome.paper .wD-skip{color:#1f2a3599;border-color:#1f2a3540}
 .welcome.landed .wD-skip{opacity:0;pointer-events:none}
@@ -35,6 +43,8 @@ body.w-lock{overflow:hidden}
 /* 落地后的标题 */
 .wD-title{position:absolute;z-index:4;left:0;right:0;top:7vh;margin:0;text-align:center;color:var(--ink);font:500 clamp(46px,5.4vw,76px)/1 var(--serif);letter-spacing:.34em;padding-left:.34em;pointer-events:none}
 .wD-title span{display:inline-block;opacity:0;transform:translateY(.2em)}
+.wD-sub{position:absolute;z-index:4;left:0;right:0;top:calc(7vh + clamp(46px,5.4vw,76px) + 16px);margin:0;text-align:center;font:400 clamp(14px,1.5vw,19px)/1 var(--en);letter-spacing:.5em;padding-left:.5em;text-transform:uppercase;color:#1f2a35b3;pointer-events:none;opacity:0;transform:translateY(6px)}
+.welcome.landed .wD-sub{animation:wChar 1s cubic-bezier(.2,.7,.2,1) 1.25s forwards}
 .welcome.landed .wD-title span{animation:wChar 1s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i)*.16s + .55s)}
 @keyframes wChar{to{opacity:1;transform:none}}
 
@@ -50,13 +60,15 @@ body.w-lock{overflow:hidden}
 @keyframes tileDrop{from{opacity:0;transform:translateY(-34px) scale(.97)}}
 .wP-tile:hover{transform:translateY(-6px);filter:brightness(1.05)}
 .wP-tile:focus-visible{outline:none;stroke:var(--jun);stroke-width:3}
+.wP-labels .wP-en{font:400 10.5px var(--en);letter-spacing:.4px;fill:#2c3136bf}
 .wP-labels text{fill:var(--ink);font:500 16px var(--serif);letter-spacing:2px;text-anchor:middle;dominant-baseline:central;paint-order:stroke;stroke:#F4F1EAd9;stroke-width:4px;stroke-linejoin:round;pointer-events:none;opacity:0;animation:wFadeO .6s ease forwards;animation-delay:calc(var(--i)*.06s + .8s)}
 
 /* 唯一的入口：居中的"进入许昌"，像一枚钧红印章 */
 .w-gate{position:absolute;z-index:5;left:0;right:0;bottom:7vh;display:flex;justify-content:center;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .8s ease 1.3s,transform .8s ease 1.3s,visibility 0s linear 1.3s}
 .welcome.landed .w-gate{opacity:1;visibility:visible;transform:none}
 .w-enter{display:inline-grid;place-items:center;padding:6px;background:var(--jun);border-radius:9px;cursor:pointer;box-shadow:0 12px 28px #a6424e40;animation:gateGlow 3s ease-in-out 2.6s infinite;transition:transform .25s,background .25s}
-.w-enter span{display:block;padding:15px 30px 15px 38px;border:1px solid #ffffffa8;border-radius:5px;color:#fff;font:500 20px/1 var(--serif);letter-spacing:.42em}
+.w-enter i{margin-top:9px;font-size:12px;line-height:1;letter-spacing:.3em;padding-left:.3em;text-transform:uppercase;opacity:.9}
+.w-enter span{display:block;padding:14px 30px 14px 38px;text-align:center;border:1px solid #ffffffa8;border-radius:5px;color:#fff;font:500 20px/1 var(--serif);letter-spacing:.42em}
 .w-enter:hover{background:var(--jun-deep);transform:translateY(-2px) rotate(-1.5deg)}
 .w-enter:focus-visible{outline:2px solid var(--ink);outline-offset:6px}
 @keyframes gateGlow{0%,100%{box-shadow:0 12px 28px #a6424e40,0 0 0 0 #a6424e66}50%{box-shadow:0 12px 28px #a6424e40,0 0 0 12px #a6424e00}}
@@ -64,13 +76,16 @@ body.w-lock{overflow:hidden}
 
 @media(max-width:760px){
  .wD-title{top:9vh;font-size:46px}
+ .wD-sub{top:calc(9vh + 46px + 12px);font-size:13px;letter-spacing:.4em;padding-left:.4em}
+ .wD-place span+span{font-size:11px}
  .wD-place{font-size:18px;letter-spacing:.4em;padding-left:.4em;top:9vh}
  .wD-map{width:94vw;top:50%;max-height:52vh}
  .wP-labels text{font-size:20px}
+ .wP-labels .wP-en{font-size:12.5px}
  .w-enter span{font-size:17px;padding:13px 24px 13px 30px}
  .wD-skip{bottom:3vh}
 }
 @media(prefers-reduced-motion:reduce){
- .wD-title span,.wP-relief path,.wP-tile,.wP-labels text,.w-enter{animation:none!important;opacity:1;transform:none}
+ .wD-sub,.wD-title span,.wP-relief path,.wP-tile,.wP-labels text,.w-enter{animation:none!important;opacity:1;transform:none}
  .w-gate{transition:none}
 }

@@ -69,8 +69,11 @@ export const L=(zh,en)=>isEN?en:zh;
 
 const ATTRS=['aria-label','title','placeholder','alt','aria-roledescription'];
 const SKIP=new Set(['SCRIPT','STYLE','NOSCRIPT']);
-function tText(n){const v=n.nodeValue;if(v&&CJK.test(v)){const r=tr(v);if(r!==v)n.nodeValue=r;}}
+/* 带 data-i18n-skip 的区域（如中英双语的欢迎屏）原样保留，不翻译 */
+const skipped=n=>{const e=n.nodeType===1?n:n.parentElement;return !!(e&&e.closest&&e.closest('[data-i18n-skip]'));};
+function tText(n){const v=n.nodeValue;if(v&&CJK.test(v)&&!skipped(n)){const r=tr(v);if(r!==v)n.nodeValue=r;}}
 function tAttrs(el){
+ if(skipped(el))return;
  for(const a of ATTRS){const v=el.getAttribute&&el.getAttribute(a);if(v&&CJK.test(v)){const r=tr(v);if(r!==v)el.setAttribute(a,r);}}
 }
 export function translateTree(root){
@@ -78,7 +81,7 @@ export function translateTree(root){
  if(root.nodeType===3){tText(root);return;}
  if(root.nodeType!==1&&root.nodeType!==11)return;
  if(root.nodeType===1){if(SKIP.has(root.tagName))return;tAttrs(root);}
- const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT|NodeFilter.SHOW_ELEMENT,{acceptNode:n=>n.nodeType===1&&SKIP.has(n.tagName)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+ const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT|NodeFilter.SHOW_ELEMENT,{acceptNode:n=>n.nodeType===1&&(SKIP.has(n.tagName)||n.hasAttribute('data-i18n-skip'))?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
  let n;while((n=w.nextNode())){if(n.nodeType===3)tText(n);else tAttrs(n);}
 }
 function metaAndTitle(){

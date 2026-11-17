@@ -7,6 +7,7 @@
 // 行为：同一次访问只出现一次；带 ?view= 的链接直接进内容；点左上角"了解许昌"可再看一次。
 import {createProjection} from './map-camera.js';
 import {isEN,tr} from './i18n.js';
+/* 欢迎屏固定中英双语（不随界面语言变化）：根节点带 data-i18n-skip，i18n.js 的翻译器不会碰里面的文字 */
 import {TRAVEL} from './travel-data.js';
 
 const sess={get(k){try{return sessionStorage.getItem(k)}catch{return null}},set(k,v){try{sessionStorage.setItem(k,v)}catch{}}};
@@ -17,7 +18,7 @@ const chars=t=>[...t].map((c,i)=>`<span style="--i:${i}">${c}</span>`).join('');
 export const STYLE='paper';
 
 const w=document.createElement('div');
-w.id='welcome';w.className='welcome';w.setAttribute('role','dialog');w.setAttribute('aria-label','了解许昌');
+w.id='welcome';w.className='welcome';w.setAttribute('role','dialog');w.setAttribute('aria-label','了解许昌 · Getting to Know Xuchang');w.setAttribute('data-i18n-skip','');
 document.body.prepend(w);
 let stopFlight=null;
 
@@ -26,12 +27,12 @@ function build(){
  w.className='welcome style-'+STYLE+(STYLE==='sat'?'':' paper');
  w.innerHTML=`<div class="wD-space"></div><div class="wD-paper"></div>
  <canvas class="wD-canvas" aria-hidden="true"></canvas><div class="wD-grain" aria-hidden="true"></div>
- <svg class="wD-map" viewBox="0 0 820 540" role="group" aria-label="许昌六个县市区"></svg>
+ <svg class="wD-map" viewBox="0 0 820 540" role="group" aria-label="许昌六个县市区 · The six counties of Xuchang"></svg>
  <p class="wD-place" aria-live="polite"></p>
- <p class="wD-loading">正在定位许昌…</p>
- <button class="wD-skip" type="button">跳过</button>
- <h1 class="wD-title">${chars(isEN?'Xuchang':'许昌')}</h1>
- <div class="w-gate"><button class="w-enter" data-view-link="overview" type="button"><span>进入许昌</span></button></div>`;
+ <p class="wD-loading"><span lang="zh-CN">正在定位许昌…</span><span lang="en">Locating Xuchang…</span></p>
+ <button class="wD-skip" type="button"><span lang="zh-CN">跳过</span><span lang="en">Skip</span></button>
+ <h1 class="wD-title" lang="zh-CN">${chars('许昌')}</h1><p class="wD-sub" lang="en" aria-hidden="true">Xuchang</p>
+ <div class="w-gate"><button class="w-enter" data-view-link="overview" type="button"><span><b lang="zh-CN">进入许昌</b><i lang="en">Enter Xuchang</i></span></button></div>`;
  w.querySelector('.wD-skip').addEventListener('click',land);
  fly();
 }
@@ -138,8 +139,8 @@ async function fly(){
  const cnWash=rg(cnC,cnR,[[0,'rgba(26,26,24,.30)'],[.6,'rgba(26,26,24,.17)'],[1,'rgba(26,26,24,.08)']]);
  const hnWash=rg(hnC,hnR,[[0,'rgba(24,24,22,.42)'],[.7,'rgba(24,24,22,.28)'],[1,'rgba(24,24,22,.16)']]);
  const xcWash=rg(xcC,xcR,[[0,'#A92F25'],[1,'#C4543F']]);
- const NAMES=['中国','河南','许昌'];let shown=-1;
- const say=i=>{if(i===shown)return;shown=i;place.classList.remove('in');void place.offsetWidth;place.textContent=NAMES[i];place.classList.add('in');};
+ const NAMES=[['中国','China'],['河南','Henan'],['许昌','Xuchang']];let shown=-1;
+ const say=i=>{if(i===shown)return;shown=i;place.classList.remove('in');void place.offsetWidth;place.innerHTML=`<span lang="zh-CN">${NAMES[i][0]}</span><span lang="en">${NAMES[i][1]}</span>`;place.classList.add('in');};
  const tok=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim(),BG=tok('--bg')||'#F6F4EF';
 
  /* 计时从第一帧真正画出来时开始，避免开场被页面加载拖慢后直接跳帧 */
@@ -224,6 +225,7 @@ async function fly(){
 const TILE={'魏都区':'#A3BFCF','建安区':'#9CBACB','禹州市':'#BCD1DC','长葛市':'#AAC5D4','鄢陵县':'#C7D9E2','襄城县':'#B2CAD8'};
 const ORDER=['禹州市','襄城县','长葛市','鄢陵县','建安区','魏都区'];
 const NUDGE={'建安区':[18,44],'魏都区':[0,2]};
+const EN={'魏都区':'Weidu','建安区':"Jian'an",'禹州市':'Yuzhou','长葛市':'Changge','鄢陵县':'Yanling','襄城县':'Xiangcheng'};
 function land(){
  if(w.classList.contains('landed'))return;if(stopFlight)stopFlight();
  w.querySelectorAll('.wD-loading').forEach(n=>n.remove());w.querySelector('.wD-paper').style.opacity='';
@@ -238,8 +240,8 @@ async function tiles(){
   /* 不用 SVG 投影滤镜：纸片下落时滤镜要逐帧重算，会卡；投影改成两层错开的底片 */
   svg.innerHTML=`<g class="wP-relief wP-relief2">${fs.map(f=>`<path d="${d(f)}"/>`).join('')}</g>
   <g class="wP-relief">${fs.map(f=>`<path d="${d(f)}"/>`).join('')}</g>
-  <g class="wP-tiles">${fs.map((f,i)=>{const n=f.properties.name,r=TRAVEL.regions.find(x=>x.name===n);return `<path class="wP-tile" d="${d(f)}" style="--i:${i};fill:${TILE[n]||'#BCD1DC'}" data-name="${esc(n)}" tabindex="0" role="button" aria-label="${esc(n)}，进入网站看介绍"><title>${esc(n)}${r?' · '+esc(r.tagline):''}</title></path>`}).join('')}</g>
-  <g class="wP-labels">${fs.map((f,i)=>{const n=f.properties.name,[x,y]=proj(f.properties.centroid||f.properties.center),o=NUDGE[n]||[0,0];return `<text x="${(x+o[0]).toFixed(1)}" y="${(y+o[1]).toFixed(1)}" style="--i:${i}">${esc(n)}</text>`}).join('')}</g>`;
+  <g class="wP-tiles">${fs.map((f,i)=>{const n=f.properties.name,r=TRAVEL.regions.find(x=>x.name===n);return `<path class="wP-tile" d="${d(f)}" style="--i:${i};fill:${TILE[n]||'#BCD1DC'}" data-name="${esc(n)}" tabindex="0" role="button" aria-label="${esc(n)} ${esc(EN[n]||'')} · 进入网站看介绍 / Enter the site to read the introduction"><title>${esc(n)} · ${esc(EN[n]||'')}${r?' · '+esc(isEN?tr(r.tagline):r.tagline):''}</title></path>`}).join('')}</g>
+  <g class="wP-labels">${fs.map((f,i)=>{const n=f.properties.name,[x,y]=proj(f.properties.centroid||f.properties.center),o=NUDGE[n]||[0,0];return `<text x="${(x+o[0]).toFixed(1)}" y="${(y+o[1]).toFixed(1)}" style="--i:${i}"><tspan x="${(x+o[0]).toFixed(1)}" dy="-.3em">${esc(n)}</tspan><tspan class="wP-en" x="${(x+o[0]).toFixed(1)}" dy="1.55em">${esc(EN[n]||'')}</tspan></text>`}).join('')}</g>`;
   svg.querySelectorAll('.wP-tile').forEach(p=>{const n=p.dataset.name;
    const go=()=>{enter();const b=document.createElement('button');b.dataset.viewLink='travel#travel-'+n;b.hidden=true;document.body.append(b);b.click();b.remove();};
    p.addEventListener('click',go);p.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();go();}});});
