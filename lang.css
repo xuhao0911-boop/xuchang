@@ -17,6 +17,21 @@ html[lang="en"] .w-enter span{letter-spacing:.14em!important}
 html[lang="en"] .section-kicker,html[lang="en"] .scale-year{letter-spacing:.08em!important;text-transform:uppercase;font-size:.8em}
 html[lang="en"] .photo-hero-copy h1{font-size:clamp(48px,8vw,98px)}
 html[lang="en"] .nav{white-space:nowrap}
+/* 用 CSS content 生成的文字不在 DOM 里，翻译脚本管不到，英文这里单独写 */
+html[lang="en"] .home-sec:before{font-size:14px;letter-spacing:.14em;text-transform:uppercase;gap:14px}
+html[lang="en"] .sec-travel:before{content:"01  Sights · Food · Routes";background-size:calc(100% - 22em) 1px}
+html[lang="en"] .sec-return:before{content:"02  Work · Business · Settling Down";background-size:calc(100% - 30em) 1px}
+html[lang="en"] .sec-read:before{content:"03  History · People · Stories";background-size:calc(100% - 25em) 1px}
+html[lang="en"] .sec-dev:before{content:"04  Planning · Industry · Policy";background-size:calc(100% - 26em) 1px}
+html[lang="en"] .sec-contact:before{content:"05  Get in Touch";background-size:calc(100% - 15em) 1px}
+html[lang="en"] footer .footer-brand:before{content:"X"}
+/* 平板和小笔记本：英文导航比中文长，收紧间距和字号，避免顶栏被撑出屏幕 */
+@media(min-width:701px) and (max-width:1240px){
+ html[lang="en"] .topbar nav{gap:16px}
+ html[lang="en"] .topbar .nav{font-size:13px!important;letter-spacing:0!important}
+ html[lang="en"] .brand span:last-child{font-size:15px}
+ html[lang="en"] .lang-toggle{margin-left:10px}
+}
 /* 手机上英文导航比中文长：允许横向滑动，字号和间距收一点 */
 @media(max-width:700px){
  html[lang="en"] .topbar nav{justify-content:flex-start;gap:16px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
